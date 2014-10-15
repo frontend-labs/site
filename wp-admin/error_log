@@ -1,0 +1,5 @@
+[06-Oct-2014 16:38:30 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, boolean given in /home/frontend/public_html/wp-content/plugins/stag-custom-sidebars/stag-custom-sidebars.php on line 406
+[06-Oct-2014 16:50:10 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, boolean given in /home/frontend/public_html/wp-content/plugins/stag-custom-sidebars/stag-custom-sidebars.php on line 406
+[06-Oct-2014 17:16:49 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, boolean given in /home/frontend/public_html/wp-content/plugins/stag-custom-sidebars/stag-custom-sidebars.php on line 406
+[06-Oct-2014 17:43:02 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, boolean given in /home/frontend/public_html/wp-content/plugins/stag-custom-sidebars/stag-custom-sidebars.php on line 406
+[06-Oct-2014 22:51:46 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, boolean given in /home/frontend/public_html/wp-content/plugins/stag-custom-sidebars/stag-custom-sidebars.php on line 406

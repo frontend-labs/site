@@ -26,3 +26,10 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# Environment
+wp-env.php
+_wp-config.php
+
+
+

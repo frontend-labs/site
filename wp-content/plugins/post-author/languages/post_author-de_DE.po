@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Author for Wordpress 0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-09 19:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rian van Spaandonk <rian.vanspaandonk@pangaea.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: D:\\Desktop\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: shabtai\\post-author\\repository\\trunk\n"
+
+#: shabtai\post-author\repository\trunk/post_author.php:45
+msgid "Written by: "
+msgstr "Geschrieben von: "
+
+#: shabtai\post-author\repository\trunk/post_author.php:77
+#: shabtai\post-author\repository\trunk/post_author.php:93
+msgid "on "
+msgstr "am"
+
+#: shabtai\post-author\repository\trunk/post_author.php:85
+msgid "Last revised by: "
+msgstr "Letzte &Uuml;berarbeitung durch: "
+
+#: shabtai\post-author\repository\trunk/post_author.php:140
+#: shabtai\post-author\repository\trunk/post_author.php:142
+#: shabtai\post-author\repository\trunk/post_author.php:157
+#: shabtai\post-author\repository\trunk/post_author.php:159
+#: shabtai\post-author\repository\trunk/post_author.php:182
+#: shabtai\post-author\repository\trunk/post_author.php:184
+#, php-format
+msgid "More about %s"
+msgstr "Mehr &uuml;ber %s"
+
+#: shabtai\post-author\repository\trunk/post_author.php:210
+msgid "Author"
+msgstr "Autor"
+
+#: shabtai\post-author\repository\trunk/post_author.php:211
+msgid "Page Author"
+msgstr "Seitenautor"
+
+#: shabtai\post-author\repository\trunk/post_author.php:240
+msgid "Hide author for this article (<i>Post Author plugin</i>)"
+msgstr "Autor dieses Artikels ausblenden (<i>Post Author Plugin</i>)"
+
+#: shabtai\post-author\repository\trunk/post_author.php:313
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: shabtai\post-author\repository\trunk/post_author.php:320
+msgid "Options for Post Author"
+msgstr "Post Author Optionen"
+
+#: shabtai\post-author\repository\trunk/post_author.php:323
+msgid "Surrounding text"
+msgstr "Umgebender Text"
+
+#: shabtai\post-author\repository\trunk/post_author.php:326
+msgid "Text to be displayed before the name of the author"
+msgstr "Text f&uuml;r Wiedergabe vor dem Name des Autors"
+
+#: shabtai\post-author\repository\trunk/post_author.php:330
+msgid "Text to be displayed after the name"
+msgstr "Text f&uuml;r Wiedergabe nach dem Name des Autors"
+
+#: shabtai\post-author\repository\trunk/post_author.php:335
+msgid "Add first publication date"
+msgstr "Erstes Erscheinungsdatum zuf&uuml;gen"
+
+#: shabtai\post-author\repository\trunk/post_author.php:339
+msgid "Text to be displayed before the initial publication date"
+msgstr "Text f&uuml;r Wiedergabe vor dem ersten Erscheinungsdatum"
+
+#: shabtai\post-author\repository\trunk/post_author.php:343
+msgid "Text to be displayed after the date"
+msgstr "Text f&uuml;r Wiedergabe nach dem Datum"
+
+#: shabtai\post-author\repository\trunk/post_author.php:346
+msgid "Post revision"
+msgstr "Nachricht &Uuml;berarbeitung"
+
+#: shabtai\post-author\repository\trunk/post_author.php:350
+msgid ""
+"Show revision author, if revision date is different from publication date"
+msgstr ""
+"&Uuml;berarbeitungsautor zeigen wenn &Uuml;berarbeitungsdatum anders als "
+"Erscheinungsdatum ist"
+
+#: shabtai\post-author\repository\trunk/post_author.php:354
+msgid "Text to be displayed before the last revising author"
+msgstr "Text f&uuml;r Wiedergabe vor dem Autor der letzten &Uuml;berarbeitung"
+
+#: shabtai\post-author\repository\trunk/post_author.php:358
+msgid "Text to be displayed after the last revising author"
+msgstr "Text f&uuml;r Wiedergabe nach dem Autor der letzten &Uuml;berarbeitung"
+
+#: shabtai\post-author\repository\trunk/post_author.php:362
+msgid "Include last revision date"
+msgstr "Letztes &Uuml;berarbeitungsdatum einschlie&szlig;en"
+
+#: shabtai\post-author\repository\trunk/post_author.php:366
+msgid "Text to be displayed before the last revision date"
+msgstr "Text f&uuml;r Wiedergabe vor dem Datum der letzten &Uuml;berarbeitung"
+
+#: shabtai\post-author\repository\trunk/post_author.php:370
+msgid "Text to be displayed after the last revision date"
+msgstr "Text f&uuml;r Wiedergabe nach dem Datum der letzten &Uuml;berarbeitung"
+
+#: shabtai\post-author\repository\trunk/post_author.php:374
+msgid "Display condition"
+msgstr "Bedingung wiedergeben"
+
+#: shabtai\post-author\repository\trunk/post_author.php:377
+msgid "Add author to Posts"
+msgstr "Autor an Nachrichten zuf&uuml;gen"
+
+#: shabtai\post-author\repository\trunk/post_author.php:381
+msgid "Add author to Pages"
+msgstr "Autor an Seiten zuf&uuml;gen"
+
+#: shabtai\post-author\repository\trunk/post_author.php:385
+msgid "Place author box before content"
+msgstr "Autorfeld vor dem Inhalt platzieren"
+
+#: shabtai\post-author\repository\trunk/post_author.php:389
+msgid "Add author to Categories"
+msgstr "Autor an Kategorien zuf&uuml;gen"
+
+#: shabtai\post-author\repository\trunk/post_author.php:391
+msgid "Options"
+msgstr "Optionen"
+
+#: shabtai\post-author\repository\trunk/post_author.php:394
+msgid "Add link to author page"
+msgstr "Link an Autorseite zuf&uuml;gen"
+
+#: shabtai\post-author\repository\trunk/post_author.php:398
+msgid ""
+"Specific link target - default (<i>blank</i>) links to author/username page"
+msgstr ""
+"Bestimmtes Linkziel - standard (<i>lere</i>) Links zu Autor/Username-Seite"
+
+#: shabtai\post-author\repository\trunk/post_author.php:407
+msgid "Quick help"
+msgstr "Direkthilfe"
+
+#: shabtai\post-author\repository\trunk/post_author.php:408
+msgid "Multilingual"
+msgstr "Mehrsprachig"
+
+#: shabtai\post-author\repository\trunk/post_author.php:409
+msgid ""
+"Integrates great with qTranslate for multilingual or international blogs, "
+"using <a href=\"http://www.qianqin.de/qtranslate/forum/viewtopic.php?"
+"f=3&t=3&p=15#p15\">Quicktags</a>"
+msgstr ""
+"Perfekte Integrierung mit qTranslate f&uuml;r mehrsprachige oder "
+"intenationale Blogs, die <a href=\"http://www.qianqin.de/qtranslate/forum/"
+"viewtopic.php?f=3&t=3&p=15#p15\">Quicktags</a> verwenden."
+
+#: shabtai\post-author\repository\trunk/post_author.php:410
+msgid "Example : <i>&#91;:en&#93;Written by &#91;:fr&#93;Ecrit par</i>."
+msgstr "Beispiel: <i>&#91;:en&#93;Written by &#91;:fr&#93;Ecrit par</i>."
+
+#: shabtai\post-author\repository\trunk/post_author.php:412
+msgid "Hide it on specific post or page?"
+msgstr "Ausblenden auf bestimmter Nachricht oder Seite?"
+
+#: shabtai\post-author\repository\trunk/post_author.php:413
+msgid ""
+"You can specifically hide the post author plugin on specific pages or posts. "
+"Simply go to the edit page and check the &quot;hide author for this "
+"article&quot; box, in the author box."
+msgstr ""
+"Sie k&ouml;nnen das Post Author Plugin ausblenden auf bestimmten Seiten oder "
+"Nachrichten. Sie bearbeiten die Seite und w&auml;hlen &quot;Autor f&Autor "
+"dieses Artikels ausblenden&quot; im Autorenbereich."
+
+#: shabtai\post-author\repository\trunk/post_author.php:415
+msgid "Style it"
+msgstr "Style it"
+
+#: shabtai\post-author\repository\trunk/post_author.php:416
+msgid ""
+"Text is CSS-ready, displayed in nested div's and span's: it's up to you to "
+"do the styling to your taste to float text left, right, add bold, color, "
+"rulers, borders, images..."
+msgstr ""
+"Der Text ist CSS-Ready, wiedergegeben in geschachtelten divs und spans: Sie "
+"k&ouml;nnen den Text stylen wie Sie wollen, links oder rechts ausgerichtet, "
+"fettgedruckt, mit Farben, Lineale, Listen, Bilder..."
+
+#: shabtai\post-author\repository\trunk/post_author.php:418
+msgid "Specific link on name"
+msgstr "Bestimmter Link auf Name"
+
+#: shabtai\post-author\repository\trunk/post_author.php:419
+msgid ""
+"You can specify an absolute URL<br/>(e.g.: http://www.my.com/profile)<br/> "
+"<br/>or a relative, if you start with a slash<br/>(e.g.: /myauthorpage)."
+msgstr ""
+"Sie k&ouml;nnen eine absolute URL-Adresse eingeben <br/>(z.B.: http://www.my."
+"com/profile)<br/> <br/>oder eine relative, die mit einem Schr&auml;gstrich "
+"anf&auml;ngt<br/> (z.B.: /meineautorenseite)."
+
+#~ msgid "Add author to the bottom of Pages articles"
+#~ msgstr "Add author to the bottom of Pages articles"

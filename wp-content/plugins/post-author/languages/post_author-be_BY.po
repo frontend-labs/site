@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Author for Wordpress 0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-11 20:51+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: FatCow <zhr@tut.by>\n"
+"Language-Team: Tzav Design <david@tzav.fr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: D:\\Desktop\\\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: shabtai\\post-author\\repository\\trunk\n"
+
+#: shabtai\post-author\repository\trunk/post_author.php:45
+msgid "Written by: "
+msgstr "Написано:"
+
+#: shabtai\post-author\repository\trunk/post_author.php:77
+#: shabtai\post-author\repository\trunk/post_author.php:93
+msgid "on "
+msgstr "на"
+
+#: shabtai\post-author\repository\trunk/post_author.php:85
+msgid "Last revised by: "
+msgstr "Последняя ревизия:"
+
+#: shabtai\post-author\repository\trunk/post_author.php:130
+#: shabtai\post-author\repository\trunk/post_author.php:132
+#: shabtai\post-author\repository\trunk/post_author.php:147
+#: shabtai\post-author\repository\trunk/post_author.php:149
+#, php-format
+msgid "More about %s"
+msgstr "Больше о %s"
+
+#: shabtai\post-author\repository\trunk/post_author.php:177
+msgid "Author"
+msgstr "Автор"
+
+#: shabtai\post-author\repository\trunk/post_author.php:178
+msgid "Page Author"
+msgstr "Страница автора"
+
+#: shabtai\post-author\repository\trunk/post_author.php:207
+msgid "Hide author for this article (<i>Post Author plugin</i>)"
+msgstr "Скрыть автора статьи (<i>Post Author plugin</i>)"
+
+#: shabtai\post-author\repository\trunk/post_author.php:277
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: shabtai\post-author\repository\trunk/post_author.php:284
+msgid "Options for Post Author"
+msgstr "Опции для Post Author"
+
+#: shabtai\post-author\repository\trunk/post_author.php:287
+msgid "Surrounding text"
+msgstr "Сопровожд. текст"
+
+#: shabtai\post-author\repository\trunk/post_author.php:290
+msgid "Text to be displayed before the name of the author"
+msgstr "Текст будет отображаться перед именем автора"
+
+#: shabtai\post-author\repository\trunk/post_author.php:294
+msgid "Text to be displayed after the name"
+msgstr "Текст будет отображаться под именем автора"
+
+#: shabtai\post-author\repository\trunk/post_author.php:299
+msgid "Add first publication date"
+msgstr "Добавить дату первой публикации"
+
+#: shabtai\post-author\repository\trunk/post_author.php:303
+msgid "Text to be displayed before the initial publication date"
+msgstr "Текст будет отображаться на экране до первоначальной даты публикации"
+
+#: shabtai\post-author\repository\trunk/post_author.php:307
+msgid "Text to be displayed after the date"
+msgstr "Текст будет отображаться после даты"
+
+#: shabtai\post-author\repository\trunk/post_author.php:310
+msgid "Post revision"
+msgstr "Редакция поста"
+
+#: shabtai\post-author\repository\trunk/post_author.php:314
+msgid ""
+"Show revision author, if revision date is different from publication date"
+msgstr ""
+"Показать редакцию автора, дата пересмотра, если отличается от даты публикации"
+
+#: shabtai\post-author\repository\trunk/post_author.php:318
+msgid "Text to be displayed before the last revising author"
+msgstr "Текст будет отображаться на экране до последнего пересмотра автора"
+
+#: shabtai\post-author\repository\trunk/post_author.php:322
+msgid "Text to be displayed after the last revising author"
+msgstr "Текст будет отображаться после последнего пересмотра автора"
+
+#: shabtai\post-author\repository\trunk/post_author.php:326
+msgid "Include last revision date"
+msgstr "Включите дату последнего пересмотра"
+
+#: shabtai\post-author\repository\trunk/post_author.php:330
+msgid "Text to be displayed before the last revision date"
+msgstr "Текст будет отображаться до даты последнего пересмотра"
+
+#: shabtai\post-author\repository\trunk/post_author.php:334
+msgid "Text to be displayed after the last revision date"
+msgstr "Текст будет отображаться после даты последнего пересмотра"
+
+#: shabtai\post-author\repository\trunk/post_author.php:338
+msgid "Display condition"
+msgstr "Отображать условия"
+
+#: shabtai\post-author\repository\trunk/post_author.php:341
+msgid "Add author to the bottom of Posts articles"
+msgstr "Добавить автора в нижней части сообщения статьям"
+
+#: shabtai\post-author\repository\trunk/post_author.php:345
+msgid "Add author to the bottom of Pages articles"
+msgstr "Добавить автора в нижней части статьи страницы"
+
+#: shabtai\post-author\repository\trunk/post_author.php:347
+msgid "Options"
+msgstr "Настройки"
+
+#: shabtai\post-author\repository\trunk/post_author.php:350
+msgid "Add link to author page"
+msgstr "Добавить ссылку на страницу автора"
+
+#: shabtai\post-author\repository\trunk/post_author.php:354
+msgid ""
+"Specific link target - default (<i>blank</i>) links to author/username page"
+msgstr ""
+"Конкретные целевые ссылки - по умолчанию (<i>blank</i>) Ссылки на автора или "
+"имя пользователя страница"
+
+#: shabtai\post-author\repository\trunk/post_author.php:363
+msgid "Quick help"
+msgstr "Быстрая помощь"
+
+#: shabtai\post-author\repository\trunk/post_author.php:364
+msgid "Multilingual"
+msgstr "Мультиязычный"
+
+#: shabtai\post-author\repository\trunk/post_author.php:365
+msgid ""
+"Integrates great with qTranslate for multilingual or international blogs, "
+"using <a href=\"http://www.qianqin.de/qtranslate/forum/viewtopic.php?"
+"f=3&t=3&p=15#p15\">Quicktags</a>"
+msgstr ""
+"Интегрируется с большим qTranslate для многоязычных или международных "
+"блогах, используя<a href=\"http://www.qianqin.de/qtranslate/forum/viewtopic."
+"php?f=3&t=3&p=15#p15\">Quicktags</a>"
+
+#: shabtai\post-author\repository\trunk/post_author.php:366
+msgid "Example : <i>&#91;:en&#93;Written by &#91;:fr&#93;Ecrit par</i>."
+msgstr "Пример : <i>&#91;:en&#93;Written by &#91;:fr&#93;Ecrit par</i>."
+
+#: shabtai\post-author\repository\trunk/post_author.php:368
+msgid "Hide it on specific post or page?"
+msgstr "Убрать его на конкретную должность или страницу?"
+
+#: shabtai\post-author\repository\trunk/post_author.php:369
+msgid ""
+"You can specifically hide the post author plugin on specific pages or posts. "
+"Simply go to the edit page and check the &quot;hide author for this "
+"article&quot; box, in the author box."
+msgstr ""
+"Вы можете конкретно показывать плагин Сообщение Автор на конкретных "
+"страницах или должности. Просто зайдите на страницу редактирования и "
+"установите флажок &quot;скрыть автора этой статьи&quot; окне в поле Автор."
+
+#: shabtai\post-author\repository\trunk/post_author.php:371
+msgid "Style it"
+msgstr "Стилизовать его"
+
+#: shabtai\post-author\repository\trunk/post_author.php:372
+msgid ""
+"Text is CSS-ready, displayed in nested div's and span's: it's up to you to "
+"do the styling to your taste to float text left, right, add bold, color, "
+"rulers, borders, images..."
+msgstr ""
+"Текст CSS-Ready, отображаемых в вложенных Дива и охватывают: оно до вас "
+"делать стилизации на ваш вкус плавать текст слева, справа, добавить "
+"полужирное, цвет, правители, границы, изображения ..."
+
+#: shabtai\post-author\repository\trunk/post_author.php:374
+msgid "Specific link on name"
+msgstr "Конкретные ссылки на имя"
+
+#: shabtai\post-author\repository\trunk/post_author.php:375
+msgid ""
+"You can specify an absolute URL<br/>(e.g.: http://www.my.com/profile)<br/> "
+"<br/>or a relative, if you start with a slash<br/>(e.g.: /myauthorpage)."
+msgstr ""
+"Вы можете указать абсолютный URL <br/> (например:  http://www.my.com/profile)"
+"<br/> <br/>или родственника, если вы начнете с косой черты<br/>(e.g.: /"
+"myauthorpage)."

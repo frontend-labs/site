@@ -1,0 +1,272 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Author v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-06-30 07:35:47+0000\n"
+"Last-Translator: admin <info@itstar.ir>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Farsi\n"
+"X-Poedit-Country: IRAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: post_author.php:50
+#@ post_author
+msgid "Written by: "
+msgstr "نویسنده :"
+
+#: post_author.php:146
+#@ post_author
+msgid ", our reviewer, on "
+msgstr "باز بینی ما، در،"
+
+#: post_author.php:181
+#: post_author.php:217
+#@ post_author
+msgid "on "
+msgstr "در"
+
+#: post_author.php:199
+#@ post_author
+msgid "Last revised by: "
+msgstr "آخرین بار بازبینی شده توسط :"
+
+#: post_author.php:418
+#: post_author.php:419
+#, php-format
+#@ post_author
+msgid "More about %s"
+msgstr "اطلاعات بیشتر درباره   %s"
+
+#: post_author.php:705
+#@ default
+msgid "Author"
+msgstr "نویسنده"
+
+#: post_author.php:706
+#@ default
+msgid "Page Author"
+msgstr "نویسنده صفحه"
+
+#: post_author.php:747
+#@ post_author
+msgid "Hide author for this article (<i>Post Author plugin</i>)"
+msgstr "مخفی کردن نویسنده برای این مقاله  (<i>Post Author plugin</i>)"
+
+#: post_author.php:894
+#@ post_author
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: post_author.php:900
+#@ post_author
+msgid "Options for Post Author"
+msgstr "تنظیمات برای نویسنده مطلب"
+
+#: post_author.php:903
+#@ post_author
+msgid "Surrounding text"
+msgstr "متن حاشیه"
+
+#: post_author.php:906
+#@ post_author
+msgid "Text to be displayed before the name of the author"
+msgstr "متنی که قبل از نام نویسنده نمایش داده می شود"
+
+#: post_author.php:910
+#@ post_author
+msgid "Text to be displayed after the name"
+msgstr "متنی که بعد از نام نویسنده نمایش داده می شود"
+
+#: post_author.php:916
+#@ post_author
+msgid "Add first publication date"
+msgstr "افزودن تاریخ اولیه ارسال نوشته"
+
+#: post_author.php:920
+#@ post_author
+msgid "Text to be displayed before the initial publication date"
+msgstr "متنی که قبل از تاریخ ارسال اولیه نوشته نمایش داده می شود."
+
+#: post_author.php:924
+#@ post_author
+msgid "Text to be displayed after the date"
+msgstr "متنی که بعد از تاریخ نمایش داده می شود."
+
+#: post_author.php:927
+#@ post_author
+msgid "Post revision"
+msgstr "بازبینی نوشته"
+
+#: post_author.php:935
+#@ post_author
+msgid "Add revision author (only if update date is different from publication date)"
+msgstr "افزودن نویسنده بازبینی ( تنها زمانی نمایش داده می شود که تاریخ بروز رسانی با تاریخ ارسال اولیه متفاوت باشد)"
+
+#: post_author.php:939
+#@ post_author
+msgid "Text to be displayed before the last revising author"
+msgstr "متنی که قبل از نام آخرین بازبینی کننده نمایش داده می شود"
+
+#: post_author.php:943
+#@ post_author
+msgid "Text to be displayed after the last revising author"
+msgstr "متنی که بعد از نام آخرین باز بینی کننده نمایش داده می شود."
+
+#: post_author.php:947
+#@ post_author
+msgid "Text to be displayed instead, if followed by date revision"
+msgstr "متنی که به جای تاریخ بازبینی نمایش داده می شود"
+
+#: post_author.php:955
+#@ post_author
+msgid "Add last revision date (only if update date is different from publication date)"
+msgstr "افزودن تاریخ آخرین بازبینی (تنها زمانی که تاریخ بروز رسانی با تاریخ ارسال اولیه متفاوت باشد )"
+
+#: post_author.php:959
+#@ post_author
+msgid "Text to be displayed before the last revision date"
+msgstr "متنی که قبل از آخرین تاریخ بازبینی نمایش داده می شود"
+
+#: post_author.php:963
+#@ post_author
+msgid "Text to be displayed after the last revision date"
+msgstr "متنی که بعد از آخرین تاریخ بازبینی نمایش داده می شود"
+
+#: post_author.php:970
+#@ post_author
+msgid "Display condition"
+msgstr "شرایط نمایش اطلاعات نویسنده"
+
+#: post_author.php:976
+#@ post_author
+msgid "Add author to Posts"
+msgstr "افزودن نویسنده به نوشته ها"
+
+#: post_author.php:980
+#: post_author.php:1007
+#@ post_author
+msgid "Place author box before content"
+msgstr "قرار دادن بخش نویسنده قبل از محتوای مطلب"
+
+#: post_author.php:984
+#: post_author.php:1011
+#: post_author.php:1037
+#@ post_author
+msgid "Add avatar to author box"
+msgstr "افزودن تصویر آواتار نویسنده به بخش اطلاعات نویسنده"
+
+#: post_author.php:988
+#: post_author.php:1015
+#: post_author.php:1041
+#@ post_author
+msgid "Avatar size"
+msgstr "اندازه تصویر آواتار"
+
+#: post_author.php:996
+#: post_author.php:1023
+#: post_author.php:1049
+#@ post_author
+msgid "Avatar float"
+msgstr "چیدمان تصویر آواتار"
+
+#: post_author.php:1003
+#@ post_author
+msgid "Add author to Pages"
+msgstr "افزودن نویسنده به صفحات"
+
+#: post_author.php:1029
+#@ post_author
+msgid "Add author to Categories"
+msgstr "افزودن نویسنده به دسته بندی ها"
+
+#: post_author.php:1033
+#@ post_author
+msgid "Place author box before excerpt"
+msgstr "قرار دادن بخش نویسنده قبل از خلاصه مطلب"
+
+#: post_author.php:1053
+#@ post_author
+msgid "Hide author box on home category"
+msgstr "مخفی کردن بخش نویسنده در صفحه اصلی (خانه)"
+
+#: post_author.php:1059
+#@ post_author
+msgid "Options"
+msgstr "تنظیمات"
+
+#: post_author.php:1062
+#@ post_author
+msgid "Add link to author page"
+msgstr "افزودن لینک به صفحه نویسنده"
+
+#: post_author.php:1066
+#@ post_author
+msgid "Use author website URL in user profile instead"
+msgstr "استفاده از آدرس وب سایت نویسنده به جای صفحه پروفایل نویسنده "
+
+#: post_author.php:1070
+#@ post_author
+msgid "Specific link target - default (<i>blank</i>) links to author/username page"
+msgstr "مقصد بازگشایی لینک - پیش فرض (<i>صفحه جدید</i>) لینک ها به صفحه نویسنده/شناسه کاربری"
+
+#: post_author.php:1080
+#@ post_author
+msgid "Quick help"
+msgstr "راهنمای سریع"
+
+#: post_author.php:1081
+#@ post_author
+msgid "Multilingual"
+msgstr "چند زبانی"
+
+#: post_author.php:1082
+#@ post_author
+msgid "Integrates great with qTranslate for multilingual or international blogs, using <a href=\"http://www.qianqin.de/qtranslate/forum/viewtopic.php?f=3&t=3&p=15#p15\">Quicktags</a>"
+msgstr "این افزونه یکپارچگی فوق العاده ای با افزونه qTranslation  برای حالت چند زبانی و وبلاگهای بین المللی دارد . از <a href=\"http://www.qianqin.de/qtranslate/forum/viewtopic.php?f=3&t=3&p=15#p15\">تگ های کوتاه </a> استفاده نمایید."
+
+#: post_author.php:1083
+#@ post_author
+msgid "Example : <i>&#91;:en&#93;Written by &#91;:fr&#93;Ecrit par</i>."
+msgstr "به عنوان مثال : <i>&#91;:en&#93;Written by &#91;:fr&#93;Ecrit par</i>"
+
+#: post_author.php:1085
+#@ post_author
+msgid "Hide it on specific post or page?"
+msgstr "مخفی کردن اطلاعات نویسنده در صفحه یا نوشته خاص؟"
+
+#: post_author.php:1086
+#@ post_author
+msgid "You can specifically hide the post author plugin on specific pages or posts. Simply go to the edit page and check the &quot;hide author for this article&quot; box, in the author box."
+msgstr "شما می توانید اطلاعات نویسنده را در صفحه یا نوشته خاصی مخفی نمایید. به راحتی به صفحه ویرایش نوشته یا برگه مراجعه کرده و گزینه - مخفی کردن نویسنده برای این مقاله - را در بخش نویسنده مطلب انتخاب نمایید."
+
+#: post_author.php:1088
+#@ post_author
+msgid "Style it"
+msgstr "طرح بندی"
+
+#: post_author.php:1089
+#@ post_author
+msgid "Text is CSS-ready, displayed in nested div's and span's: it's up to you to do the styling to your taste to float text left, right, add bold, color, rulers, borders, images..."
+msgstr "شیوه نامه بخش نویسنده با استفاده از تگ های div و span آماده سازی شده است . این به شما بستگی دارد که چیدمان ، بردارها، تصاویر،رنگها و نوع نمایش متن را طرح بندی نمایید."
+
+#: post_author.php:1091
+#@ post_author
+msgid "Specific link on name"
+msgstr "لینک خاص به نام نویسنده"
+
+#: post_author.php:1092
+#@ post_author
+msgid "You can specify an absolute URL<br/>(e.g.: http://www.my.com/profile)<br/> <br/>or a relative, if you start with a slash<br/>(e.g.: /myauthorpage)."
+msgstr "شما می توانید آدرس مشخصی را به نامی نویسنده اختصاص دهید.<br/>(به عنوان مثال : http://www.my.com/profile)<br/>  <br/> "
+

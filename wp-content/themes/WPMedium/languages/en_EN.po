@@ -1,0 +1,342 @@
+# Copyright (C) 2014 Charlie MERLAND
+# This file is distributed under the same license as the WPMedium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPMedium 1.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/WPMedium\n"
+"POT-Creation-Date: 2014-02-12 15:56:19+00:00\n"
+"PO-Revision-Date: 2014-02-12 16:59+0100\n"
+"Last-Translator: Charlie MERLAND <charlie.merland@gmail.com>\n"
+"Language-Team: Charlie MERLAND <charlie.merland@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: archive.php:29 index.php:49
+msgid "%d Post"
+msgid_plural "%d Posts"
+msgstr[0] "One Post"
+msgstr[1] "%d Posts"
+
+#: archive.php:30
+msgid "Posted On %s %s"
+msgstr "Posted On %s %s"
+
+#: archive.php:43 functions.php:1031
+msgid "Prev page"
+msgstr "Prev page"
+
+#: archive.php:43 functions.php:1031
+msgid "Next page"
+msgstr "Next page"
+
+#: comments.php:9
+msgid "One thought on %2$s"
+msgid_plural "%1$s thoughts on %2$s"
+msgstr[0] "One thought on %2$s"
+msgstr[1] "%1$s thoughts on %2$s"
+
+#: comments.php:16
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#: comments.php:17
+msgid "Older Comments"
+msgstr "Older Comments"
+
+#: comments.php:18
+msgid "Newer Comments"
+msgstr "Newer Comments"
+
+#: comments.php:23
+msgid "Comments are closed"
+msgstr "Comments are closed"
+
+#: content-archive.php:12 content-page.php:12 content-single.php:12
+#: content.php:11
+msgid "Permalink to %s"
+msgstr "Permalink to %s"
+
+#: content-none.php:5
+msgid "No posts"
+msgstr "No posts"
+
+#: content-none.php:9
+msgid "Get Started %s"
+msgstr "Get Started %s"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: content-none.php:17
+msgid "No Results Found"
+msgstr "No Results Found"
+
+#: content-none.php:24 content-none.php:28
+msgid "Coming soon"
+msgstr "Coming soon"
+
+#: content-page.php:18 content-single.php:18
+msgid "Pages:"
+msgstr "Pages:"
+
+#: content-page.php:30 content-single.php:38 page.php:27 single.php:27
+msgid "Published"
+msgstr "Published"
+
+#: content-page.php:36 content-single.php:44
+msgid "Show Comments"
+msgstr "Show Comments"
+
+#: content-page.php:37 content-single.php:45
+msgid "Hide Comments"
+msgstr "Hide Comments"
+
+#: content-single.php:23
+msgid "This post also appears in"
+msgstr "This post also appears in"
+
+#: functions.php:38 functions.php:136
+msgid "Footer Sidebar"
+msgstr "Footer Sidebar"
+
+#: functions.php:50
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: functions.php:71
+#, fuzzy
+msgctxt "header image description"
+msgid "WPMedium"
+msgstr "WPMedium"
+
+#: functions.php:123
+msgid "Header Sidebar"
+msgstr "Header Sidebar"
+
+#: functions.php:125
+msgid ""
+"Add Widgets to your blog's header. Useful to include a Flattr button for "
+"instance."
+msgstr ""
+"Add Widgets to your blog's header. Useful to include a Flattr button for "
+"instance."
+
+#: functions.php:138
+msgid ""
+"Add Widgets to your Blog Footer. You need to activate the Widget Zone in the "
+"Footer section of the Theme Customizer."
+msgstr ""
+"Add Widgets to your Blog Footer. You need to activate the Widget Zone in the "
+"Footer section of the Theme Customizer."
+
+#: functions.php:361 functions.php:1031
+msgid "Load More"
+msgstr "Load More"
+
+#: functions.php:609
+msgid "By %s"
+msgstr "By %s"
+
+#: functions.php:615
+msgid "In"
+msgstr "In"
+
+#: functions.php:618
+msgid "Edit"
+msgstr "Edit"
+
+#: functions.php:967 functions.php:971 functions.php:1000 functions.php:1004
+msgid "Newest"
+msgstr "Newest"
+
+#: functions.php:968 functions.php:972 functions.php:1001 functions.php:1005
+msgid "Oldest"
+msgstr "Oldest"
+
+#: functions.php:1203
+msgid "WPMedium Theme Options"
+msgstr "WPMedium Theme Options"
+
+#: functions.php:1231
+msgid "Facebook Profile"
+msgstr "Facebook Profile"
+
+#: functions.php:1235
+msgid "Twitter Profile"
+msgstr "Twitter Profile"
+
+#: functions.php:1239
+msgid "Google+ Profile"
+msgstr "Google+ Profile"
+
+#: functions.php:1247
+msgid "Social Settings"
+msgstr "Social Settings"
+
+#: functions.php:1273
+msgid "Custom Social Networks"
+msgstr "Custom Social Networks"
+
+#: functions.php:1282 functions.php:1288
+msgid "Custom Profile #%d"
+msgstr "Custom Profile #%d"
+
+#: functions.php:1302
+#, fuzzy
+msgid ""
+"WPMedium default social icons (Facebook, Twitter, Google+) are from the "
+"<strong>Gentleface Toolbar Icon Set</strong> icon set by Gentleface. You can "
+"download the set <a href=\"http://www.gentleface.com/free_icon_set.html"
+"\">here</a>."
+msgstr ""
+"WPMedium default social icons (Facebook, Twitter, Google+) are from the "
+"<strong>Gentleface Toolbar Icon Set</strong> icon set by Gentleface. You can "
+"download the set <a href=\"http://www.gentleface.com/free_icon_set.html"
+"\">here</a>."
+
+#: functions.php:1325
+msgid "Profile Link"
+msgstr "Profile Link"
+
+#: functions.php:1326
+msgid "Custom Icon"
+msgstr "Custom Icon"
+
+#: functions.php:1353
+msgid "Proudly Powered By"
+msgstr "Proudly Powered By"
+
+#: functions.php:1353
+msgid "Theme"
+msgstr "Theme"
+
+#: functions.php:1353
+msgid "By"
+msgstr "By"
+
+#: functions.php:1360
+msgid "W Background Color"
+msgstr "W Background Color"
+
+#: functions.php:1364
+msgid "Text Color"
+msgstr "Text Color"
+
+#: functions.php:1368
+msgid "Header Overlay Color"
+msgstr "Header Overlay Color"
+
+#: functions.php:1372
+msgid "Header Sidebar Color"
+msgstr "Header Sidebar Color"
+
+#: functions.php:1377
+msgid "Title Color"
+msgstr "Title Color"
+
+#: functions.php:1378
+msgid "Title Hover Color"
+msgstr "Title Hover Color"
+
+#: functions.php:1383
+msgid "Link Color"
+msgstr "Link Color"
+
+#: functions.php:1384
+msgid "Link Hover Color"
+msgstr "Link Hover Color"
+
+#: functions.php:1388
+msgid "Footer Text Color"
+msgstr "Footer Text Color"
+
+#: functions.php:1392
+msgid "Footer Background Color"
+msgstr "Footer Background Color"
+
+#: functions.php:1396
+msgid "Footer Titles Color"
+msgstr "Footer Titles Color"
+
+#: functions.php:1403
+msgid "Logo"
+msgstr "Logo"
+
+#: functions.php:1407
+msgid "W Image"
+msgstr "W Image"
+
+#: functions.php:1411
+msgid "Default Post Thumbnail"
+msgstr "Default Post Thumbnail"
+
+#: functions.php:1481
+msgid "Images"
+msgstr "Images"
+
+#: functions.php:1517
+msgid "WPMedium"
+msgstr "WPMedium"
+
+#: functions.php:1536
+msgid "AJAX Posts Load"
+msgstr "AJAX Posts Load"
+
+#: functions.php:1555
+msgid "Use Default Post Thumbnail"
+msgstr "Use Default Post Thumbnail"
+
+#: functions.php:1577
+msgid "Use local font files"
+msgstr "Use local font files"
+
+#: functions.php:1578
+msgid "Google API Fonts"
+msgstr "Google API Fonts"
+
+#: functions.php:1599
+msgid "Category"
+msgstr "Category"
+
+#: functions.php:1600
+msgid "Post Tag"
+msgstr "Post Tag"
+
+#: functions.php:1609
+msgid "Footer"
+msgstr "Footer"
+
+#: functions.php:1631
+msgid "None"
+msgstr "None"
+
+#: functions.php:1632
+msgid "Copyright & Credits"
+msgstr "Copyright & Credits"
+
+#: functions.php:1633
+msgid "Widget Area"
+msgstr "Widget Area"
+
+#: functions.php:1634
+msgid "Both"
+msgstr "Both"
+
+#: functions.php:1652
+msgid "WPMedium Credits Line"
+msgstr "WPMedium Credits Line"
+
+#: functions.php:1671
+msgid "WPMedium Copyright Line"
+msgstr "WPMedium Copyright Line"
+
+#: searchform.php:5
+msgid "Search"
+msgstr "Search"
+
+#~ msgid "Background Color"
+#~ msgstr "Background Color"
