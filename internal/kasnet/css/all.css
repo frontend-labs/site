@@ -1,0 +1,40 @@
+/*!
+ * All Styles Cross Website
+ * @module all
+ * @author Jan Sanchez, Paúl Díaz, Luis Natividad
+ */
+
+html{font-size:16px}
+body{font-family:geogtq-md,arial,sans-serif;background:#fff;margin:0;padding:0;-webkit-text-size-adjust:100%}
+hr{margin:1.5em 0;text-align:center;border:none;border-bottom:1px solid $grey20}
+hr.medium{border-bottom:2px solid $grey20}
+hr.dashed{border:1px dashed}
+hr.special{border:none;border-top:2px solid $grey10;height:1px}
+hr.special:after{background:#fff;color:$grey10;content:"o";font-size:16px;padding:0 .25em;position:relative;top:-13px}
+@media only screen and (max-width:400px){hr.special{display:block}}
+ul.bullets{list-style-type:disc;margin-left:15px!important}
+.box_main{margin-top:45px}
+.box_main.box_affiliate{margin-top:80px}
+.box_introduction{font-family:geog-mdit,arial,sans-serif;width:545px;float:left}
+.box_introduction span{font-family:geog-sbit,arial,sans-serif}
+.box_introduction figure{margin:0 0 20px}
+.box_introduction figure img{display:block;max-width:110%;margin:0 0 0 -10%}
+.box_form{position:relative;width:415px;float:right;background:#7c7c7c}
+.box_form>#promo{position:absolute;width:130px;height:257px;left:-130px;top:10px}
+.box_center{position:relative;width:auto;max-width:960px;float:none;display:block;margin-right:auto;margin-left:auto;padding-left:0;padding-right:0}
+.box_center:after,.box_center:before{content:'';display:table}
+.box_center:after{clear:both}
+.box_center .tools_log>ul>li{font-family:geog-mdit,arial,sans-serif;font-size:17px}
+.box_center .tools_log>ul>li>a{color:#fff;text-decoration:underline;transition:all .3s linear 0s;-webkit-transition:all .3s linear 0s;-moz-transition:all .3s linear 0s}
+.box_center .tools_log>ul>li>a:hover{color:#feca00}
+
+h3{text-transform:uppercase;font-size:38.5px;margin:0 0 20px}
+h3 b{font-family:geog-sbit,arial,sans-serif}
+h4{font-size:22px;margin:0 0 10px}
+h5{font-size:18px;font-family:geog-mdit,arial,sans-serif;margin:0 0 15px}
+.row:after,.row:before{content:'';display:table}
+.row:after{clear:both}
+a{text-decoration:none;color:#000;outline:0}
+a:focus{outline:-webkit-focus-ring-color auto 5px;outline:#333 dotted thin;outline-offset:-2px}
+a:active,a:hover{outline:0}
+

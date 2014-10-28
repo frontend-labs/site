@@ -1,0 +1,564 @@
+html{
+	font-family: "neosans-italic",Helvetica,Arial,Tahoma;
+}
+header{
+	height: 98px;
+	background: #f7c005;
+	padding-top:19px;
+}
+header .content_header{
+	width: 1000px;
+	margin: 0 auto;
+}
+header .content_header a{
+	text-decoration: none;
+}
+header h1{
+	margin: 0;
+	width: 148px;
+	height: 60px;
+	display: inline-block;
+	vertical-align: top;
+}
+header h2{
+	margin: 0;
+	font-family: "trebuc", Arial, Helvetica, sans-serif;
+	font-size: 17.14px;
+	font-weight: 100;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 18px;
+	margin-top: 20px;
+}
+section{
+	/*background: url(../img/fondo_slide.jpg) repeat-x;*/
+}
+.wrapper_slide{
+	background: url(../img/fondo_slide.jpg) repeat-x;
+	/*width: 1200px;*/
+	height: 517px;
+	/*margin: 0 auto;*/
+	
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pt{
+	padding-top: 40px;
+}
+.wrapper_slide .slide_img{
+	width: 500px;
+	float: left;
+}
+.wrapper_slide .slide_img img{
+	margin-top: 31px;
+	margin-left: 45px;
+}
+.wrapper_slide .slide_text{
+	padding-right: 79px;
+	float: right;
+	width: 450px;
+	box-sizing: border-box;
+	text-align: right;
+}
+.wrapper_slide .slide_text h3{
+	font-size: 38px;
+	color: #004f93;
+	font-weight: normal;
+	line-height: 45px;
+	margin: 0;
+	font-weight: 100;
+	font-style: italic;
+}
+.wrapper_slide .slide_text img{
+	margin-top: 29px;
+	margin-bottom: 30px;
+}
+.wrapper_slide .slide_text h4{
+	font-size: 27px;
+	color: #484848;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 0;
+}
+.wrapper_slide .slide_text a{
+	font-size: 27px;
+	color: #004f93;
+	font-weight: normal;
+	margin: 0;
+}
+.points_bar{
+	height: 98px;
+	background: #fecc0c;
+}
+.points_bar .container{
+	height: 98px;
+	background: #fecc0c;
+	position: relative;
+}
+.points_bar h5{
+	width: 443px;
+	text-align: center;
+	margin: 0;
+	display: inline-block;
+	font-size: 20.93px;
+	color: #252525;
+	font-weight: 100;
+	margin-top: 29px;
+	vertical-align: top;
+}
+.points_bar .point{
+	background: url(../img/background_point.png);
+	width: 203px;
+	height: 98px;
+	display: inline-block;
+	position: absolute;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+}
+.points_bar .point span{
+	background: url(../img/download.png);
+	width: 19px;
+	height: 23px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.points_bar .point p{
+	display: inline-block;
+	font-size: 19px;
+	font-weight: 100;
+}
+.points_bar .point.lima{
+	right: 228px;
+}
+.points_bar .point.provincias{
+	right: 50px;
+}
+.container_bottom{
+	background: url(../img/step_pay_background.jpg) repeat-x;
+	font-family: "neosans",Arial,Helvetica;
+	height: 764px;
+}
+.steps_title{
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+}
+.steps{
+	height: 250px;
+	overflow: hidden;
+}
+.steps .step{
+	width: 333px;
+	float: left;
+	text-align: center;
+}
+.steps .step .description{
+	position: relative;
+}
+.steps .step .description span{
+	background: url(../img/arrow_step.png);
+	width: 20px;
+	height: 16px;
+	position: absolute;
+	left: 0;
+	top: 5px;
+}
+.steps .step .description p{
+	width: 305px;
+	text-align: left;
+	margin-left: 28px;
+}
+.shops{
+	text-align: center;
+}
+.shops .shop{
+	width: 125px;
+	float: left;
+	height: 50px;
+	margin-bottom: 15px;
+}
+.shops .shop span{
+	background: url(../img/comercios.png);
+	display: block;
+	margin: 0 auto;
+}
+.shops .shop span.peruvian{
+	background-position: -320px -255px;
+	width: 81px;
+	height: 31px;
+}
+.shops .shop span.nuevomundo{
+	background-position: 0px -51px;
+	width: 104px;
+	height: 41px;
+}
+.shops .shop span.linio{
+	background-position: -320px -221px;
+	width: 69px;
+	height: 34px;
+}
+.shops .shop span.sagafalabella{
+	background-position: 0px -354px;
+	width: 108px;
+	height: 24px;
+}
+.shops .shop span.sodimac{
+	background-position: 0px -210px;
+	width: 123px;
+	height: 38px;
+}
+.shops .shop span.movistar{
+	background-position: 0px -132px;
+	width: 122px;
+	height: 40px;
+}
+.shops .shop span.jockeyplaza{
+	background-position: -112px -40px;
+	width: 100px;
+	height: 40px;
+}
+.shops .shop span.platanitos{
+	background-position: -112px 0px;
+	width: 100px;
+	height: 40px;
+}
+.shops .shop span.inkabet{
+	background-position: -184px -248px;
+	width: 94px;
+	height: 37px;
+}
+.shops .shop span.pokerstar{
+	background-position: -320px -111px;
+	width: 93px;
+	height: 37px;
+}
+.shops .shop span.deltron{
+	background-position: -99px -322px;
+	width: 79px;
+	height: 32px;
+}
+.shops .shop span.intralot{
+	background-position: -92px -248px;
+	width: 92px;
+	height: 37px;
+}
+.shops .shop span.domiruth{
+	background-position: -195px -286px;
+	width: 81px;
+	height: 32px;
+}
+.shops .shop span.ofertop{
+	background-position: 0px 0px;
+	width: 61px;
+	height: 51px;
+}
+.shops .shop span.avansys{
+	background-position: -212px -152px;
+	width: 84px;
+	height: 38px;
+}
+.shops .shop span.betcris{
+	background-position: -212px 0px;
+	width: 108px;
+	height: 38px;
+}
+.shops .shop span.lcperu{
+	background-position: -260px -38px;
+	width: 55px;
+	height: 38px;
+}
+.shops .shop span.civa{
+	background-position: 0px -248px;
+	width: 92px;
+	height: 38px;
+}
+.shops .shop span.oltursa{
+	background-position: -108px -354px;
+	width: 93px;
+	height: 24px;
+}
+.shops .shop span.cruzdelsur{
+	background-position: -96px -92px;
+	width: 100px;
+	height: 40px;
+}
+.shops .shop span.santanatura{
+	background-position: -320px -37px;
+	width: 92px;
+	height: 37px;
+}
+.shops .shop span.boacompra{
+	background-position: -320px 0px;
+	width: 95px;
+	height: 37px;
+}
+.shops .shop span.cuponatic{
+	background-position: -320px -74px;
+	width: 95px;
+	height: 37px;
+}
+.shops .shop span.yumax{
+	background-position: -61px 0px;
+	width: 51px;
+	height: 49px;
+}
+.shops .shop span.loginstore{
+	background-position: -212px -190px;
+	width: 78px;
+	height: 17px;
+}
+.shops .shop span.triathlon{
+	background-position: 0px -172px;
+	width: 108px;
+	height: 38px;
+}
+.shops .shop span.astropay{
+	background-position: -276px -286px;
+	width: 81px;
+	height: 32px;
+}
+.shops .shop span.lukana{
+	background-position: -108px -172px;
+	width: 95px;
+	height: 38px;
+}
+.shops .shop span.babyintanti{
+	background-position: -212px -38px;
+	width: 48px;
+	height: 38px;
+}
+.shops .shop span.estilomio{
+	background-position: 0px -286px;
+	width: 115px;
+	height: 36px;
+}
+.shops .shop span.kukyflor{
+	background-position: 0px -322px;
+	width: 99px;
+	height: 32px;
+}
+.shops .shop span.clubventa{
+	background-position: -320px -148px;
+	width: 94px;
+	height: 37px;
+}
+.shops .shop span.mediamanzana{
+	background-position: -212px -114px;
+	width: 98px;
+	height: 38px;
+}
+.shops .shop span.globalnet{
+	background-position: -123px -210px;
+	width: 112px;
+	height: 38px;
+}
+.shops .shop span.costamar{
+	background-position: -265px -322px;
+	width: 117px;
+	height: 26px;
+}
+.shops .shop span.cuponidad{
+	background-position: -122px -132px;
+	width: 61px;
+	height: 39px;
+}
+.shops .shop span.puntope{
+	background-position: 0px -92px;
+	width: 96px;
+	height: 40px;
+}
+.shops .shop span.yachay{
+	background-position: -178px -322px;
+	width: 87px;
+	height: 30px;
+}
+.shops .shop span.bruno{
+	background-position: -212px -76px;
+	width: 95px;
+	height: 38px;
+}
+.shops .shop span.golazobet{
+	background-position: -235px -210px;
+	width: 81px;
+	height: 32px;
+}
+.more{
+	float: right;
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+	margin-top: 5px;
+}
+footer{
+	font-family: "neosans", Arial, Helvetica;
+	height: 108px;
+	text-align: center;
+	background: black;
+	color: white;
+	padding-top: 8px;
+	box-sizing: border-box;
+}
+footer .copyright{
+	font-size: 13px;
+	font-weight: 600;
+}
+footer .copyright span{
+	font-family: Arial,Tahoma;
+}
+footer .schedule{
+	font-size: 12px;
+	width: 540px;
+	margin: 0 auto;
+}
+@media screen and (max-width:720px){
+	header{
+		height: 65px;
+		padding: 15px 0 0 17px;
+		overflow: hidden;
+	}
+	header h2{
+		display: none;
+	}
+	header h1 img{
+		width: 98px;
+		height: 40px;
+	}
+	section{
+		overflow: hidden;
+	}
+	.container{
+		width: 100%;
+	}
+	.wrapper_slide{
+		background: url(../img/fondo_slide_mobile.jpg) repeat-x;
+		/*width: 1200px;*/
+		height: 480px;
+		/*margin: 0 auto;*/
+		
+	}
+	.wrapper_slide .slide_img{
+		display: none;
+	}
+	.wrapper_slide .slide_text{
+		padding-right: 0;
+		float: none;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+	}
+	.wrapper_slide .slide_text h3{
+		font-size: 31px;
+		line-height: 36px;
+	}
+	.wrapper_slide .slide_text img{
+		width: 235px;
+		height: 95px;
+	}
+	.wrapper_slide .slide_text h4{
+		font-size: 20px;
+		line-height: 27px;
+	}
+	.wrapper_slide .slide_text a{
+		font-size: 20px;
+	}
+	.points_bar{
+		height: 143px;
+	}
+	.points_bar .container{
+		height: 143px;
+	}
+	.points_bar h5{
+		width: 100%;
+		margin: 0;
+		display: block;
+		font-size: 20.93px;
+	}
+	.points_bar .point{
+		background: url(../img/background_point_mobile.png);
+		width: 176px;
+		height: 84px;
+		top: 59px;
+	}
+	.points_bar .point p{
+		font-size: 15.4px;
+	}
+	.points_bar .point.lima{
+		right: 48%;
+	}
+	.points_bar .point.provincias{
+		right:0;
+		left: 48%;
+
+	}
+	.container_bottom{
+		background: url(../img/step_pay_background_mobile.jpg) repeat-x;
+		height: 1326px;
+		text-align: center;
+	}
+	.steps{
+		height: 720px;
+	}
+	.steps .step{
+		float: none;
+		width: 100%;
+	}
+	.steps .step .description span{
+		position: static;
+		display: inline-block;
+		margin-top: 22px;
+	}
+	.steps .step .description p {
+		width: 70%;
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		margin-left: 9px;
+		}
+	.shops .shop{
+		width: 50%;
+	}
+	.shops .shop.mobile{
+		display: none;
+	}
+	.more{
+		float: none;
+	}
+
+	footer .schedule{
+		width: 100%;
+		padding:0 20px;
+		overflow: hidden;
+	}
+}
+@media screen and (max-width:570px){
+	.points_bar .point.lima{
+		right: 47%;
+	}
+	.points_bar .point.provincias{
+		right:0;
+		left: 47%;
+	}
+	
+}
+@media screen and (max-width:420px){
+	.points_bar .point.lima{
+		right: 46%;
+	}
+	.points_bar .point.provincias{
+		right: 0;
+		left: 46%;
+	}
+	.steps{
+		height: 710px;
+	}
+}
+@media screen and (max-width:330px){
+	footer{
+		padding-top: 2px;
+	}
+}
