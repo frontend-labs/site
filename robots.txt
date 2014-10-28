@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /demos/
+Disallow: /internal/
 Disallow: /wp-admin/
 Disallow: /wp-includes/
