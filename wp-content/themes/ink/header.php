@@ -16,6 +16,20 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-52967407-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+<!-- End of Google Analytics -->
+
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> data-layout="<?php echo esc_attr( stag_site_layout() ); ?>">
@@ -56,7 +70,7 @@ do_action('ase_theme_body_inside_top');
 
 			<div class="site-branding">
 
-				<?php if ( stag_get_logo()->has_logo() ) : ?>
+				<?php if ( stag_get_logo()->has_logo() ) :?>
 					<a class="custom-logo" title="<?php esc_attr_e( 'Frontend-Labs', 'stag' ); ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 						<div class="bubbles">
 						    <div class="bubble b1"></div>
