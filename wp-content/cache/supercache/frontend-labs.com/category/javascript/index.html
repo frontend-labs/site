@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es-ES" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+<title>Javascript Archivos - FrontEnd Labs</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://frontend-labs.com/xmlrpc.php">
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-52967407-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+<!-- End of Google Analytics -->
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.6 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://frontend-labs.com/category/javascript" />
+<link rel="publisher" href="https://plus.google.com/u/0/115909218719662540839"/>
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Javascript Archivos - FrontEnd Labs" />
+<meta property="og:description" content="JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
+Se utiliza principalmente en su forma del lado del cliente (client-side), implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas aunque existe una forma de JavaScript del lado del servidor (Server-side JavaScript)." />
+<meta property="og:url" content="http://frontend-labs.com/category/javascript" />
+<meta property="og:site_name" content="FrontEnd Labs" />
+<meta property="article:publisher" content="https://www.facebook.com/frontendlabs.peru" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="FrontEnd Labs &raquo; Feed" href="http://frontend-labs.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="FrontEnd Labs &raquo; RSS de los comentarios" href="http://frontend-labs.com/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="FrontEnd Labs &raquo; Javascript RSS de la categoría" href="http://frontend-labs.com/category/javascript/feed" />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://frontend-labs.com/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://frontend-labs.com/wp-content/themes/ink/assets/css/font-awesome.css?ver=4.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='stag-shortcode-styles-css'  href='http://frontend-labs.com/wp-content/plugins/stagtools/assets/css/stag-shortcodes.css?ver=1.2.6' type='text/css' media='all' />
+<link rel='stylesheet' id='main-style-css'  href='http://frontend-labs.com/wp-content/plugins/wens-social-links/css/main-style.css?ver=2.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://frontend-labs.com/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='stag-google-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto+Slab%3Aregular%2C700%7CMontserrat%3Aregular%2C700&#038;subset=latin%2Clatin&#038;ver=1.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='stag-style-css'  href='http://frontend-labs.com/wp-content/themes/ink/style.css?ver=1.2.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://code.jquery.com/ui/1.10.3/jquery-ui.js?ver=4.0'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/wens-social-links/js/custom.js?ver=4.0'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/jetpack/_inc/spin.js?ver=1.3'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/jetpack/_inc/jquery.spin.js?ver=1.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://frontend-labs.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://frontend-labs.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+<!-- This site is powered by Tweet, Like, Plusone and Share Plugin - http://techxt.com/tweet-like-google-1-and-share-plugin-wordpress/ -->
+		<meta property="og:type" content="article" />
+	  	<meta property="og:title" content="FrontEnd Labs" />
+		<meta property="og:url" content="http://frontend-labs.com"/>
+		<meta property="og:description" content="" />
+		<meta property="og:site_name" content="FrontEnd Labs" />
+		<!--[if lt IE 9]>
+	  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+			<style type="text/css">div.socialicons{float:left;display:block;margin-right: 10px;line-height: 1;}div.socialiconsv{line-height: 1;}div.socialicons p{margin-bottom: 0px !important;margin-top: 0px !important;padding-bottom: 0px !important;padding-top: 0px !important;}div.social4iv{background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #aaa;border-radius: 3px 3px 3px 3px;box-shadow: 3px 3px 3px #DDDDDD;padding: 3px;position: fixed;text-align: center;top: 55px;width: 68px;display:none;}div.socialiconsv{padding-bottom: 5px;}</style>
+<style type='text/css'>img#wpstats{display:none}</style><meta name="generator" content="Ink 1.2.1">
+<meta name="generator" content="StagCustomizer 1.0">
+	<style id="stag-custom-css" type="text/css">
+		body,
+		.site,
+		hr:not(.stag-divider)::before {
+			background-color: #ffffff;
+		}
+		body, .entry-subtitle {
+			font-family: "Roboto Slab";
+		}
+		a,
+		.archive-header__title span,
+		.footer-menu a:hover {
+			color: #f0ad2c;
+		}
+		h1, h2, h3, h4, h5, h6, .button, .stag-button, input[type="submit"], input[type="reset"], .button-secondary, legend, .rcp_subscription_level_name {
+			font-family: "Montserrat";
+		}
+		.post-grid {
+			border-color: #ffffff;
+		}
+			</style>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+						<style type="text/css" media="all">
+				.custom-logo {
+					background: url("http://frontend-labs.com/wp-content/uploads/2014/11/logo2.png") no-repeat;
+					width: 44px;
+					height: 90px;
+					background-size: contain;
+				}
+			</style>
+		<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+<body class="archive category category-javascript category-4 unknown header-over stagtools" data-layout="1-2-1-2">
+
+
+<nav class="site-nav" role="complementary">
+	<div class="site-nav--scrollable-container">
+		<i class="fa fa-times close-nav"></i>
+
+		
+					<aside id="search-3" class="site-nav__section widget_search"><form role="search" method="get" class="search-form" action="http://frontend-labs.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Buscar &hellip;" value="" name="s" title="Buscar por:">
+	</label>
+	<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+</form>
+</aside><aside id="blog_subscription-2" class="site-nav__section jetpack_subscription_widget"><h4 class="widgettitle"><label for="subscribe-field">Suscríbete a nuestro blog!</label></h4>
+		<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-2">
+			<p id="subscribe-text"></p>
+			<p id="subscribe-email"><input type="text" name="email" value="Dirección de email" id="subscribe-field" onclick="if ( this.value == 'Dirección de email' ) { this.value = ''; }" onblur="if ( this.value == '' ) { this.value = 'Dirección de email'; }" /></p>
+
+			<p id="subscribe-submit">
+				<input type="hidden" name="action" value="subscribe" />
+				<input type="hidden" name="source" value="http://frontend-labs.com/category/javascript" />
+				<input type="hidden" name="sub-type" value="widget" />
+				<input type="hidden" name="redirect_fragment" value="blog_subscription-2" />
+								<input type="submit" value="Suscribir" name="jetpack_subscriptions_widget" />
+			</p>
+		</form>
+
+		
+</aside><aside id="facebook-likebox-2" class="site-nav__section widget_facebook_likebox"><iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ffrontendlabs.peru&#038;width=270&#038;height=432&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=false&#038;header=false&#038;force_wall=false&#038;locale=es_ES" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 270px;  height: 432px; background: #fff"></iframe></aside><aside id="twitter_timeline-2" class="site-nav__section widget_twitter_timeline"><h4 class="widgettitle">Síguenos en Twitter</h4><a class="twitter-timeline" data-widget-id="519172413922107392" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-tweet-limit="1" width="280" height="400" lang="ES">Mis Tweets</a></aside>			</div>
+</nav>
+<div class="site-nav-overlay"></div>
+
+<div id="page" class="hfeed site">
+
+	<div id="content" class="site-content">
+
+		<header id="masthead" class="site-header">
+
+			<div class="site-branding">
+
+									<a class="custom-logo" title="Frontend-Labs" href="http://frontend-labs.com/">
+						<div class="bubbles">
+						    <div class="bubble b1"></div>
+						    <div class="bubble b2"></div>
+						    <div class="bubble b3"></div>
+						    <div class="bubble b4"></div>    
+						</div>  
+					</a>
+				
+				<p class="site-description"></p>
+			</div>
+
+			<a href="#" id="site-navigation-toggle" class="site-navigation-toggle"><i class="fa fa-navicon"></i></a>
+
+						<div class="archive-header">
+				<h3 class="archive-header__title">Todos los posts en <span>Javascript</span></h3>
+			</div>
+			
+		</header><!-- #masthead -->
+
+    <section id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+		
+						
+				
+<article id="post-989" class="post-989 post type-post status-publish format-standard has-post-thumbnail hentry category-desarrollo-de-juegos category-javascript tag-canvas tag-juegos tag-tutorial-2 post-grid">
+	
+	<style type="text/css">
+		
+				.post-cover-989 { background-image: url(http://frontend-labs.com/wp-content/uploads/2014/08/animacion_loops.jpg); opacity: 0.4; }
+			</style>
+<div class="post-cover post-cover-989 stag-image--none"></div>
+	<div class="post-content">
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="http://frontend-labs.com/989--conceptos-basicos-de-javascript-para-la-animacion-html5" rel="bookmark">
+				Conceptos básicos de Animación &#8211; Parte 1: Loops								</a>
+			</h1>
+		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="posted-on"><a href="http://frontend-labs.com/989--conceptos-basicos-de-javascript-para-la-animacion-html5" title="2:38 pm" rel="bookmark"><time class="entry-date published" datetime="2014-08-04T14:38:44+00:00">4 agosto, 2014</time><time class="updated" datetime="2014-08-07T12:19:07+00:00">7 agosto, 2014</time></a></span><span class="reading-time hide">6 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/jjhoncv">Jhonnatan Castro</a></span></span>					</footer><!-- .entry-meta -->
+
+		
+			</div>
+</article>
+
+			
+				
+<article id="post-1490" class="post-1490 post type-post status-publish format-standard has-post-thumbnail hentry category-javascript tag-codigo-2 tag-ecmascript tag-estandar tag-javascript tag-jquery tag-json tag-sintaxis post-grid">
+	
+	<style type="text/css">
+				.post-1490 { background-color: #000000 !important; }
+		
+				.post-cover-1490 { background-image: url(http://frontend-labs.com/wp-content/uploads/2014/07/json-javascript-object-notation.png); opacity: 0.4; }
+			</style>
+<div class="post-cover post-cover-1490 stag-image--none"></div>
+	<div class="post-content">
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="http://frontend-labs.com/1490--json-que-es-json-parse-json-stringify" rel="bookmark">
+				JSON: ¿Qué es JSON?, ¿Cómo se usa? y ¿Para qué sirve JSON?								</a>
+			</h1>
+		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="posted-on"><a href="http://frontend-labs.com/1490--json-que-es-json-parse-json-stringify" title="1:14 am" rel="bookmark"><time class="entry-date published" datetime="2014-07-26T01:14:36+00:00">26 julio, 2014</time><time class="updated" datetime="2014-10-24T23:37:28+00:00">24 octubre, 2014</time></a></span><span class="reading-time hide">7 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/jansanchez">Jan Sanchez</a></span></span>					</footer><!-- .entry-meta -->
+
+		
+			</div>
+</article>
+
+			
+				
+<article id="post-979" class="post-979 post type-post status-publish format-standard has-post-thumbnail hentry category-automatizacion category-javascript category-tutorial tag-documentador tag-javascript tag-yuidoc post-grid">
+	
+	<style type="text/css">
+		
+				.post-cover-979 { background-image: url(http://frontend-labs.com/wp-content/uploads/2014/07/yuidoc-logo.jpg); opacity: 0.4; }
+			</style>
+<div class="post-cover post-cover-979 stag-image--none"></div>
+	<div class="post-content">
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="http://frontend-labs.com/979--documentar-con-yuidoc-y-gruntjs" rel="bookmark">
+				Documentar con YUIDoc y GruntJS								</a>
+			</h1>
+		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="posted-on"><a href="http://frontend-labs.com/979--documentar-con-yuidoc-y-gruntjs" title="12:18 pm" rel="bookmark"><time class="entry-date published" datetime="2014-07-16T12:18:25+00:00">16 julio, 2014</time><time class="updated" datetime="2014-07-16T19:23:41+00:00">16 julio, 2014</time></a></span><span class="reading-time hide">3 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/andru255">Andrés Muñoz</a></span></span>					</footer><!-- .entry-meta -->
+
+		
+			</div>
+</article>
+
+			
+				
+<article id="post-1132" class="post-1132 post type-post status-publish format-standard has-post-thumbnail hentry category-css category-html category-javascript tag-automatizacion tag-css3 tag-html5 tag-stylus tag-tutorial-2 tag-web-components post-grid">
+	
+	<style type="text/css">
+		
+				.post-cover-1132 { background-image: url(http://frontend-labs.com/wp-content/uploads/2014/07/WebComponentsPolymer.png); opacity: 0.4; }
+			</style>
+<div class="post-cover post-cover-1132 stag-image--none"></div>
+	<div class="post-content">
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="http://frontend-labs.com/1132--que-son-web-components-y-polymer-js" rel="bookmark">
+				Web Components con Polymer								</a>
+			</h1>
+		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="posted-on"><a href="http://frontend-labs.com/1132--que-son-web-components-y-polymer-js" title="5:17 pm" rel="bookmark"><time class="entry-date published" datetime="2014-07-14T17:17:32+00:00">14 julio, 2014</time><time class="updated" datetime="2014-07-24T12:24:09+00:00">24 julio, 2014</time></a></span><span class="reading-time hide">4 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/erikfloresq">Erik Flores</a></span></span>					</footer><!-- .entry-meta -->
+
+		
+			</div>
+</article>
+
+			
+				
+<article id="post-755" class="post-755 post type-post status-publish format-standard has-post-thumbnail hentry category-automatizacion category-javascript tag-automatizacion tag-css3 tag-gruntjs tag-html5 tag-iconos tag-stylus post-grid">
+	
+	<style type="text/css">
+		
+				.post-cover-755 { background-image: url(http://frontend-labs.com/wp-content/uploads/2014/06/bannerWebfont.jpg); opacity: 0.4; }
+			</style>
+<div class="post-cover post-cover-755 stag-image--none"></div>
+	<div class="post-content">
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="http://frontend-labs.com/755--iconos-como-fuente-de-letra-con-grunt-js-y-grunt-webfont" rel="bookmark">
+				Iconos como fuente de letra con Grunt JS y Grunt Webfont								</a>
+			</h1>
+		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="posted-on"><a href="http://frontend-labs.com/755--iconos-como-fuente-de-letra-con-grunt-js-y-grunt-webfont" title="1:35 am" rel="bookmark"><time class="entry-date published" datetime="2014-06-08T01:35:18+00:00">8 junio, 2014</time><time class="updated" datetime="2014-07-15T18:25:36+00:00">15 julio, 2014</time></a></span><span class="reading-time hide">3 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/victorjsv">Victor Sandoval Valladolid</a></span></span>					</footer><!-- .entry-meta -->
+
+		
+			</div>
+</article>
+
+			
+				
+<article id="post-605" class="post-605 post type-post status-publish format-standard has-post-thumbnail hentry category-javascript tag-codigo-2 tag-javascript post-grid">
+	
+	<style type="text/css">
+		
+				.post-cover-605 { background-image: url(http://frontend-labs.com/wp-content/uploads/2014/04/checkAll.png); opacity: 0.4; }
+			</style>
+<div class="post-cover post-cover-605 stag-image--none"></div>
+	<div class="post-content">
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="http://frontend-labs.com/605--como-hacer-un-check-all-inteligentemente" rel="bookmark">
+				Como hacer un Check All inteligentemente								</a>
+			</h1>
+		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="posted-on"><a href="http://frontend-labs.com/605--como-hacer-un-check-all-inteligentemente" title="1:35 pm" rel="bookmark"><time class="entry-date published" datetime="2014-04-27T13:35:33+00:00">27 abril, 2014</time><time class="updated" datetime="2014-07-15T18:18:48+00:00">15 julio, 2014</time></a></span><span class="reading-time hide">1 minuto</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/erikfloresq">Erik Flores</a></span></span>					</footer><!-- .entry-meta -->
+
+		
+			</div>
+</article>
+
+			
+				
+<article id="post-453" class="post-453 post type-post status-publish format-standard has-post-thumbnail hentry category-automatizacion category-javascript tag-bower tag-javascript tag-nodejs tag-yeoman post-grid">
+	
+	<style type="text/css">
+		
+				.post-cover-453 { background-image: url(http://frontend-labs.com/wp-content/uploads/2014/04/iconbower.png); opacity: 0.4; }
+			</style>
+<div class="post-cover post-cover-453 stag-image--none"></div>
+	<div class="post-content">
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="http://frontend-labs.com/453--como-usar-bower-js-dependencias" rel="bookmark">
+				Como usar Bower								</a>
+			</h1>
+		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="posted-on"><a href="http://frontend-labs.com/453--como-usar-bower-js-dependencias" title="11:20 pm" rel="bookmark"><time class="entry-date published" datetime="2014-04-21T23:20:34+00:00">21 abril, 2014</time><time class="updated" datetime="2014-07-28T12:54:55+00:00">28 julio, 2014</time></a></span><span class="reading-time hide"></span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/erikfloresq">Erik Flores</a></span></span>					</footer><!-- .entry-meta -->
+
+		
+			</div>
+</article>
+
+			
+				
+<article id="post-138" class="post-138 post type-post status-publish format-standard has-post-thumbnail hentry category-javascript tag-expresiones-regulares-2 tag-javascript post-grid">
+	
+	<style type="text/css">
+		
+				.post-cover-138 { background-image: url(http://frontend-labs.com/wp-content/uploads/2014/04/regular.jpg); opacity: 0.4; }
+			</style>
+<div class="post-cover post-cover-138 stag-image--none"></div>
+	<div class="post-content">
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="http://frontend-labs.com/138--la-misteriosa-propiedad-lastindex-al-validar-un-campo-con-regex" rel="bookmark">
+				La misteriosa propiedad &#8220;lastIndex&#8221; al validar un campo con Regex								</a>
+			</h1>
+		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="posted-on"><a href="http://frontend-labs.com/138--la-misteriosa-propiedad-lastindex-al-validar-un-campo-con-regex" title="5:09 pm" rel="bookmark"><time class="entry-date published" datetime="2014-04-21T17:09:44+00:00">21 abril, 2014</time><time class="updated" datetime="2014-08-08T14:12:59+00:00">8 agosto, 2014</time></a></span><span class="reading-time hide">3 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/victorjsv">Victor Sandoval Valladolid</a></span></span>					</footer><!-- .entry-meta -->
+
+		
+			</div>
+</article>
+
+			
+				
+<article id="post-146" class="post-146 post type-post status-publish format-standard has-post-thumbnail hentry category-automatizacion category-javascript tag-automatizacion tag-coffescript tag-gruntjs tag-gulp tag-javascript tag-nodejs post-grid">
+	
+	<style type="text/css">
+				.post-146 { background-color: #000000 !important; }
+		
+				.post-cover-146 { background-image: url(http://frontend-labs.com/wp-content/uploads/2014/04/grunt-lading.png); opacity: 0.4; }
+			</style>
+<div class="post-cover post-cover-146 stag-image--none"></div>
+	<div class="post-content">
+		<header class="entry-header">
+			<h1 class="entry-title">
+				<a href="http://frontend-labs.com/146--grunt-js-espanol-tutorial-basico-primeros-pasos" rel="bookmark">
+				Grunt.js en español &#8211; tutorial básico y primeros pasos								</a>
+			</h1>
+		</header><!-- .entry-header -->
+
+		<footer class="entry-meta">
+			<span class="posted-on"><a href="http://frontend-labs.com/146--grunt-js-espanol-tutorial-basico-primeros-pasos" title="5:38 am" rel="bookmark"><time class="entry-date published" datetime="2014-04-03T05:38:54+00:00">3 abril, 2014</time><time class="updated" datetime="2014-11-10T13:32:45+00:00">10 noviembre, 2014</time></a></span><span class="reading-time hide">7 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/jansanchez">Jan Sanchez</a></span></span>					</footer><!-- .entry-meta -->
+
+		
+			</div>
+</article>
+
+			    <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'frontendlabs';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+
+		
+		</main><!-- #main -->
+
+		
+
+	</section><!-- #primary -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+						<div class="footer-widgets-container">
+				<div class="inside">
+					<div class="footer-widgets grid">
+								<aside id="recent-posts-2" class="widget unit one-of-two widget_recent_entries">		<h3 class="widgettitle">Entradas recientes</h3>		<ul>
+					<li>
+				<a href="http://frontend-labs.com/1956--open-graph-protocol">¿Qué es el Open Graph Protocol?</a>
+						</li>
+					<li>
+				<a href="http://frontend-labs.com/2005--git-tag-como-quitar-eliminar-tag-git">Git tag: ¿Cómo quitar o eliminar un tag desde un repositorio Git?</a>
+						</li>
+					<li>
+				<a href="http://frontend-labs.com/1878--reparar-el-flash-player-de-google-chrome-en-debian">Reparar plugin flash player de Google Chrome en debian</a>
+						</li>
+					<li>
+				<a href="http://frontend-labs.com/1752--gulp-js-plugins-como-configurar-tareas">Gulp.js: Plugins más usados y sus configuraciones básicas</a>
+						</li>
+					<li>
+				<a href="http://frontend-labs.com/2027--git-config-como-saber-url-repositorio-git-remoto">Git config: ¿Cómo saber la URL de un repositorio git remoto?</a>
+						</li>
+				</ul>
+		</aside><aside id="search-2" class="widget unit one-of-two widget_search"><form role="search" method="get" class="search-form" action="http://frontend-labs.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Buscar &hellip;" value="" name="s" title="Buscar por:">
+	</label>
+	<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+</form>
+</aside><aside id="recent-comments-2" class="widget unit one-of-two widget_recent_comments"><h3 class="widgettitle">Comentarios recientes</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Joy Shena</span> en <a href="http://frontend-labs.com/887--pruebas-funcionales-con-python-y-selenium#comment-87">Selenium para las Pruebas Funcionales con Python</a></li><li class="recentcomments"><span class="comment-author-link">Angel Arías</span> en <a href="http://frontend-labs.com/1490--json-que-es-json-parse-json-stringify#comment-86">JSON: ¿Qué es JSON?, ¿Cómo se usa? y ¿Para qué sirve JSON?</a></li><li class="recentcomments"><span class="comment-author-link">Frontend Labs</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-85">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Albert Gracia</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-84">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Frontend Labs</span> en <a href="http://frontend-labs.com/340--instalar-sublime-text-debian-linux-ubuntu-linux#comment-83">Como instalar Sublime Text 2 en Debian Linux</a></li></ul></aside><aside id="categories-2" class="widget unit one-of-two widget_categories"><h3 class="widgettitle">Categorías</h3>		<ul>
+	<li class="cat-item cat-item-35"><a href="http://frontend-labs.com/category/automatizacion" >Automatización</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://frontend-labs.com/category/codigo" >Código</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://frontend-labs.com/category/css" title="CSS u hojas de estilo en cascada (en inglés Cascading Style Sheets) es un lenguaje usado para definir la presentación de un documento estructurado escrito en HTML. El W3C (World Wide Web Consortium) es el encargado de formular la especificación de las hojas de estilo que servirán de estándar para los agentes de usuario o navegadores.">Css</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="http://frontend-labs.com/category/desarrollo-de-juegos" >desarrollo de juegos</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="http://frontend-labs.com/category/diseno" title="Diseño">Diseño</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://frontend-labs.com/category/git" title="Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.">Git</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://frontend-labs.com/category/html" title="HTML, siglas de HyperText Markup Language (lenguaje de marcas de hipertexto), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia para la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, etc. Es un estándar a cargo de la W3C, organización dedicada a la estandarización de casi todas las tecnologías ligadas a la web, sobre todo en lo referente a su escritura e interpretación. Es el lenguaje con el que se definen las páginas web.">Html</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://frontend-labs.com/category/inspiracion" >Inspiracion</a>
+</li>
+	<li class="cat-item cat-item-4 current-cat"><a href="http://frontend-labs.com/category/javascript" title="JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.
+
+Se utiliza principalmente en su forma del lado del cliente (client-side), implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas aunque existe una forma de JavaScript del lado del servidor (Server-side JavaScript).">Javascript</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://frontend-labs.com/category/linux" title="GNU/Linux es uno de los términos empleados para referirse a la combinación del núcleo o kernel libre similar a Unix denominado Linux con el sistema GNU. Su desarrollo es uno de los ejemplos más prominentes de software libre; todo su código fuente puede ser utilizado, modificado y redistribuido libremente por cualquiera bajo los términos de la GPL (Licencia Pública General de GNU, en inglés: General Public License) y otra serie de licencias libres.">Linux</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://frontend-labs.com/category/mobile" title="Tecnología movil">Mobile</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://frontend-labs.com/category/preprocesadores" title="Son pseudo-lenguajes de programación que agregan muchas funcionalidades que no existen en un lenguaje de programación especifico.">Preprocesadores</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://frontend-labs.com/category/codigo/python-2" title="Lenguaje de programación creado por guido vam rossum">Python</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://frontend-labs.com/category/reflexion" title="Veamos como va cambiando la web">Reflexión</a>
+</li>
+	<li class="cat-item cat-item-45"><a href="http://frontend-labs.com/category/seo" >SEO</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://frontend-labs.com/category/tutorial" >tutorial</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="http://frontend-labs.com/category/vim" >Vim</a>
+</li>
+		</ul>
+</aside>					</div>
+				</div>
+			</div><!-- .site-footer -->
+			
+									<div class="copyright">
+				<div class="inside">
+
+					<div class="grid">
+						<div class="unit one-of-two site-info">
+							Copyright © 2014 — Made with ♥ and intention by <a href="//codestag.com">Codestag</a>						</div><!-- .site-info -->
+
+											</div>
+
+				</div>
+			</div><!-- .copyright -->
+					</footer><!-- #colophon -->
+
+	</div><!-- #content -->
+
+</div><!-- #page -->
+
+	<div style="display:none">
+	</div>
+                <script type="text/javascript">
+                        !function(d,s,id){
+                                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                                if(!d.getElementById(id)){
+                                        js=d.createElement(s);
+                                        js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js,fjs);
+                                }
+                        }
+                        (document,"script","twitter-wjs");
+                </script>
+        <script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/ui/jquery.ui.accordion.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/stagtools/assets/js/stag-shortcode-scripts.js?ver=1.2.6'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201446'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Novaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var StagFitvidsCustomSelectors = {"customSelector":"iframe[src*='www.viddler.com'],iframe[src*='money.cnn.com'],iframe[src*='www.educreations.com'],iframe[src*='\/\/blip.tv'],iframe[src*='\/\/embed.ted.com'],iframe[src*='\/\/www.hulu.com']"};
+var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.php","nonce":"828eed0028","category":"4","search":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-content/themes/ink/assets/js/jquery.custom.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-content/themes/ink/assets/js/plugins.js?ver=1.2.1'></script>
+	<div id="fb-root"></div>
+	<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script><script type="text/javascript" src="//connect.facebook.net/es_LA/all.js#xfbml=1"></script><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script><script type="text/javascript" src="https://platform.linkedin.com/in.js"></script>
+	<script src="http://stats.wp.com/e-201446.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:3.1.1',blog:'76133241',post:'0',tz:'-5'});
+	var load_cmc = function(){linktracker_init(76133241,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script></body>
+</html>
+
+<!-- Dynamic page generated in 0.905 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-11-11 02:52:30 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->
