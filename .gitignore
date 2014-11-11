@@ -31,5 +31,5 @@ node_modules
 wp-env.php
 _wp-config.php
 
-
+site/wp-content/cache/supercache/
 
