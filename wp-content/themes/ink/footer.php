@@ -26,7 +26,8 @@
 
 					<div class="grid">
 						<div class="unit one-of-two site-info">
-							<?php echo do_shortcode( stag_allowed_tags($footer_text) ); ?>
+							Copyright © <?php echo date('Y'); ?> — Frontend Labs.
+							<?php //echo do_shortcode( stag_allowed_tags($footer_text) ); ?>
 						</div><!-- .site-info -->
 
 						<?php if( has_nav_menu('footer') ) : ?>
