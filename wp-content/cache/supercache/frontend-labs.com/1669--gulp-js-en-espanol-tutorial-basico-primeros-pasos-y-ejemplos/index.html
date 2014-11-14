@@ -42,8 +42,8 @@ ga('send', 'pageview');
 <meta property="article:tag" content="UglifyJS" />
 <meta property="article:section" content="Automatización" />
 <meta property="article:published_time" content="2014-08-31T16:53:43+00:00" />
-<meta property="article:modified_time" content="2014-10-17T16:28:04+00:00" />
-<meta property="og:updated_time" content="2014-10-17T16:28:04+00:00" />
+<meta property="article:modified_time" content="2014-11-11T11:33:50+00:00" />
+<meta property="og:updated_time" content="2014-11-11T11:33:50+00:00" />
 <meta property="og:image" content="http://frontend-labs.com/wp-content/uploads/2014/08/gulp-js-the-streaming-build-system.png" />
 <meta property="og:image" content="http://frontend-labs.com/wp-content/uploads/2014/08/grunt-file-manipulation.png" />
 <meta property="og:image" content="http://frontend-labs.com/wp-content/uploads/2014/08/gulp-file-manipulation.png" />
@@ -177,6 +177,7 @@ ga('send', 'pageview');
 
 	
 	<style type="text/css" scoped>
+				.article-cover--1669 { background-color: #000000; }
 		
 		.background-video { opacity: 0.4; }
 
@@ -199,7 +200,7 @@ ga('send', 'pageview');
 
 
 			<footer class="entry-meta">
-				<span class="posted-on"><a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos" title="4:53 pm" rel="bookmark"><time class="entry-date published" datetime="2014-08-31T16:53:43+00:00">31 agosto, 2014</time><time class="updated" datetime="2014-10-17T16:28:04+00:00">17 octubre, 2014</time></a></span><span class="reading-time hide">15 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/jansanchez">Jan Sanchez</a></span></span>											</footer>
+				<span class="posted-on"><a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos" title="4:53 pm" rel="bookmark"><time class="entry-date published" datetime="2014-08-31T16:53:43+00:00">31 agosto, 2014</time><time class="updated" datetime="2014-11-11T11:33:50+00:00">11 noviembre, 2014</time></a></span><span class="reading-time hide">15 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/jansanchez">Jan Sanchez</a></span></span>											</footer>
 
 					</div>
 	</div>
@@ -396,7 +397,7 @@ var sumar=function(r,n){return r+n},restar=function(r,n){return r-n};
 </code>
 </pre>
 <p>Como vemos, con unas simples y limpias lineas de código hemos realizado 2 tareas de desarrollo comunes(concatenar y minificar archivos .js).</p>
-<p>Para esto usamos 2 plugins de Gulp.js, la buena noticia es que actualmente existen más de 650 plugins para Gulp.js, así que imagínate todo lo que puedes automatizar en tu flujo de trabajo con Gulp.js.</p>
+<p>Para esto usamos 2 plugins de Gulp.js, la buena noticia es que actualmente existen más de 1000 plugins para Gulp.js, así que imagínate todo lo que puedes automatizar en tu flujo de trabajo con Gulp.js.</p>
 <h2>Analizando el gulpfile.js</h2>
 <p>Ahora vamos a analizar el código que escribimos en nuestro <span class="inline_file">gulpfile.js</span> para entender un<br />
  poco más como funciona Gulp.js.</p>
@@ -578,7 +579,7 @@ gulp.watch('js/source/*.js', function(){
 </pre>
 <p>Con esto ya podemos usar el API de Gulp.js con mucha facilidad.</p>
 <h2>Plugins</h2>
-<p>Como dije anteriormente Gulp.js tiene alrededor de 700 plugins &#8220;oficiales&#8221; y otros cuantos no-oficiales, los plugins &#8220;oficiales&#8221; los puedes encontrar en la <a href="http://gulpjs.com/plugins/" title="Gulp.js - Plugins" target="_blank">página de plugins</a> de Gulp.js o buscando con la palabra clave <span class="inline_code">gulpplugin</span> en <a href="https://www.npmjs.org/" title="Node Packaged Modules" target="_blank">npm</a>.</p>
+<p>Como dije anteriormente Gulp.js tiene alrededor de 1000 plugins &#8220;oficiales&#8221; y otros cuantos no-oficiales, los plugins &#8220;oficiales&#8221; los puedes encontrar en la <a href="http://gulpjs.com/plugins/" title="Gulp.js - Plugins" target="_blank">página de plugins</a> de Gulp.js o buscando con la palabra clave <span class="inline_code">gulpplugin</span> en <a href="https://www.npmjs.org/" title="Node Packaged Modules" target="_blank">npm</a>.</p>
 <p>Actualmente existen plugins para casí todo lo que se necesita al desarrollar, si deseas puedes pasar por nuestro post sobre los <a href="http://frontend-labs.com/1752--gulp-js-plugins-como-configurar-tareas" title="Plugins de Gulp.js" target="_blank">plugins</a> más usados de Gulp.js y sus configuraciones básicas.</p>
 <p>La mayoría de los plugins son bastante fáciles de usar, tienen una buena documentación y se ejecutan de la misma forma (mediante la canalización de un Stream de objetos de archivo). Estos plugins normalmente modifican los archivos (aunque algunos, como validadores, no lo harán) y devuelven los archivos nuevos que se pasarán al siguiente plugin en un Stream.</p>
 <p>Por ejemplo digamos que en ejemplo que teníamos quiero agregarle la funcionalidad de validación de sintaxis, entonces haríamos lo siguiente:</p>
@@ -670,7 +671,8 @@ HWaddr 00:1b:00:bb:1c:ab Link encap:Ethernet
 <li><a href="http://brunch.io/" target="_blank" title="Brunch">Brunch</a> (2011).</li>
 <li><a href="http://jakejs.com/" target="_blank" title="Jake">Jake</a> (2010).</li>
 </ul>
-<p>Espero que este artículo les haya servido para conocer Gulp.js, si tienen alguna duda, consulta ó aclaración solo haganla por correo a <a href="mailto:code@frontend-labs.com" title="code@frontend-labs.com">code@frontend-labs.com</a> ó dejen sus comentarios.</p>
+<p>Si ya se animaron a usar Gulp.js entonces les recomiendo leer nuestro artículo <a href="http://frontend-labs.com/1752--gulp-js-plugins-como-configurar-tareas" title="Plugins de Gulp.js" target="_blank">Plugins más usados de Gulp.js y sus configuraciones básicas</a>. Para crear tareas en Gulp.js, comenzar a automatizar sus proyectos y empezar a ahorrar tiempo.</p>
+<p>Espero que este artículo les haya servido para conocer Gulp.js, si tienen alguna duda, consulta ó aclaración solo háganla dejando sus comentarios, que estaremos prestos a ayudarlos.</p>
 <p>Aquí en Frontend Labs estamos dispuestos a compartir el conocimiento, a enseñar y aprender!.</p>
 <div class="social4i" style="height:29px;">
 <div class="social4in" style="height:29px;float: left;">
@@ -870,6 +872,47 @@ Ahora una pregunta, lo he configurado y todo muy bien, pero al reiniciar el pc, 
     </li><!-- #comment-## -->
 </ul><!-- .children -->
 </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-91">
+        <div id="dsq-comment-header-91" class="dsq-comment-header">
+            <cite id="dsq-cite-91">
+                <span id="dsq-author-user-91">aridiodesign</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-91" class="dsq-comment-body">
+            <div id="dsq-comment-message-91" class="dsq-comment-message"><p>Saludos, soy diseñador front-end, sé casi nada de programación, intenté instalar el Gulp pero al insertar el comando npm install -g gulp en la consola me sale este error: npm should be run outside of the node repl, in your normal shell.</p>
+<p>No tengo ni la menor idea, si creen que sea una tarea no apta para un diseñador y solo para un programador por favor díganmelo para saber, gracias.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-92">
+        <div id="dsq-comment-header-92" class="dsq-comment-header">
+            <cite id="dsq-cite-92">
+                <span id="dsq-author-user-92">Frontend Labs</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-92" class="dsq-comment-body">
+            <div id="dsq-comment-message-92" class="dsq-comment-message"><p>Hola, claro que puedes!. Al parecer como estas usando windows y de seguro bajaste node.js pero de este tipo: Windows Binary (.exe). Lo ideal es que lo bajes desde aquí <a href="http://nodejs.org/download/" rel="nofollow">http://nodejs.org/download/</a> el instalador que dice Windows Installer (.msi), dependiendo si tu sistema es de 32 bits o de 64. Con esto descargarás un archivo instalador con extensión .msi. Ejemplo: node-v0.10.33-x86.msi. Es preferible que instales node.js desde un archivo como este, suerte!.</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment even depth-3" id="dsq-comment-93">
+        <div id="dsq-comment-header-93" class="dsq-comment-header">
+            <cite id="dsq-cite-93">
+                <span id="dsq-author-user-93">aridiodesign</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-93" class="dsq-comment-body">
+            <div id="dsq-comment-message-93" class="dsq-comment-message"><p>Muchas gracias por aclararme el tema de la instalación, espero lograrlo!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
             </ul>
 
 
@@ -968,7 +1011,7 @@ Ahora una pregunta, lo he configurado y todo muy bien, pero al reiniciar el pc, 
 	</label>
 	<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
 </form>
-</aside><aside id="recent-comments-2" class="widget unit one-of-two widget_recent_comments"><h3 class="widgettitle">Comentarios recientes</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Joy Shena</span> en <a href="http://frontend-labs.com/887--pruebas-funcionales-con-python-y-selenium#comment-87">Selenium para las Pruebas Funcionales con Python</a></li><li class="recentcomments"><span class="comment-author-link">Angel Arías</span> en <a href="http://frontend-labs.com/1490--json-que-es-json-parse-json-stringify#comment-86">JSON: ¿Qué es JSON?, ¿Cómo se usa? y ¿Para qué sirve JSON?</a></li><li class="recentcomments"><span class="comment-author-link">Frontend Labs</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-85">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Albert Gracia</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-84">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Frontend Labs</span> en <a href="http://frontend-labs.com/340--instalar-sublime-text-debian-linux-ubuntu-linux#comment-83">Como instalar Sublime Text 2 en Debian Linux</a></li></ul></aside><aside id="categories-2" class="widget unit one-of-two widget_categories"><h3 class="widgettitle">Categorías</h3>		<ul>
+</aside><aside id="recent-comments-2" class="widget unit one-of-two widget_recent_comments"><h3 class="widgettitle">Comentarios recientes</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Roberto</span> en <a href="http://frontend-labs.com/146--grunt-js-espanol-tutorial-basico-primeros-pasos#comment-95">Grunt.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Carlos</span> en <a href="http://frontend-labs.com/887--pruebas-funcionales-con-python-y-selenium#comment-94">Selenium para las Pruebas Funcionales con Python</a></li><li class="recentcomments"><span class="comment-author-link">aridiodesign</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-93">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Frontend Labs</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-92">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">aridiodesign</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-91">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li></ul></aside><aside id="categories-2" class="widget unit one-of-two widget_categories"><h3 class="widgettitle">Categorías</h3>		<ul>
 	<li class="cat-item cat-item-35"><a href="http://frontend-labs.com/category/automatizacion" >Automatización</a>
 </li>
 	<li class="cat-item cat-item-33"><a href="http://frontend-labs.com/category/codigo" >Código</a>
@@ -1056,7 +1099,7 @@ var WPGroHo = {"my_hash":""};
 <script type='text/javascript'>
 /* <![CDATA[ */
 var StagFitvidsCustomSelectors = {"customSelector":"iframe[src*='www.viddler.com'],iframe[src*='money.cnn.com'],iframe[src*='www.educreations.com'],iframe[src*='\/\/blip.tv'],iframe[src*='\/\/embed.ted.com'],iframe[src*='\/\/www.hulu.com']"};
-var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.php","nonce":"828eed0028","category":"","search":""};
+var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.php","nonce":"b552416c53","category":"","search":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-content/themes/ink/assets/js/jquery.custom.min.js?ver=1.2.1'></script>
@@ -1074,8 +1117,8 @@ var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.
 	</script></body>
 </html>
 
-<!-- Dynamic page generated in 1.081 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2014-11-11 01:17:48 -->
+<!-- Dynamic page generated in 2.657 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-11-14 00:34:20 -->
 
 <!-- Compression = gzip -->
 <!-- super cache -->
