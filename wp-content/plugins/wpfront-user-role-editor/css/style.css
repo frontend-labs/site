@@ -20,17 +20,30 @@
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
+#adminmenu ul.wp-submenu li a span.wpfront-go-pro {
+    color: #2EA2CC;
+}
+
+#adminmenu ul.wp-submenu li.current a.current span.wpfront-go-pro {
+    color: inherit;
+}
+
 div.wrap div.footer {
     text-align: center;
 }
 
-div.list-roles td.column-userdefault img.user-default {
+#wpfront-user-role-editor-options table div.options-list {
+    float: left;
+    width: 200px;
+}
+
+div.list-roles img.user-default {
     width: 16px;
     height: 16px;
 }
 
 div.list-roles table div.row-actions {
-    white-space: nowrap;
+    /*white-space: nowrap;*/
 }
 
 div.role-add-new form#createuser table.sub-head {
@@ -83,8 +96,17 @@ div.role-add-new div.metabox-holder div.postbox div.inside div.main div {
     width: 250px;
 }
 
+div.role-add-new div.metabox-holder div.postbox div.inside div.main div.no-capability {
+    width: auto;
+}
+
 div.role-add-new div.metabox-holder div.postbox label {
     vertical-align: top;
+    max-width: 205px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 div.role-add-new div.metabox-holder div.postbox div.main img.help {
@@ -103,3 +125,19 @@ div.role-restore table.form-table td div.restore-role-success {
     display: none;
 }
 
+div.wrap.assign-roles div.role-list div.role-list-item {
+    padding-bottom: 5px;
+}
+
+div.wrap.go-pro div.license-container {
+    margin-bottom: 25px;
+}
+
+div.wrap.go-pro #license_key {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.wrap.go-pro div.license-container table.form-table td.expired {
+    color: red;
+}

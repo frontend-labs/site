@@ -2,19 +2,19 @@
 Contributors: maneshtimilsina 
 Donate link: http://manesh.com.np/contact-me/
 Tags: social links, get in touch, social links widget, widget, plugin, shortcode, facebook, twitter, google, links, social networks, social
-Version: 2.1.1
+Version: 3.0.1
 Requires at least: 3.4.0
-Tested up to: 3.9
-Stable tag: 2.1.1
+Tested up to: 4.0
+Stable tag: 3.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin that can be used to link to 20 social networking sites to your WordPress Site.
+Plugin that can be used to link to 22 social networking sites to your WordPress Site.
 
 
 == Description ==
 
-Plugin that can be used to link to 20 social networking sites .
+Plugin that can be used to link to 22 social networking sites .
 
 = Usage Instructions =
 
@@ -93,4 +93,11 @@ Yes. You can enable or disable it in plugin's setting page.
 - Author details changed.
 - Donation link changed.
 - Banner added.
+
+= 3.0.1 =
+
+- Instagram link added.
+- Stackoverflow link added.
+- Jquery tooltip loaded internally from default WordPress.
+
 

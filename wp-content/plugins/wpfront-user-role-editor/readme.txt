@@ -1,10 +1,10 @@
 ﻿=== WPFront User Role Editor ===
 Contributors: syammohanm
-Donate link: http://wpfront.com/donate/
-Tags: user role editor, role editor, user role, role, user roles, roles, user roles editor, roles editor, role manager, roles manager, manage roles, manage role, access, capability, editor, permission, role, security, user, capability editor, capability manager
+Donate link: https://wpfront.com/donate/
+Tags: user role editor, role editor, user role, role, user roles, roles, user roles editor, roles editor, role manager, roles manager, manage roles, manage role, access, capability, editor, permission, role, security, user, capability editor, capability manager, custom post types, custom post type permissions, custom post type capabilities, post type permissions, post type capabilities, menu editor, role menu, role menu editor, multisite roles, multisite role editor, multisite user roles, import roles, export roles
 Requires at least: 3.5
-Tested up to: 3.9.2
-Stable tag: 1.2
+Tested up to: 4.0
+Stable tag: 2.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,10 +22,15 @@ You can create, edit or delete user roles and manage role capabilities.
 * Allows you to add role capabilities.
 * Change default user role.
 * Restore role.
+* Assign multiple roles.
+* Migrate users.
+* Menu editor. [PRO]
+* Post/Page extended permissions. [PRO]
+* Custom post type permissions. [PRO]
+* Import/Export. [PRO]
+* Multisite. [PRO]
 
-Visit [WPFront User Role Editor](http://wpfront.com/user-role-editor-plugin/) page for screens and functionalities.
-
-Visit [WPFront User Role Editor Settings](http://wpfront.com/user-role-editor-plugin-settings/) page for setting descriptions.
+Compare [User Role Editor Pro](https://wpfront.com/ppro)
 
 == Installation ==
 
@@ -41,50 +46,74 @@ Visit [WPFront User Role Editor Settings](http://wpfront.com/user-role-editor-pl
 
 == Frequently Asked Questions ==
 
-Please visit [WPFront User Role Editor FAQ](http://wpfront.com/wordpress-plugins/user-role-editor-plugin/user-role-editor-plugin-faq/).
+Please visit [WPFront User Role Editor FAQ](https://wpfront.com/user-role-editor-pro/faq/).
 
 == Screenshots ==
  
-1. Roles list
-2. Add new role
-3. Edit role
-4. Restore role
-5. Global settings
+01. Roles list
+02. Settings
+03. Assign / Migrate users
+04. Custom post type permissions
+05. Extended permissions
+06. Menu editor
+07. Export roles
+08. Import roles
+09. Multisite sync roles
+10. Add new role
+11. Edit role
+12. Restore role
 
 == Changelog ==
 
+= 2.1 =
+* Custom post type permissions.
+* Bug fixes.
+
+= 2.0 =
+* Removed 'wpfront_' from role capabilities.
+* Removed 'Add role capabilities'. It is enabled by default.
+* Assign/Migrate users.
+* Bug fixes.
+
 = 1.2 =
-* Restore role
-* Bug fixes
+* Restore role.
+* Bug fixes.
 
 = 1.1 =
-* Edit deprecated capabilities
+* Edit deprecated capabilities.
 
 = 1.0 =
-* Set new user default role
-* Stability improvements
+* Set new user default role.
+* Stability improvements.
 
 = 0.3.1 =
-* Bug fixes
+* Bug fixes.
 
 = 0.3 =
-* Initial release
+* Initial release.
 
 == Upgrade Notice ==
 
+= 2.1 =
+* Manage custom post type permissions.
+
+= 2.0 =
+* Now you can assign multiple roles to a user.
+* Migrate users from role to role.
+
 = 1.2 = 
-* Now you can restore roles
+* Now you can restore roles.
 
 = 1.1 =
-* Can edit deprecated capabilities now
+* Can edit deprecated capabilities now.
 
 = 1.0 =
-* Easily set new user default role
+* Easily set new user default role.
 
 = 0.3.1 =
-* Fixed an issue with deleting roles
+* Fixed an issue with deleting roles.
 
 = 0.3 =
-* Initial release
+* Initial release.
 
 

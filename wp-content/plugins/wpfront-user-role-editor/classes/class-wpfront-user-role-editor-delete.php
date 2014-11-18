@@ -31,19 +31,44 @@ if (!class_exists('WPFront_User_Role_Editor_Delete')) {
      * @author Syam Mohan <syam@wpfront.com>
      * @copyright 2014 WPFront.com
      */
-    class WPFront_User_Role_Editor_Delete {
+    class WPFront_User_Role_Editor_Delete extends WPFront_User_Role_Editor_Controller_Base {
 
-        private $main;
-        private $roles;
+        protected $roles;
 
         function __construct($main) {
-            $this->main = $main;
+            parent::__construct($main);
         }
 
         public function delete_role($delete_roles) {
+            if (!$this->can_delete()) {
+                $this->main->permission_denied();
+                return;
+            }
+
+            $this->prepare_data($delete_roles);
+
+            if (!empty($_POST['confirm-delete'])) {
+                $this->main->verify_nonce();
+                $this->delete();
+                printf('<script type="text/javascript">window.location.replace("%s");</script>', $this->list_url());
+                return;
+            }
+
+            $this->include_template();
+        }
+
+        protected function include_template() {
+            include($this->main->pluginDIR() . 'templates/delete-role.php');
+        }
+
+        protected function prepare_data($delete_roles) {
             $this->roles = array();
+
             $editable_roles = get_editable_roles();
             global $wp_roles;
+            $override = $this->main->override_edit_permissions();
+            if ($override)
+                $editable_roles = $wp_roles->get_names();
 
             foreach ($delete_roles as $value) {
                 if (array_key_exists($value, $wp_roles->role_names)) {
@@ -58,7 +83,7 @@ if (!class_exists('WPFront_User_Role_Editor_Delete')) {
                     } else {
                         global $user_ID;
                         $user = new WP_User($user_ID);
-                        if (in_array($value, $user->roles)) {
+                        if (!$override && in_array($value, $user->roles)) {
                             $status_message = 'Current user\'s role cannot be deleted.';
                             $is_deletable = FALSE;
                         }
@@ -71,23 +96,21 @@ if (!class_exists('WPFront_User_Role_Editor_Delete')) {
                     );
                 }
             }
-            
-            if(!empty($_POST['confirm-delete'])) {
-                $this->main->verify_nonce();
-                foreach ($this->roles as $key => $value) {
-                    if($value->is_deletable) {
-                        remove_role($key);
-                    }
-                }
-                printf('<script type="text/javascript">document.location="%s";</script>', $this->list_roles_url());
-                return;
-            }
-
-            include($this->main->pluginDIR() . 'templates/delete-role.php');
         }
-        
+
+        protected function delete() {
+            if (!$this->can_delete())
+                return;
+
+            foreach ($this->roles as $key => $value) {
+                if ($value->is_deletable) {
+                    remove_role($key);
+                }
+            }
+        }
+
         public function is_pending_action() {
-            if(!empty($_POST['confirm-delete']) && !empty($_POST['delete-roles'])) {
+            if (!empty($_POST['confirm-delete']) && !empty($_POST['delete-roles'])) {
                 $this->delete_role(array_keys($_POST['delete-roles']));
                 return TRUE;
             }
@@ -97,22 +120,14 @@ if (!class_exists('WPFront_User_Role_Editor_Delete')) {
         private function get_deleting_roles() {
             return $this->roles;
         }
-        
+
         private function is_submit_allowed() {
             foreach ($this->roles as $key => $value) {
-                if($value->is_deletable)
+                if ($value->is_deletable)
                     return TRUE;
             }
-            
-            return FALSE;
-        }
-        
-        private function list_roles_url() {
-            return admin_url('admin.php') . '?page=' . WPFront_User_Role_Editor_List::MENU_SLUG;
-        }
 
-        private function __($s) {
-            return $this->main->__($s);
+            return FALSE;
         }
 
     }

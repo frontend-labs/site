@@ -3,7 +3,7 @@ Contributors: mauryaratan, codestag
 Donate link: http://codest.ag/scs-donate
 Tags: sidebars, custom-sidebars, mauryaratan, codestag, shortcodes, widgets
 Requires at least: 3.3
-Stable tag: 1.0.9
+Stable tag: 1.0.11
 Tested up to: 4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -62,6 +62,12 @@ Bugs can be reported either in our support forum or preferably on the [Stag Cust
 
 == Changelog ==
 
+= 1.0.11 - Oct 20, 2014 =
+* Fix issue with undefined variables breaking the sidebars
+
+= 1.0.10 - Oct 19, 2014 =
+* Fix issue with undefined option keys under customizer when no custom sidebars are present
+
 = 1.0.9 - August 28, 2014 =
 * Ensure compatibility with WordPress 4.0
 * Fix an issue where plugin caused an error on customizer screen when no custom sidebars are created
@@ -100,3 +106,6 @@ Bugs can be reported either in our support forum or preferably on the [Stag Cust
 * Initial version.
 
 == Upgrade Notice ==
+
+= 1.0.11 - Oct 20, 2014 =
+* Fix issue with undefined variables breaking the sidebars

@@ -106,6 +106,14 @@
 .wen-side-socials ul li a.wen-side-netflix {background-position: -601px -32px;}
 .wen-side-socials ul li a.wen-side-netflix:hover {background-position: -601px 0px ;}
 
+/*Instagram link*/
+.wen-side-socials ul li a.wen-side-instagram {background-position: -630px -30px;}
+.wen-side-socials ul li a.wen-side-instagram:hover {background-position: -630px 0px ;}
+
+/*Stackoverflow link*/
+.wen-side-socials ul li a.wen-side-stackoverflow {background-position: -660px -30px;}
+.wen-side-socials ul li a.wen-side-stackoverflow:hover {background-position: -660px 0px ;}
+
 
 
 

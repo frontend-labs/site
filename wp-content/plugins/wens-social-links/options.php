@@ -42,6 +42,11 @@
                 "type" => "text",
                 "std" => ""),
 
+        array("name" => __('Instagram','WEN'),        
+                "id" => "instagramlink",
+                "type" => "text",
+                "std" => ""),
+
         array("name" => __('Digg','WEN'),        
                 "id" => "digglink",
                 "type" => "text",
@@ -80,6 +85,11 @@
 
         array("name" => __('Blogger','WEN'),        
                 "id" => "bloggerlink",
+                "type" => "text",
+                "std" => ""),
+
+        array("name" => __('Stackoverflow','WEN'),        
+                "id" => "stackoverflowlink",
                 "type" => "text",
                 "std" => ""),
 

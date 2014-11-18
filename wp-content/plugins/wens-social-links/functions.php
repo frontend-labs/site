@@ -24,26 +24,28 @@
 				$tooltip = '';
 			}			
 
-			$rss 		=	esc_url($options['rsslink']);
-			$facebook 	=	esc_url($options['facebooklink']);
-			$twitter 	=	esc_url($options['twitterlink']);
-			$gplus 		=	esc_url($options['gpluslink']);
-			$linkedin 	=	esc_url($options['linkedinlink']);
-			$pinterest 	=	esc_url($options['pinterestlink']);
-			$digg 		=	esc_url($options['digglink']);
-			$myspace 	=	esc_url($options['myspacelink']);
-			$tumblr 	=	esc_url($options['tumblrlink']);
-			$flickr 	=	esc_url($options['flickrlink']);
-			$reddit 	=	esc_url($options['redditlink']);
-			$dribbble 	=	esc_url($options['dribbblelink']);
-			$blogger 	=	esc_url($options['bloggerlink']);		
-			$yahoo 		=	esc_url($options['yahoolink']);	
-			$skype 		=	esc_url($options['skypelink']);
-			$paypal 	=	esc_url($options['paypallink']);
-			$youtube 	=	esc_url($options['youtubelink']);
-			$vimeo 		=	esc_url($options['vimeolink']);
-			$dailymotion=	esc_url($options['dailymotionlink']);
-			$netflix	=	esc_url($options['netflixlink']);
+			$rss 			=	esc_url($options['rsslink']);
+			$facebook 		=	esc_url($options['facebooklink']);
+			$twitter 		=	esc_url($options['twitterlink']);
+			$gplus 			=	esc_url($options['gpluslink']);
+			$linkedin 		=	esc_url($options['linkedinlink']);
+			$pinterest 		=	esc_url($options['pinterestlink']);
+			$instagram 		=	esc_url($options['instagramlink']);
+			$digg 			=	esc_url($options['digglink']);
+			$myspace 		=	esc_url($options['myspacelink']);
+			$tumblr 		=	esc_url($options['tumblrlink']);
+			$flickr 		=	esc_url($options['flickrlink']);
+			$reddit 		=	esc_url($options['redditlink']);
+			$dribbble 		=	esc_url($options['dribbblelink']);
+			$blogger 		=	esc_url($options['bloggerlink']);	
+			$stackoverflow 	=	esc_url($options['stackoverflowlink']);	
+			$yahoo 			=	esc_url($options['yahoolink']);	
+			$skype 			=	esc_url($options['skypelink']);
+			$paypal 		=	esc_url($options['paypallink']);
+			$youtube 		=	esc_url($options['youtubelink']);
+			$vimeo 			=	esc_url($options['vimeolink']);
+			$dailymotion 	=	esc_url($options['dailymotionlink']);
+			$netflix		=	esc_url($options['netflixlink']);
 			?>
 	       
 	        <div class="wen-side-socials">
@@ -74,6 +76,9 @@
 	                 <?php if(!empty($pinterest)){ ?> 
 	            		<li><a class="wen-side-pinterest" href="<?php echo $pinterest; ?>" target="_blank" <?php if ( !empty($tooltip) ): echo 'title="pinterest"'; endif; ?>>PINTEREST</a></li>
 	                 <?php } ?>
+                      <?php if(!empty($instagram)){ ?> 
+                 		<li><a class="wen-side-instagram" href="<?php echo $instagram; ?>" target="_blank" <?php if ( !empty($tooltip) ): echo 'title="instagram"'; endif; ?>>INSTAGRAM</a></li>
+                      <?php } ?>
 	                 <?php if(!empty($digg)){ ?> 
 	            		<li><a class="wen-side-digg" href="<?php echo $digg; ?>" target="_blank" <?php if ( !empty($tooltip) ): echo 'title="digg"'; endif; ?>>DIGG</a></li>
 	                 <?php } ?>
@@ -94,6 +99,9 @@
 	                 <?php } ?>
 	                 <?php if(!empty($blogger)){ ?> 
 	            		<li><a class="wen-side-blogger" href="<?php echo $blogger; ?>" target="_blank" <?php if ( !empty($tooltip) ): echo 'title="blogger"'; endif; ?>>BLOGGER</a></li>
+	                 <?php } ?>
+	                 <?php if(!empty($stackoverflow)){ ?> 
+	            		<li><a class="wen-side-stackoverflow" href="<?php echo $stackoverflow; ?>" target="_blank" <?php if ( !empty($tooltip) ): echo 'title="stackoverflow"'; endif; ?>>STACKOVERFLOW</a></li>
 	                 <?php } ?>
 	                 <?php if(!empty($yahoo)){ ?> 
 	            		<li><a class="wen-side-yahoo" href="<?php echo $yahoo; ?>" target="_blank" <?php if ( !empty($tooltip) ): echo 'title="yahoo"'; endif; ?>>YAHOO</a></li>
