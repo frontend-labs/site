@@ -3485,3 +3485,7 @@ pre.prettyprint {
 .green{
   color: mediumseagreen;
 }
+
+.yellow{
+  background: rgb(240, 240, 124);
+}
