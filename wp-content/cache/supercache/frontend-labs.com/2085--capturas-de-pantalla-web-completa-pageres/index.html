@@ -46,6 +46,8 @@ ga('send', 'pageview');
 <meta property="article:tag" content="Responsive" />
 <meta property="article:section" content="Automatización" />
 <meta property="article:published_time" content="2014-11-19T02:05:24+00:00" />
+<meta property="article:modified_time" content="2014-11-19T13:01:17+00:00" />
+<meta property="og:updated_time" content="2014-11-19T13:01:17+00:00" />
 <meta property="og:image" content="http://frontend-labs.com/wp-content/uploads/2014/11/promo.png" />
 <meta property="og:image" content="http://frontend-labs.com/wp-content/uploads/2014/11/frontend-labs.com-320x568-cropped.png" />
 <meta property="og:image" content="http://frontend-labs.com/wp-content/uploads/2014/11/frontend-labs.com-360x640-cropped.png" />
@@ -64,6 +66,7 @@ ga('send', 'pageview');
 <link rel='stylesheet' id='jetpack_css-css'  href='http://frontend-labs.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.2.1' type='text/css' media='all' />
 <script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/jetpack/modules/related-posts/related-posts.js?ver=20140611'></script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/wens-social-links/js/custom.js?ver=4.0'></script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/jetpack/_inc/spin.js?ver=1.3'></script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/jetpack/_inc/jquery.spin.js?ver=1.3'></script>
@@ -105,12 +108,12 @@ ga('send', 'pageview');
 			border-color: #ffffff;
 		}
 			</style>
-		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	<link rel='shortcut icon' href='http://frontend-labs.com/wp-content/uploads/2014/11/fav1.png' />	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 						<style type="text/css" media="all">
 				.custom-logo {
-					background: url("http://frontend-labs.com/wp-content/uploads/2014/11/logo2.png") no-repeat;
-					width: 44px;
-					height: 90px;
+					background: url("http://frontend-labs.com/wp-content/uploads/2014/11/logofe.png") no-repeat;
+					width: 62px;
+					height: 60px;
 					background-size: contain;
 				}
 			</style>
@@ -220,7 +223,7 @@ ga('send', 'pageview');
 
 
 			<footer class="entry-meta">
-				<span class="posted-on"><a href="http://frontend-labs.com/2085--capturas-de-pantalla-web-completa-pageres" title="2:05 am" rel="bookmark"><time class="entry-date published" datetime="2014-11-19T02:05:24+00:00">19 noviembre, 2014</time></a></span><span class="reading-time hide">6 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/jansanchez">Jan Sanchez</a></span></span>											</footer>
+				<span class="posted-on"><a href="http://frontend-labs.com/2085--capturas-de-pantalla-web-completa-pageres" title="2:05 am" rel="bookmark"><time class="entry-date published" datetime="2014-11-19T02:05:24+00:00">19 noviembre, 2014</time><time class="updated" datetime="2014-11-19T13:01:17+00:00">19 noviembre, 2014</time></a></span><span class="reading-time hide">6 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/jansanchez">Jan Sanchez</a></span></span>											</footer>
 
 					</div>
 	</div>
@@ -254,10 +257,11 @@ npm install --global pageres
 </pre>
 <h2>¿Cómo uso Pageres?</h2>
 <p>Es simple, puedes especificar las direcciones URL y las resoluciones de pantalla como argumentos. El orden no importa.<br />
-Las imágenes generadas se guardan en el directorio actual(desde donde se ejecutó el comando).</p>
+<span class="yellow">Las imágenes generadas se guardan en el directorio actual</span>(desde donde se ejecutó el comando).</p>
+<p>Ejecutando Pageres desde el terminal aún no se puede especificar una ruta donde serán generadas las imágenes. Pero usando su API Javascript, sí es posible, eso lo veremos más adelante en la sección <strong>¿Cómo uso Pageres con Gulp.js?</strong>.</p>
 <p>A continuación veamos las distintas maneras de usar Pageres:</p>
 <h3>1 dominio y 2 tamaños distintos</h3>
-<p>Con el siguiente comando tomaremos 1 screenshoot del sitio frontend-labs.com en 2 tamaños distintos(360&#215;640 y 320&#215;568 pixeles), escribiendo lo siguiente:</p>
+<p>Con el siguiente comando tomaremos 1 screenshot del sitio frontend-labs.com en 2 tamaños distintos(360&#215;640 y 320&#215;568 pixeles), escribiendo lo siguiente:</p>
 <pre class="prettyprint lang-bsh">
 <code>
 pageres frontend-labs.com 360x640 320x568
@@ -270,13 +274,13 @@ pageres frontend-labs.com 360x640 320x568
 </code>
 </pre>
 <p>Con el cual nos indica que ha generado 2 capturas de pantalla desde una url y en base a 2 resoluciones.</p>
-<p>Tengan en cuenta que solo pondré imágenes cortadas como ejemplo ya que el screenshoot de toda la página es muy grande, así que sólo verán la vista previa inicial.</p>
+<p>Tengan en cuenta que solo pondré como ejemplo imágenes con un alto fijo ya que el screenshot de toda la página es muy grande y no lo puedo poner en este artículo porque se haría muy extenso innecesariamente.</p>
 <h4 align="center">320&#215;568 pixeles</h4>
 <p><img src="http://frontend-labs.com/wp-content/uploads/2014/11/frontend-labs.com-320x568-cropped.png" alt="capturas de pantalla web" width="320" height="568" class="aligncenter size-full wp-image-2101 shadow" /></p>
 <h4 align="center">360&#215;640 pixeles</h4>
 <p><img src="http://frontend-labs.com/wp-content/uploads/2014/11/frontend-labs.com-360x640-cropped.png" alt="frontend-labs.com-360x640-cropped" width="360" height="640" class="aligncenter size-full wp-image-2103 shadow" /></p>
 <h3>2 dominios distintos y 1 tamaño único</h3>
-<p>Con el siguiente comando tomaremos un screenshoot del sitio frontend-labs.com y al sitio de leodislager.com en 1 solo tamaño(480&#215;800 pixeles).</p>
+<p>Con el siguiente comando tomaremos un screenshot del sitio frontend-labs.com y al sitio de leodislager.com en 1 solo tamaño(480&#215;800 pixeles).</p>
 <pre class="prettyprint lang-bsh">
 <code>
 pageres frontend-labs.com leodislager.com 480x800
@@ -290,8 +294,8 @@ pageres frontend-labs.com leodislager.com 480x800
 </pre>
 <p>Con el cual nos indica que ha generado 2 capturas de pantalla desde dos urls y en base a 1 resolución.</p>
 <h3>2 dominios distintos y 2 tamaño distintos</h3>
-<p>Con el siguiente comando tomaremos 2 screenshoot del sitio frontend-labs.com, 1 con el tamaño de 480&#215;800 y el otro con 768&#215;1024.</p>
-<p>Adicionalmente le tomaremos 2 screenshoot del sitio oyvindsatre.no, 1 con el tamaño de 480&#215;800 y el otro con 768&#215;1024.</p>
+<p>Con el siguiente comando tomaremos 2 screenshot del sitio frontend-labs.com, 1 con el tamaño de 480&#215;800 y el otro con 768&#215;1024.</p>
+<p>Adicionalmente le tomaremos 2 screenshot del sitio oyvindsatre.no, 1 con el tamaño de 480&#215;800 y el otro con 768&#215;1024.</p>
 <pre class="prettyprint lang-bsh">
 <code>
 pageres frontend-labs.com oyvindsatre.no 480x800 768x1024
@@ -307,7 +311,7 @@ pageres frontend-labs.com oyvindsatre.no 480x800 768x1024
 <h2>¿Cómo hago si deseo utilizar muchas urls o muchos tamaños distintos?</h2>
 <p>Pageres tiene la opción de proporcionarle un archivo de texto plano para que lea las urls o tamaños que deseemos desde dicho archivo, veamos 2 ejemplos prácticos:</p>
 <h3>4 urls distintas y 2 tamaños distintos</h3>
-<p>Con el siguiente comando tomaremos 8 screenshoots del sitio frontend-labs.com, pero esta vez las urls las indicaremos en un archivo externo llamado <span class="inline_file">urls.txt</span>.</p>
+<p>Con el siguiente comando tomaremos 8 screenshots del sitio frontend-labs.com, pero esta vez las urls las indicaremos en un archivo externo llamado <span class="inline_file">urls.txt</span>.</p>
 <pre class="prettyprint lang-bsh">
 <code>
 frontend-labs.com/tag/git
@@ -330,7 +334,7 @@ pageres 320x568 480x800 < urls.txt
 </pre>
 <p>Con el cual nos indica que ha generado 8 capturas de pantalla desde 4 urls y en base a 2 resoluciones distintas.</p>
 <h3>1 dominio y 4 tamaños distintos</h3>
-<p>Con el siguiente comando tomaremos 4 screenshoots del sitio frontend-labs.com, pero esta vez los tamaños los indicaremos en un archivo externo llamado <span class="inline_file">sizes.txt</span>.</p>
+<p>Con el siguiente comando tomaremos 4 screenshots del sitio frontend-labs.com, pero esta vez los tamaños los indicaremos en un archivo externo llamado <span class="inline_file">sizes.txt</span>.</p>
 <pre class="prettyprint lang-bsh">
 <code>
 768x1024
@@ -403,10 +407,12 @@ pageres frontend-labs.com 360x640 --selector '.site-branding'
 <p><img src="http://frontend-labs.com/wp-content/uploads/2014/11/frontend-labs.com-360x640.png" alt="frontend-labs.com-360x640" width="94" height="94" class="aligncenter size-full wp-image-2124 shadow" /></p>
 <h3 class="green">-v, --verbose</h3>
 <p>Muestra una salida detallada de las operaciones que realiza Pageres.</p>
+<h2>¿En que casos puedo usar Pageres aparte de validar mis paginas web Responsive?</h2>
+<p>Hay tantas formas en las que lo puedes usar, que no te diré ninguna para que heches tu imaginación a volar y no solo lo uses para un unico fin.</p>
 <h2>¿Cómo automatizo mis capturas de pantalla con Pageres?</h2>
 <p>Si estás usando Grunt.js entonces puedes usar <a href="https://www.npmjs.org/package/grunt-pageres" title="grunt-pageres" target="_blank">grunt-pageres</a>.</p>
 <p>Si estás usando Gulp.js o <a href="https://www.npmjs.org/package/broccoli" title="Broccoli.js" target="_blank">Broccoli.js</a>, simplemente tienes que utilizar el API de Pageres directamente. No hay necesidad de un plugin que envuelva esta funcionalidad.</p>
-<h3 class="orange">¿Cómo uso Pageres con Gulp.js?</h3>
+<h3 class="orange" id="pageres-gulp">¿Cómo uso Pageres con Gulp.js?</h3>
 <p>Usar Pageres con Gulp.js es muy sencillo, solo debes usar su <a href="https://github.com/sindresorhus/pageres#api" target="_blank" title="API Pageres">API</a>.</p>
 <p>Un ejemplo de su uso con Gulp.js sería el siguiente:</p>
 <pre class="prettyprint lang-js">
@@ -414,7 +420,7 @@ pageres frontend-labs.com 360x640 --selector '.site-branding'
 var gulp = require('gulp'),
 Pageres = require('pageres');
 
-gulp.task('shoot', function () {
+gulp.task('shot', function () {
     var pageres = new Pageres({delay: 2})
         .src('frontend-labs.com', ['480x320', 'iphone 5s'], {crop: true})
         .src('otherfocus.com', ['360x640'])
@@ -450,7 +456,10 @@ El autor de este programa dice que si creas un plugin para Gulp.js o Broccoli.js
 </div>
 <div style="clear:both"></div>
 </div>
-	</div><!-- .entry-content -->
+
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Relacionado</em></h3>
+</div>	</div><!-- .entry-content -->
 
 
 		<footer class="entry-footer">
@@ -573,7 +582,7 @@ var disqus_config = function () {
 	</label>
 	<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
 </form>
-</aside><aside id="recent-comments-2" class="widget unit one-of-two widget_recent_comments"><h3 class="widgettitle">Comentarios recientes</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">erikfloresq</span> en <a href="http://frontend-labs.com/2085--capturas-de-pantalla-web-completa-pageres#comment-96">Capturas de pantalla web automatizadas y en todos los tamaños con Pageres</a></li><li class="recentcomments"><span class="comment-author-link">Roberto</span> en <a href="http://frontend-labs.com/146--grunt-js-espanol-tutorial-basico-primeros-pasos#comment-95">Grunt.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Carlos</span> en <a href="http://frontend-labs.com/887--pruebas-funcionales-con-python-y-selenium#comment-94">Selenium para las Pruebas Funcionales con Python</a></li><li class="recentcomments"><span class="comment-author-link">aridiodesign</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-93">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Frontend Labs</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-92">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li></ul></aside><aside id="categories-2" class="widget unit one-of-two widget_categories"><h3 class="widgettitle">Categorías</h3>		<ul>
+</aside><aside id="recent-comments-2" class="widget unit one-of-two widget_recent_comments"><h3 class="widgettitle">Comentarios recientes</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Rafa</span> en <a href="http://frontend-labs.com/1305--tutorial-basico-de-python-parte-iv-programacion-orientada-a-objetos#comment-100">Tutorial Básico de Python – Parte IV : Programación orientada a objetos</a></li><li class="recentcomments"><span class="comment-author-link">erikfloresq</span> en <a href="http://frontend-labs.com/2085--capturas-de-pantalla-web-completa-pageres#comment-96">Capturas de pantalla web automatizadas y en todos los tamaños con Pageres</a></li><li class="recentcomments"><span class="comment-author-link">Roberto</span> en <a href="http://frontend-labs.com/146--grunt-js-espanol-tutorial-basico-primeros-pasos#comment-95">Grunt.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Carlos</span> en <a href="http://frontend-labs.com/887--pruebas-funcionales-con-python-y-selenium#comment-94">Selenium para las Pruebas Funcionales con Python</a></li><li class="recentcomments"><span class="comment-author-link">aridiodesign</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-93">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li></ul></aside><aside id="categories-2" class="widget unit one-of-two widget_categories"><h3 class="widgettitle">Categorías</h3>		<ul>
 	<li class="cat-item cat-item-35"><a href="http://frontend-labs.com/category/automatizacion" >Automatización</a>
 </li>
 	<li class="cat-item cat-item-33"><a href="http://frontend-labs.com/category/codigo" >Código</a>
@@ -675,8 +684,8 @@ Se utiliza principalmente en su forma del lado del cliente (client-side), implem
 <script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/stagtools/assets/js/stag-shortcode-scripts.js?ver=1.2.6'></script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/ui/jquery.ui.position.min.js?ver=1.10.4'></script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/ui/jquery.ui.tooltip.min.js?ver=1.10.4'></script>
-<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201447'></script>
-<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Novaa'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201451'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Decaa'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var WPGroHo = {"my_hash":""};
@@ -686,7 +695,7 @@ var WPGroHo = {"my_hash":""};
 <script type='text/javascript'>
 /* <![CDATA[ */
 var StagFitvidsCustomSelectors = {"customSelector":"iframe[src*='www.viddler.com'],iframe[src*='money.cnn.com'],iframe[src*='www.educreations.com'],iframe[src*='\/\/blip.tv'],iframe[src*='\/\/embed.ted.com'],iframe[src*='\/\/www.hulu.com']"};
-var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.php","nonce":"fda1ed89dd","category":"","search":""};
+var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.php","nonce":"81ccb32eb6","category":"","search":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-content/themes/ink/assets/js/jquery.custom.min.js?ver=1.2.1'></script>
@@ -695,7 +704,7 @@ var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.
 <script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/comment-reply.min.js?ver=4.0'></script>
 	<div id="fb-root"></div>
 	<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script><script type="text/javascript" src="//connect.facebook.net/es_LA/all.js#xfbml=1"></script><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script><script type="text/javascript" src="https://platform.linkedin.com/in.js"></script>
-	<script src="http://stats.wp.com/e-201447.js" type="text/javascript"></script>
+	<script src="http://stats.wp.com/e-201451.js" type="text/javascript"></script>
 	<script type="text/javascript">
 	st_go({v:'ext',j:'1:3.2.1',blog:'76133241',post:'2085',tz:'-5'});
 	var load_cmc = function(){linktracker_init(76133241,2085,2);};
@@ -704,8 +713,8 @@ var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.
 	</script></body>
 </html>
 
-<!-- Dynamic page generated in 0.737 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2014-11-19 10:36:41 -->
+<!-- Dynamic page generated in 0.869 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2014-12-14 23:05:05 -->
 
 <!-- Compression = gzip -->
 <!-- super cache -->

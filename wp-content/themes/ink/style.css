@@ -395,9 +395,8 @@ a:hover {
 .custom-logo {
   display: inline-block;
   vertical-align: middle;
-  width: 36px !important;
-  height: 90px !important;
-  background-size: contain;
+  width: 62px !important;
+  height: 90px !important; 
 }
 
 .site-description {
@@ -410,14 +409,7 @@ a:hover {
 }
 
 .site-branding {
-  display: inline-block;
-  vertical-align: top;
-  position:relative;
-  width: 94px;
-  height: 94px;
-  border: 2px solid #FFF;
-  border-radius: 50%;
-  text-align: center;
+
 }
 
 /*----------- bubbles logo --------------------*/
@@ -426,7 +418,7 @@ a:hover {
   margin: 0 auto;
   height: 90px;
   position: relative;
-  left: -4px;
+  left: 8px;
 }
 
 .site-branding .bubble {
