@@ -1,0 +1,18 @@
+<div class="result">
+	<div class="logo_frontend">
+		<img src="http://frontend-labs.com/wp-content/uploads/2014/11/logofe.png" alt="FrontEnd Labs"><br>
+		<span class="frontend">@frontend</span><span class="labs">labs</span>
+	</div>
+	<div class="score">
+		<div ng-if="score >= 16" class="message">
+			<h2 >Felicidades!!!</h2>
+			<p>Has logrado pasar el examen técnico :)</p>
+		</div>
+		<div ng-if="score < 16" class="message">
+			<h2 >No te rindas!!!</h2>
+			<p>Necesitas una nota mínima de 16 para formar parte del team <span class="mejorandola">@mejorandola</span></p>
+		</div>
+		<span>Mi puntaje:</span>
+		<h4>{{score}}</h4>
+	</div>
+</div>

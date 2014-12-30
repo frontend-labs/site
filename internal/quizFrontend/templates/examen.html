@@ -1,0 +1,22 @@
+<div class="box_exam">
+	<h1>Quiz Frontend</h1>
+	<hr>
+	<div class="panel panel-info">
+		<div class="panel-heading">
+			<h4 class="premise">{{question.premise}}</h4>
+			<div class="number">
+				{{question.id}} / {{questions.length}} 
+			</div>
+		</div>
+		<div class="question">
+			<ul class="keys">
+				<li ng-click="chooseKey()" ng-class="{active:key.active==true}" ng-repeat="key in question.keys">{{key.text}}</li>
+			</ul>
+		</div>
+	</div>
+	<div class="options">
+		<button class="btn btn-default" ng-click="pass()">Pasar</button>
+		<button class="btn btn-success" ng-show="question.id<questions.length" ng-disabled="!checked" ng-click="qualify()">Calificar</button>
+		<button class="btn btn-info" ng-click="endExam()" ng-show="question.id == questions.length">Terminar Examen</button>
+	</div>
+</div>
