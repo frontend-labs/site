@@ -92,5 +92,8 @@ define('FS_METHOD', $env['FS_METHOD']);
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
+define(’AUTOSAVE_INTERVAL’, 500);
+
+
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
