@@ -1,0 +1,134 @@
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+.first_layaout{
+	padding: 50px;
+}
+.question_content{
+	width: 960px;
+	margin: 0 auto;
+}
+.question_content .question .keys{
+	list-style: none;
+	padding-left: 0;
+}
+.question_content .question .keys li{
+	display: inline-block;
+	vertical-align: top;
+	background: lightgray;
+	border-radius: 5px;
+	border: 1px solid gray;
+	width: 48%;
+	margin: 10px 1%;
+	padding: 10px;
+	cursor: pointer;
+}
+.question_content .question .keys li.active{
+	background: gray;
+	color: white;
+}
+.question_content .options{
+	text-align: right;
+}
+.question_content .panel-heading{
+	position: relative;
+}
+.question_content .panel-heading .premise{
+	text-align: center;
+}
+.question_content .panel-heading .number{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #1c1c1c;
+	color: white;
+	font-size: 32px;
+	padding: 7px 10px;
+}
+.frontend{
+	color: black;
+}
+.labs{
+	color: #2297B1;
+}
+/*
+	inicio.html
+*/
+.start{
+	float: left;
+	width: 45%;
+	padding-top: 150px;
+	text-align: center;
+}
+.start h4{
+	font-size: 32px;
+	font-weight: bold;
+}
+.anonymous{
+	float: right;
+	width: 45%;
+	text-align: center;
+}
+.anonymous img{
+	width: 70%;
+}
+
+/*
+	Logo
+*/
+.site-header a {
+	color: inherit;
+}
+.custom-logo{
+	background: url("http://frontend-labs.com/wp-content/uploads/2014/11/logofe.png") no-repeat;
+	width: 62px;
+	height: 60px;
+	background-size: contain;
+}
+
+/*
+	resultado.html
+*/
+.result{
+	padding: 50px;
+}
+.result .logo_frontend{
+	float: left;
+	width: 45%;
+	text-align: center;
+}
+.result .logo_frontend img{
+	width: 70%;
+	margin: 20px auto;
+}
+.result .logo_frontend span{
+	font-weight: bold;
+	font-size: 18px;
+}
+.result .message h2{
+	font-size: 32px;
+	font-weight: bold;
+}
+.result .message p{
+	font-size: 18px;
+	font-style: italic;
+}
+.result .score{
+	float: right;
+	width: 45%;
+}
+.result .score h4{
+	padding: 20px;
+	background: lightgray;
+	font-size: 56px;
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+}
+.result .score span{
+	font-size: 24px;
+}
+.result .mejorandola{
+	color: gray;
+}
