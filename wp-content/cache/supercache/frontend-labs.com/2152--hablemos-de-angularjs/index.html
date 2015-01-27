@@ -41,6 +41,8 @@ ga('send', 'pageview');
 <meta property="article:section" content="Javascript" />
 <meta property="article:section" content="tutorial" />
 <meta property="article:published_time" content="2014-12-18T17:56:35+00:00" />
+<meta property="article:modified_time" content="2015-01-05T18:36:25+00:00" />
+<meta property="og:updated_time" content="2015-01-05T18:36:25+00:00" />
 <meta property="og:image" content="http://frontend-labs.com/wp-content/uploads/2014/12/angular.jpg" />
 <!-- / Yoast WordPress SEO plugin. -->
 
@@ -108,7 +110,7 @@ ga('send', 'pageview');
 			</style>
 		<style type="text/css" id="syntaxhighlighteranchor"></style>
 </head>
-<body class="single single-post postid-2152 single-format-standard gecko header-over stagtools" data-layout="">
+<body class="single single-post postid-2152 single-format-standard chrome header-over stagtools" data-layout="">
 
 
 <nav class="site-nav" role="complementary">
@@ -212,7 +214,7 @@ ga('send', 'pageview');
 
 
 			<footer class="entry-meta">
-				<span class="posted-on"><a href="http://frontend-labs.com/2152--hablemos-de-angularjs" title="5:56 pm" rel="bookmark"><time class="entry-date published" datetime="2014-12-18T17:56:35+00:00">18 diciembre, 2014</time></a></span><span class="reading-time hide">5 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/luisnatividad">Luis Felipe Natividad Alejos</a></span></span>											</footer>
+				<span class="posted-on"><a href="http://frontend-labs.com/2152--hablemos-de-angularjs" title="5:56 pm" rel="bookmark"><time class="entry-date published" datetime="2014-12-18T17:56:35+00:00">18 diciembre, 2014</time><time class="updated" datetime="2015-01-05T18:36:25+00:00">5 enero, 2015</time></a></span><span class="reading-time hide">5 minutos</span><span class="byline">por <span class="author vcard"><a class="url fn n" href="http://frontend-labs.com/author/luisnatividad">Luis Felipe Natividad Alejos</a></span></span>											</footer>
 
 					</div>
 	</div>
@@ -266,7 +268,7 @@ Los filtros se añaden con el caracter &#8220;|&#8221;, en el ejemplo vemos como
 <p>&nbsp;</p>
 <p>AngularJS tiene otros conceptos importantes como son los controladores(controller), las fábricas(factory) y servicios(service) que permiten agrupar funcionalidades que puedan ser reutilizadas en diferentes controladores, manejo de rutas, providers, módulos, y muchos más. Algo que siempre recomiendo al hacer uso de algún framework, librería o cualquier software es acudir a la documentación oficial, que por cierto AngularJS posee una excelente <a title="Documentación de Angular" href="https://docs.angularjs.org/guide" target="_blank">documentación</a> sobre todas sus funcionalidades.</p>
 <p>Estoy seguro que todos están con ganas de ver código, de como funciona realmente, de saber porque AngularJS  y no otros frameworks, solo me queda decirles que este es el primero de los muchos posts que tendremos acerca de AngularJS. He querido a modo de introducción mostrarles los conceptos más importantes sin entrar en mucho detalle, sin embargo vamos a ir creando ejemplos con código acerca de todo lo que nos ofrece AngularJS hasta finalmente poder crear una aplicación completa.</p>
-<p>El tema que veremos en el siguiente post será <strong>Módulos y Controladores</strong>, ya comenzaremos a codear y crear un ejemplo sencillo pero completo acerca de como crear un Módulo y un Controlador, enlazarlo a nuestras vistas y poner a prueba el &#8220;Two-Way Data Binding&#8221;.</p>
+<p>El tema que veremos en el siguiente post será <a href="http://frontend-labs.com/2264--modulos-y-controladores-en-angularjs" target="_blank">Módulos y Controladores</a>, ya comenzaremos a codear y crear un ejemplo sencillo pero completo acerca de como crear un Módulo y un Controlador, enlazarlo a nuestras vistas y poner a prueba el &#8220;Two-Way Data Binding&#8221;.</p>
 <p>&nbsp;
 <div class="social4i" style="height:29px;">
 <div class="social4in" style="height:29px;float: left;">
@@ -315,6 +317,19 @@ Los filtros se añaden con el caracter &#8220;|&#8221;, en el ejemplo vemos como
 		
 		
 <div id="disqus_thread">
+            <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="post pingback">
+        <p>Pingback: <a href='http://frontend-labs.com/2264--modulos-y-controladores-en-angularjs' rel='external nofollow' class='url'>Módulos y Controladores en AngularJS</a>()</p>
+    </li>
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
     </div>
 
 <script type="text/javascript">
@@ -368,6 +383,9 @@ var disqus_config = function () {
 					<div class="footer-widgets grid">
 								<aside id="recent-posts-2" class="widget unit one-of-two widget_recent_entries">		<h3 class="widgettitle">Entradas recientes</h3>		<ul>
 					<li>
+				<a href="http://frontend-labs.com/2264--modulos-y-controladores-en-angularjs">Módulos y Controladores en AngularJS</a>
+						</li>
+					<li>
 				<a href="http://frontend-labs.com/2222--hacer-que-div-te-siga-desde-pie-de-pantalla-stickyfloat">Hacer que un div te siga desde el pie de pantalla &#8211; StickyFloat</a>
 						</li>
 					<li>
@@ -379,9 +397,6 @@ var disqus_config = function () {
 					<li>
 				<a href="http://frontend-labs.com/2052--tip-ignorar-un-archivo-en-git-ya-commiteado">Tip: Ignorar un archivo en git que ya ha sido commiteado antes</a>
 						</li>
-					<li>
-				<a href="http://frontend-labs.com/1956--open-graph-protocol">¿Qué es el Open Graph Protocol?</a>
-						</li>
 				</ul>
 		</aside><aside id="search-2" class="widget unit one-of-two widget_search"><form role="search" method="get" class="search-form" action="http://frontend-labs.com/">
 	<label>
@@ -390,7 +405,7 @@ var disqus_config = function () {
 	</label>
 	<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
 </form>
-</aside><aside id="recent-comments-2" class="widget unit one-of-two widget_recent_comments"><h3 class="widgettitle">Comentarios recientes</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link"><a href='http://www.rcarlosdev.com/' rel='external nofollow' class='url'>rcarlosdev</a></span> en <a href="http://frontend-labs.com/1878--reparar-el-flash-player-de-google-chrome-en-debian#comment-102">Reparar plugin flash player de Google Chrome en debian</a></li><li class="recentcomments"><span class="comment-author-link">Nehemias E Santos C</span> en <a href="http://frontend-labs.com/755--iconos-como-fuente-de-letra-con-grunt-js-y-grunt-webfont#comment-101">Iconos como fuente de letra con Grunt JS y Grunt Webfont</a></li><li class="recentcomments"><span class="comment-author-link">Rafa</span> en <a href="http://frontend-labs.com/1305--tutorial-basico-de-python-parte-iv-programacion-orientada-a-objetos#comment-100">Tutorial Básico de Python – Parte IV : Programación orientada a objetos</a></li><li class="recentcomments"><span class="comment-author-link">erikfloresq</span> en <a href="http://frontend-labs.com/2085--capturas-de-pantalla-web-completa-pageres#comment-96">Capturas de pantalla web automatizadas y en todos los tamaños con Pageres</a></li><li class="recentcomments"><span class="comment-author-link">Roberto</span> en <a href="http://frontend-labs.com/146--grunt-js-espanol-tutorial-basico-primeros-pasos#comment-95">Grunt.js en español &#8211; tutorial básico y primeros pasos</a></li></ul></aside><aside id="categories-2" class="widget unit one-of-two widget_categories"><h3 class="widgettitle">Categorías</h3>		<ul>
+</aside><aside id="recent-comments-2" class="widget unit one-of-two widget_recent_comments"><h3 class="widgettitle">Comentarios recientes</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">גרסון סנצ'ס</span> en <a href="http://frontend-labs.com/340--instalar-sublime-text-debian-linux-ubuntu-linux#comment-113">Como instalar Sublime Text 2 en Debian Linux</a></li><li class="recentcomments"><span class="comment-author-link">Julio Sotomayor O.</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-112">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Doc Kodam</span> en <a href="http://frontend-labs.com/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos#comment-111">Gulp.js en español &#8211; tutorial básico y primeros pasos</a></li><li class="recentcomments"><span class="comment-author-link">Diego Samamé Salazar</span> en <a href="http://frontend-labs.com/985--paquetes-de-sublime-text-para-acelerar-tu-trabajo#comment-110">Paquetes de Sublime Text para acelerar tu trabajo</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.rcarlosdev.com/' rel='external nofollow' class='url'>rcarlosdev</a></span> en <a href="http://frontend-labs.com/1758--como-instalar-atom-editor-en-linux-debian-ubuntu#comment-109">Cómo instalar Atom Editor en Debian Linux</a></li></ul></aside><aside id="categories-2" class="widget unit one-of-two widget_categories"><h3 class="widgettitle">Categorías</h3>		<ul>
 	<li class="cat-item cat-item-91"><a href="http://frontend-labs.com/category/angularjs" >AngularJS</a>
 </li>
 	<li class="cat-item cat-item-35"><a href="http://frontend-labs.com/category/automatizacion" >Automatización</a>
@@ -424,6 +439,8 @@ Se utiliza principalmente en su forma del lado del cliente (client-side), implem
 	<li class="cat-item cat-item-45"><a href="http://frontend-labs.com/category/seo" >SEO</a>
 </li>
 	<li class="cat-item cat-item-47"><a href="http://frontend-labs.com/category/tutorial" >tutorial</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://frontend-labs.com/category/uncategorized" >Uncategorized</a>
 </li>
 	<li class="cat-item cat-item-57"><a href="http://frontend-labs.com/category/vim" >Vim</a>
 </li>
@@ -492,7 +509,7 @@ Se utiliza principalmente en su forma del lado del cliente (client-side), implem
 <script type='text/javascript' src='http://frontend-labs.com/wp-content/plugins/stagtools/assets/js/stag-shortcode-scripts.js?ver=1.2.6'></script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/ui/jquery.ui.position.min.js?ver=1.10.4'></script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/jquery/ui/jquery.ui.tooltip.min.js?ver=1.10.4'></script>
-<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201502'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201504'></script>
 <script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2015Janaa'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
@@ -503,7 +520,7 @@ var WPGroHo = {"my_hash":""};
 <script type='text/javascript'>
 /* <![CDATA[ */
 var StagFitvidsCustomSelectors = {"customSelector":"iframe[src*='www.viddler.com'],iframe[src*='money.cnn.com'],iframe[src*='www.educreations.com'],iframe[src*='\/\/blip.tv'],iframe[src*='\/\/embed.ted.com'],iframe[src*='\/\/www.hulu.com']"};
-var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.php","nonce":"05609753b9","category":"","search":""};
+var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.php","nonce":"4ef440d66f","category":"","search":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://frontend-labs.com/wp-content/themes/ink/assets/js/jquery.custom.min.js?ver=1.2.1'></script>
@@ -512,7 +529,7 @@ var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.
 <script type='text/javascript' src='http://frontend-labs.com/wp-includes/js/comment-reply.min.js?ver=4.0'></script>
 	<div id="fb-root"></div>
 	<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script><script type="text/javascript" src="//connect.facebook.net/es_LA/all.js#xfbml=1"></script><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script><script type="text/javascript" src="https://platform.linkedin.com/in.js"></script>
-	<script src="http://stats.wp.com/e-201502.js" type="text/javascript"></script>
+	<script src="http://stats.wp.com/e-201504.js" type="text/javascript"></script>
 	<script type="text/javascript">
 	st_go({v:'ext',j:'1:3.2.1',blog:'76133241',post:'2152',tz:'-5'});
 	var load_cmc = function(){linktracker_init(76133241,2152,2);};
@@ -521,8 +538,8 @@ var postSettings = {"ajaxurl":"http:\/\/frontend-labs.com\/wp-admin\/admin-ajax.
 	</script></body>
 </html>
 
-<!-- Dynamic page generated in 1.212 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2015-01-05 07:01:07 -->
+<!-- Dynamic page generated in 2.461 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-01-24 09:25:57 -->
 
 <!-- Compression = gzip -->
 <!-- super cache -->
