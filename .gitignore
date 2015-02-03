@@ -38,4 +38,5 @@ site/wp-content/cache/supercache/
 # ftp
 
 ftp/
-ftp/maps/
+ftp/sc/
+ftp/sc/maps/
