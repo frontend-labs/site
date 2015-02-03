@@ -34,3 +34,7 @@ _wp-config.php
 site/wp-content/cache/
 site/wp-content/cache/supercache/
 
+
+# ftp
+
+ftp/
