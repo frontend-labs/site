@@ -87,7 +87,7 @@ do_action('ase_theme_body_inside_top');
 
 			<div class="site-branding">
 
-				<?php if ( stag_get_logo()->has_logo() ) :?>
+				<?php /*if ( stag_get_logo()->has_logo() ) : */ ?>
 					<a class="custom-logo" title="<?php esc_attr_e( 'Frontend-Labs', 'stag' ); ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 						<div class="bubbles">
 						    <div class="bubble b1"></div>
@@ -96,9 +96,9 @@ do_action('ase_theme_body_inside_top');
 						    <div class="bubble b4"></div>    
 						</div>  
 					</a>
-				<?php else: ?>
+				<?php /*else: ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url() ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php endif; ?>
+				<?php endif; */ ?>
 
 				<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 			</div>
