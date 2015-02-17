@@ -15,6 +15,15 @@ AuthName frontendlabs.io
 AuthUserFile /home/frontend/public_html/_vti_pvt/service.pwd
 AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
 
+# BEGIN Redirect
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^frontend-labs.com
+RewriteRule ^(.*) http://frontendlabs.io/$1 [P]
+</IfModule>
+
+# END Redirect
 
 # BEGIN WPSuperCache
 <IfModule mod_rewrite.c>
@@ -82,10 +91,4 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 
-# BEGIN Redirect
-<IfModule mod_rewrite.c>
-RewriteCond %{HTTP_HOST} ^frontend-labs.com
-RewriteRule ^(.*) http://frontendlabs.io/$1 [P]
-</IfModule>
 
-# END Redirect
