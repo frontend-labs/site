@@ -21,8 +21,7 @@ AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
 RewriteEngine On
 RewriteBase /
 
-RewriteCond %{HTTP_HOST} !^frontend-labs\.com$ [NC]
-RewriteRule ^(.*)$ http://frontendlabs.io/$1 [R=301,L]
+
 
 #If you serve pages from behind a proxy you may want to change 'RewriteCond %{HTTPS} on' to something more sensible
 AddDefaultCharset UTF-8
