@@ -11,9 +11,10 @@ allow from all
 order deny,allow
 deny from all
 </Limit>
-AuthName frontendlabs.io frontend-labs.com
-AuthUserFile /home/frontend/public_html/_vti_pvt/service.pwd
-AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
+
+#AuthName frontendlabs.io
+#AuthUserFile /home/frontend/public_html/_vti_pvt/service.pwd
+#AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
 
 # BEGIN WPSuperCache
 <IfModule mod_rewrite.c>
