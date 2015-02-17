@@ -388,15 +388,15 @@ a:hover {
   line-height: 1;
 }
 
-.custom-logo{
-  background-position: center bottom !important;
-}
+
 .site-title,
 .custom-logo {
   display: inline-block;
   vertical-align: middle;
-  width: 62px !important;
-  height: 90px !important; 
+  background: url("../../../wp-content/uploads/2014/11/logofe.png") no-repeat;
+  width: 62px;
+  height: 60px;
+  background-size: contain;
 }
 
 .site-description {
