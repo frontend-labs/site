@@ -81,3 +81,11 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+# BEGIN Redirect
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTP_HOST} ^frontend-labs.com
+RewriteRule ^(.*) http://frontendlabs.io/$1 [P]
+</IfModule>
+
+# END Redirect
