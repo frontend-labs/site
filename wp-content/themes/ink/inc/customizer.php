@@ -174,7 +174,7 @@ function stag_get_theme_mods( $args = array() ) {
 			'copyright' => array(
 				'title'   => __( 'Copyright Text', 'stag' ),
 				'type'    => 'Stag_Customize_Textarea_Control',
-				'default' => sprintf( 'Copyright &copy; %d — %s', date('Y'), '<a href="http://frontend-labs.com/author/jansanchez", title="Jan Sanchez" target="_blank">Jan Sanchez</a>' )
+				'default' => sprintf( 'Copyright &copy; %d — %s', date('Y'), '<a href="http://frontendlabs.io/author/jansanchez", title="Jan Sanchez" target="_blank">Jan Sanchez</a>' )
 			)
 		),
 		'404_page' => array(

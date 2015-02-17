@@ -11,7 +11,7 @@ allow from all
 order deny,allow
 deny from all
 </Limit>
-AuthName frontend-labs.com
+AuthName frontendlabs.io
 AuthUserFile /home/frontend/public_html/_vti_pvt/service.pwd
 AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
 
