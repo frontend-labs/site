@@ -70,15 +70,6 @@ RewriteRule ^(.*) "/wp-content/cache/supercache/%{SERVER_NAME}/$1/index.html" [L
 
 # END WPSuperCache
 
-
-# BEGIN Redirect
-<IfModule mod_rewrite.c>
-RewriteCond %{HTTP_HOST} ^frontend-labs.com
-RewriteRule ^(.*) http://frontendlabs.io/$1 [P]
-</IfModule>
-# END Redirect
-
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteRule ^index\.php$ - [L]
