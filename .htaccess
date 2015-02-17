@@ -12,12 +12,14 @@ order deny,allow
 deny from all
 </Limit>
 
-#AuthName frontendlabs.io
-#AuthUserFile /home/frontend/public_html/_vti_pvt/service.pwd
-#AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
+AuthName frontendlabs.io
+AuthUserFile /home/frontend/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
 
 # BEGIN WPSuperCache
 <IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
 #If you serve pages from behind a proxy you may want to change 'RewriteCond %{HTTPS} on' to something more sensible
 AddDefaultCharset UTF-8
 RewriteCond %{REQUEST_METHOD} !POST
