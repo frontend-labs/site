@@ -11,15 +11,9 @@ allow from all
 order deny,allow
 deny from all
 </Limit>
-AuthName frontendlabs.io
+AuthName frontendlabs.io frontend-labs.com
 AuthUserFile /home/frontend/public_html/_vti_pvt/service.pwd
 AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
-
-Options +FollowSymLinks -MultiViews
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^(www\.)?frontend-labs\.com$ [NC]
-RewriteRule ^ http://frontendlabs.io%{REQUEST_URI} [L,NE,P]
 
 # BEGIN WPSuperCache
 <IfModule mod_rewrite.c>
