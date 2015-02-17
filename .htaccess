@@ -15,10 +15,14 @@ AuthName frontendlabs.io
 AuthUserFile /home/frontend/public_html/_vti_pvt/service.pwd
 AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
 
-# BEGIN WPSuperCache
-<IfModule mod_rewrite.c>
+Options +FollowSymLinks -MultiViews
 RewriteEngine On
 RewriteBase /
+RewriteCond %{HTTP_HOST} ^(www\.)?frontend-labs\.com$ [NC]
+RewriteRule ^ http://frontendlabs.io%{REQUEST_URI} [L,NE,P]
+
+# BEGIN WPSuperCache
+<IfModule mod_rewrite.c>
 #If you serve pages from behind a proxy you may want to change 'RewriteCond %{HTTPS} on' to something more sensible
 AddDefaultCharset UTF-8
 RewriteCond %{REQUEST_METHOD} !POST
