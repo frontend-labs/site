@@ -1309,13 +1309,13 @@ ins {
   text-decoration: none;
 }
 ins:before {
-  content: "\005B";
+  content: "";
   position: relative;
   right: 1px;
   right: 0.0625rem;
 }
 ins:after {
-  content: "\005D";
+  content: "";
   position: relative;
   left: 1px;
   left: 0.0625rem;
