@@ -21,6 +21,12 @@
 			</div><!-- .site-footer -->
 			<?php endif; ?>
 
+			<div class="after_all">
+
+				
+
+			</div>
+
 			<?php $footer_text = stag_theme_mod( 'stag_footer', 'copyright' ); ?>
 			<?php if ( ! empty( $footer_text ) || has_nav_menu( 'footer' ) ) : ?>
 			<div class="copyright">

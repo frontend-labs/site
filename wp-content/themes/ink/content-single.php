@@ -78,7 +78,7 @@ if ( $is_sharing_disabled ) {
 	</footer><!-- .entry-meta -->
 	<?php endif; ?>
 
-	<div style="margin: 8px 0; text-align:center;">
+	<div class="after_post">
 
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- after_post -->
