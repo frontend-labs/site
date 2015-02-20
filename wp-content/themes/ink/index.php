@@ -42,6 +42,20 @@ get_header(); ?>
 
 		<?php get_template_part( '_post', 'load' ); ?>
 
+		<div class="after_post">
+
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- after_post -->
+		<ins class="adsbygoogle"
+		     style="display:inline-block;width:728px;height:90px"
+		     data-ad-client="ca-pub-9151106315507816"
+		     data-ad-slot="3794310688"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+
+	</div>
+
 	</div><!-- #primary -->
 
 <?php get_footer();
