@@ -1,0 +1,10 @@
+<IfModule mod_security.c>
+	SecFilterEngine Off
+	SecFilterScanPOST Off
+</IfModule>
+<FilesMatch "(async-upload\.php|wp-cron\.|xmlrpc\.rpc)$">
+	Satisfy Any
+	Order allow,deny
+	Allow from all
+	Deny from none
+</FilesMatch>
