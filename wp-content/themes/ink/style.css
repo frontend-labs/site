@@ -791,9 +791,9 @@ a:hover {
 }
 .site-nav .close-nav {
   position: absolute;
-  top: 65px;
+  top: 15px;
   right: 30px;
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
   z-index: 50;
 }
