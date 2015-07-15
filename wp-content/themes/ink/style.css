@@ -1517,6 +1517,16 @@ img.wp-smiley {
   background: 0;
 }
 
+img.size-little{
+  margin-left: 0 !important;
+  max-width: 100% !important;
+  width: 70% !important;
+}
+
+img.size-real{
+  width: auto !important;
+}
+
 /*---------------------------------------------------------
  Captions (_patterns.scss)
 -------------------------------------------------------- */
