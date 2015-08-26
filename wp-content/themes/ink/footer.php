@@ -21,9 +21,7 @@
 			</div><!-- .site-footer -->
 			<?php endif; ?>
             
-        <div>
-        <?php echo "__" + get_the_ID() + "__";  ?> 
-        </div>
+        <?php if (get_the_ID()!=1669){ ?> 
 
 			<div class="after_all">
 
