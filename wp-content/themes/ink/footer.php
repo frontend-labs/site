@@ -20,6 +20,10 @@
 				</div>
 			</div><!-- .site-footer -->
 			<?php endif; ?>
+            
+        <div>
+        <?php echo "__" + get_the_ID() + "__";  ?> 
+        </div>
 
 			<div class="after_all">
 
@@ -29,8 +33,10 @@
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>	
-
 			</div>
+
+
+        <?php  ?>
 
 			<?php $footer_text = stag_theme_mod( 'stag_footer', 'copyright' ); ?>
 			<?php if ( ! empty( $footer_text ) || has_nav_menu( 'footer' ) ) : ?>
