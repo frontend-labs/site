@@ -21,7 +21,7 @@
 			</div><!-- .site-footer -->
 			<?php endif; ?>
             
-        <?php //if (get_the_ID()!=1669){ ?> 
+        <?php if (get_the_ID()!=1669){ ?> 
 			<div class="after_all">
 
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -31,7 +31,7 @@
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>	
 			</div>
-        <?php //} ?>
+        <?php } ?>
 
 			<?php $footer_text = stag_theme_mod( 'stag_footer', 'copyright' ); ?>
 			<?php if ( ! empty( $footer_text ) || has_nav_menu( 'footer' ) ) : ?>
