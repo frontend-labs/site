@@ -3448,6 +3448,8 @@ span.inline_code{
     color: white;
     padding: 1px 6px;
     border-radius: 3px;
+    font-family: monospace;
+    margin: 0 2px 0 1px;
 }
 
 span.inline_folder{
