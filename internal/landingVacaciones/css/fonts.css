@@ -1,8 +1,0 @@
-/*!
- * Font Styles
- * @module fonts
- * @author Luis Natividad
- */
-@font-face{font-family:neosans;src:url(../fonts/neosans/neosans-webfont.eot);src:url(../fonts/neosans/neosans-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/neosans/neosans-webfont.woff) format('woff'),url(../fonts/neosans/neosans-webfont.ttf) format('truetype'),url(../fonts/neosans/neosans-webfont.svg#neosans) format('svg');font-style:normal;font-weight:400}
-@font-face{font-family:neosans-italic;src:url(../fonts/neosans-italic/neosans-italic-webfont.eot);src:url(../fonts/neosans-italic/neosans-italic-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/neosans-italic/neosans-italic-webfont.woff) format('woff'),url(../fonts/neosans-italic/neosans-italic-webfont.ttf) format('truetype'),url(../fonts/neosans-italic/neosans-italic-webfont.svg#neosans-italic) format('svg');font-style:normal;font-weight:400}
-@font-face{font-family:neosans-medium;src:url(../fonts/neosans-medium/neosans-medium-webfont.eot);src:url(../fonts/neosans-medium/neosans-medium-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/neosans-medium/neosans-medium-webfont.woff) format('woff'),url(../fonts/neosans-medium/neosans-medium-webfont.ttf) format('truetype'),url(../fonts/neosans-medium/neosans-medium-webfont.svg#neosans-medium) format('svg');font-style:normal;font-weight:400}
