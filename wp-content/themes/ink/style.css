@@ -3506,31 +3506,17 @@ pre.prettyprint {
 /* 2016 */
 
 /* added by jansanchez */
+p.pre-irrelevant {
+  margin-bottom: 2.25rem;
+}
+
 p.irrelevant {
   color: darkgray;
   font-size: medium;
-  margin-bottom: 2.75rem;
+  margin-bottom: 2.80rem;
 }
-
 
 /* added by lmsardon */
-.entry-header {
-  margin-top: -5rem;
-  margin-bottom: 5rem;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: lightyellow;
-}
-
-.entry-header .content {
-  max-width: 970px;
-  margin-left: auto;
-  margin-right: auto;
-  word-break: break-word;
-  font-size: 1.2rem;
-  line-height: 1.65;
-}
-
 .cross {
   text-decoration: line-through;
 }
