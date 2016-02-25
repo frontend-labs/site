@@ -126,7 +126,7 @@ msgstr "Botón de Paypal Donation "
 
 #: paypal-donations.php:392
 msgid "Donate"
-msgstr "Donar"
+msgstr "¡Ayúdanos a compartir más conocimiento!"
 
 #: paypal-donations.php:396
 msgid "Title:"

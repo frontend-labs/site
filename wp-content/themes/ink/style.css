@@ -2447,6 +2447,10 @@ body[class*="page-id"]:not(.page-template-current-php) .entry-content {
   margin-bottom: 0;
 }
 
+div.socialicons {
+  overflow: hidden;
+}
+
 /*---------------------------------------------------------
  Widgetized Page Template (_pages.scss)
 -------------------------------------------------------- */
