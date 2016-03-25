@@ -12,6 +12,19 @@ get_header(); ?>
 
 	<?php get_template_part( '_post', 'cover-wrap' ); ?>
 
+    <?php if (get_the_ID()!=1669){ ?>
+    <div class="banners">
+		<div class="after_all">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- after_all -->
+			<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9151106315507816" data-ad-slot="1949147488"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>	
+		</div>
+	</div>
+	<?php } ?>
+
 	<main id="main" class="site-main">
 
 	<?php /* Start the Loop */ ?>

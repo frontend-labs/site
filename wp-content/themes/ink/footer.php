@@ -8,8 +8,6 @@
  * @subpackage Ink
  */
 ?>
-
-
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php if ( is_active_sidebar( 'sidebar-footer' ) ) : ?>
 			<div class="footer-widgets-container">
@@ -20,18 +18,6 @@
 				</div>
 			</div><!-- .site-footer -->
 			<?php endif; ?>
-            
-        <?php if (get_the_ID()!=1669){ ?> 
-			<div class="after_all">
-
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- after_all -->
-				<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9151106315507816" data-ad-slot="1949147488"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>	
-			</div>
-        <?php } ?>
 
 			<?php $footer_text = stag_theme_mod( 'stag_footer', 'copyright' ); ?>
 			<?php if ( ! empty( $footer_text ) || has_nav_menu( 'footer' ) ) : ?>

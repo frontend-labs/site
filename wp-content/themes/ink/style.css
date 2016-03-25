@@ -3505,6 +3505,10 @@ pre.prettyprint {
   margin: 8px auto 20px auto;
 }
 
+.banners{
+  display: block;
+  margin: 8px auto 40px auto;
+}
 
 
 /* 2016 */
