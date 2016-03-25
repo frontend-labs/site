@@ -12,7 +12,6 @@ get_header(); ?>
 
 	<?php get_template_part( '_post', 'cover-wrap' ); ?>
 
-    <?php if (get_the_ID()!=1669){ ?>
     <div class="banners">
 		<div class="after_all">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -23,7 +22,6 @@ get_header(); ?>
 			</script>	
 		</div>
 	</div>
-	<?php } ?>
 
 	<main id="main" class="site-main">
 
