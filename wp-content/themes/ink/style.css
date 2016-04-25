@@ -2068,7 +2068,7 @@ div .aligncenter {
   -webkit-overflow-scrolling: touch;
   will-change: height,transform;
   margin-bottom: 80px;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
@@ -3505,6 +3505,10 @@ pre.prettyprint {
   margin: 8px auto 20px auto;
 }
 
+.banners{
+  display: block;
+  margin: 8px auto 40px auto;
+}
 
 
 /* 2016 */
