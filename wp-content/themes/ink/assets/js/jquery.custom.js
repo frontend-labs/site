@@ -150,6 +150,10 @@
 		}
 
 		function infinitePosts(el) {
+
+			console.log(el);
+			console.log(postSettings.ajaxurl);
+
 			el.parent().addClass('loading');
 
 			el.spin('medium', '#000');
