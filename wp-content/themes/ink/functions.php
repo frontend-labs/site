@@ -124,7 +124,7 @@ function stag_scripts_styles() {
 	wp_deregister_style( 'font-awesome' );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri()  . '/assets/css/font-awesome.css' , '', '4.1.0', 'all' );
 
-	wp_register_script( 'stag-custom', get_template_directory_uri().'/assets/js/jquery.custom' . STAG_SCRIPT_SUFFIX . '.js', array( 'jquery' ), STAG_THEME_VERSION, true );
+	wp_register_script( 'stag-custom', get_template_directory_uri().'/assets/js/jquery.custom.js', array( 'jquery' ), STAG_THEME_VERSION, true );
 	wp_register_script( 'stag-plugins', get_template_directory_uri().'/assets/js/plugins.js', array( 'jquery', 'stag-custom' ), STAG_THEME_VERSION, true );
 	wp_register_script( 'fitvids', get_template_directory_uri().'/assets/js/lib/fitvids/jquery.fitvids' . STAG_SCRIPT_SUFFIX . '.js', array( 'jquery' ), '1.1.1', true );
 
