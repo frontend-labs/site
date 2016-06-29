@@ -488,7 +488,7 @@ a:hover {
 }
 
 @-webkit-keyframes bubbleUp2 {
-  
+
     90% {
         bottom: 87px;
         opacity: 0.6
@@ -537,7 +537,7 @@ a:hover {
 }
 
 @-moz-keyframes bubbleUp2 {
-  
+
     90% {
         bottom: 87px;
         opacity: 0.6
@@ -586,7 +586,7 @@ a:hover {
 }
 
 @-ms-keyframes bubbleUp2 {
-  
+
     90% {
         bottom: 87px;
         opacity: 0.6
@@ -635,7 +635,7 @@ a:hover {
 }
 
 @-o-keyframes bubbleUp2 {
-  
+
     90% {
         bottom: 87px;
         opacity: 0.6
@@ -684,7 +684,7 @@ a:hover {
 }
 
 @keyframes bubbleUp2 {
-  
+
     90% {
         bottom: 87px;
         opacity: 0.6
@@ -3330,7 +3330,7 @@ input[type="button"]:hover {
 
 
 /*
-* 
+*
 * Old Styles
 *
 */
@@ -3477,7 +3477,7 @@ pre.prettyprint {
 
 .shadow
 {
-  position:relative;       
+  position:relative;
   -webkit-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset !important;
   -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset !important;
   box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset !important;
@@ -3524,6 +3524,12 @@ p.irrelevant {
   margin-bottom: 2.80rem;
 }
 
+.entry-content blockquote.mini{
+	margin-bottom: 2.75rem;
+	margin-top: 2rem;
+	padding-left: 3rem;
+}
+
 /* added by lmsardon */
 .cross {
   text-decoration: line-through;
@@ -3545,4 +3551,3 @@ p.irrelevant {
     padding-right: 20px;
   }
 }
-
