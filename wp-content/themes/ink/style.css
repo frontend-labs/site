@@ -3529,6 +3529,10 @@ p.irrelevant {
 	margin-top: 2rem;
 	padding-left: 3rem;
 }
+pre.prettyprint.lang-sh.prettyprinted {
+	margin-bottom: 2rem;
+}
+
 
 /* added by lmsardon */
 .cross {
