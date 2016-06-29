@@ -3532,6 +3532,9 @@ p.irrelevant {
 pre.prettyprint.prettyprinted {
 	margin-bottom: 2rem;
 }
+img.bordered{
+	border: solid 2px #1882BC;
+}
 
 
 /* added by lmsardon */
