@@ -96,5 +96,9 @@ define(’AUTOSAVE_INTERVAL’, 500);
 
 define('WP_MEMORY_LIMIT', '96MB');
 
+define('FORCE_SSL_LOGIN', true);
+define('FORCE_SSL_ADMIN', true);
+
+
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
