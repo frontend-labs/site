@@ -21,7 +21,7 @@ AuthGroupFile /home/frontend/public_html/_vti_pvt/service.grp
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} !frontendlabs.io$ [NC]
-RewriteRule ^(.*)$ http://frontendlabs.io/$1 [L,R=301]
+RewriteRule ^(.*)$ https://frontendlabs.io/$1 [L,R=301]
 </IfModule>
 
 # BEGIN WPSuperCache
