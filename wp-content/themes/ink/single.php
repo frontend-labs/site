@@ -8,7 +8,7 @@
 
 get_header(); ?>
 
-<script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 
 	<?php get_template_part( '_post', 'cover-wrap' ); ?>
 
