@@ -3535,6 +3535,15 @@ pre.prettyprint.prettyprinted {
 img.bordered{
 	border: solid 2px #1882BC;
 }
+span.capitalize {
+	font-size: xx-large;
+	padding: 0px 10px;
+}
+
+.yarn {
+	background-color: #117cad;
+	color: white;
+}
 
 
 /* added by lmsardon */
