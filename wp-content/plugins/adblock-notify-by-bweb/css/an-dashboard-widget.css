@@ -1,0 +1,95 @@
+#an_dashboard_widgets img.bweb-logo {
+	display: inline-block !important;
+	height: 18px;
+	margin-bottom: -3px;
+}
+
+#an_dashboard_widgets span.antooltip {
+	text-align: center;
+}
+
+#an_dashboard_widgets span.antooltip .dashicons {
+	color: #bbb;
+	font-size: 1.3em;
+}
+
+.an-stats-table {
+	width: 100%;
+}
+
+.an-stats-table .an-top td:first-child {
+	text-align: right;
+}
+
+.an-stats-table .an-top {
+	font-weight: bold;
+}
+
+.an-canvas-container-donut {
+	float: left;
+	position: relative;
+	width: 50%;
+}
+
+.an-canvas-container-donut canvas {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.an-canvas-container-donut,
+#an_dashboard_widgets .inside {
+	text-align: center;
+}
+
+#an_dashboard_widgets .inside {
+	margin: 0;
+	padding: 11px 12px 0 12px;
+	background: #fafafa;
+}
+
+#an-canvas-donut,
+#an-canvas-donut-today {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.an-average {
+	margin-top: 15px;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-align: center;
+}
+
+.an-average span {
+	display: block;
+	height: 12px;
+	font-size: 0.55em;
+	font-weight: normal;
+	line-height: 12px;
+	text-align: center;
+}
+
+#an-canvas-container-line {
+	width: 100%;
+	margin-top: 5px;
+}
+
+.an-deactivated {
+	clear: both;
+	margin: 0;
+	padding-top: 5px;
+}
+
+#an_dashboard_widgets .subsubsub {
+	float: none;
+	margin: 12px -12px 5px -12px;
+	margin-top: 0;
+	padding: 8px 12px 4px;
+	border-top: 1px solid #eee;
+	background-color: #fff;
+	text-align: left;
+}
+
+#an_dashboard_widgets .subsubsub li {
+	color: #ddd;
+}

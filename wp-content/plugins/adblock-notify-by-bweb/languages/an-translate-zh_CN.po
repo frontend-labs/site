@@ -1,0 +1,994 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Adblock Notify\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-09 09:27+0800\n"
+"PO-Revision-Date: 2015-11-09 12:30+0800\n"
+"Last-Translator: admin <e.solagirl@gmail.com>\n"
+"Language-Team: 倡萌@WordPress大学 <admin@cmhello.com>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: adblock-notify-files.php:189
+msgid ""
+"WARNING: There was an error creating Adblock Notify CSS and JS files. Upload "
+"directory is not writable. Please CHMOD \"wp-content/uploads\" to 0664 and "
+"verify your server settings"
+msgstr ""
+"警告：创建 Adblock Notif 的CSS和JS文件时出错了。上传目录不可写。请 CHMOD "
+"\"wp-content/uploads\" 到 0664 和验证你的服务器设置。"
+
+#: adblock-notify-files.php:193
+msgid ""
+"Don't worry, we thought about it. Adblock Notify will print the scripts "
+"directly in your DOM, but for performance purpose it is recommended to "
+"change your uploads directory CHMOD."
+msgstr ""
+"别担心，我们想过这个问题了。Adblock Notify 将在你的DOM中直接打印输出脚本，但"
+"为了性能目的，建议更改你的上传目录的CHMOD权限。"
+
+#: adblock-notify-options.php:34
+msgid "Adblock Notify Options"
+msgstr "Adblock Notify 选项"
+
+#: adblock-notify-options.php:37
+msgid "Modal Visual Options"
+msgstr "对话框选项"
+
+#: adblock-notify-options.php:40
+msgid "Redirection Options"
+msgstr "重定向选项"
+
+#: adblock-notify-options.php:43 adblock-notify-options.php:282
+msgid "Alternative Message"
+msgstr "替代信息选项"
+
+#: adblock-notify-options.php:51
+msgid "Welcome to Adblock Notify Plugin"
+msgstr "欢迎使用 Adblock Notify 插件"
+
+#: adblock-notify-options.php:55
+msgid ""
+"You can notify users with an activated Adblocker software by one of THREE "
+"ways !"
+msgstr "你可以通过以下三种方式之一来通知使用了 Adblocker 广告拦截软件的用户！"
+
+#: adblock-notify-options.php:57
+msgid "A pretty cool and lightweight Modal Box with a custom content:"
+msgstr "一个很酷的带自定义内容的轻便模式对话框："
+
+#: adblock-notify-options.php:57
+msgid "the COMPLIANT solution"
+msgstr "标准的解决方案"
+
+#: adblock-notify-options.php:58
+msgid "A simple redirection to the page of your choice:"
+msgstr "一个简单的重定向到你选择的页面："
+
+#: adblock-notify-options.php:58
+msgid "the AGRESSIVE solution"
+msgstr "侵略性的解决方案"
+
+#: adblock-notify-options.php:59
+msgid ""
+"A custom alternative message where your hidden ads would normally appear:"
+msgstr "一个替代信息将在你被隐藏的广告的位置显示："
+
+#: adblock-notify-options.php:59
+msgid "the TRANSPARENT solution"
+msgstr "透明的解决方案"
+
+#: adblock-notify-options.php:63
+msgid ""
+"Only one of the two first options can be activated at the same time. The "
+"third one is standalone and can be setting up independently."
+msgstr "前两个选项只能同时启用一个。第三个是单独存在的，可以独立设置。"
+
+#: adblock-notify-options.php:65
+msgid "You can easily switch between them without losing your options."
+msgstr "你可以很容易在它们之前进行切换，而不会丢失你的设置。"
+
+#: adblock-notify-options.php:68
+msgid "Adblock Notify"
+msgstr "Adblock Notify"
+
+#: adblock-notify-options.php:68
+msgid ""
+"nativally uses cookies for a better user experience and a less intrusive "
+"browsing of your site. It means visitors will see the Modal Box only once or "
+"be redirected to your custom page once."
+msgstr ""
+"使用Cookies可以给用户更好的体验和最小的侵扰。这个意味着访客只会看到一次对话框"
+"或只被重定向一次到你的自定义页面。"
+
+#: adblock-notify-options.php:70
+msgid ""
+"You can deactivate them, however if your visitor has an activated adblocker "
+"software they will see a modal box or get a redirection on every visited "
+"page."
+msgstr ""
+"你可以禁用他们，但是激活了 adblocker 广告拦截软件的访客将在每一次访问页面的时"
+"候都会看到对话框或被重定向。"
+
+#: adblock-notify-options.php:77
+msgid "Modal Box or Redirection ?"
+msgstr "对话框或重定向？"
+
+#: adblock-notify-options.php:80 adblock-notify-options.php:179
+msgid "None"
+msgstr "无"
+
+#: adblock-notify-options.php:81
+msgid "Modal Box"
+msgstr "对话框"
+
+#: adblock-notify-options.php:82
+msgid "Page redirection"
+msgstr "页面重定向"
+
+#: adblock-notify-options.php:85
+msgid ""
+"Would you like to use the Modal Box or redirect users to a custom page when "
+"adblock is detected? - Default: None"
+msgstr ""
+"你希望在检测到 adblock 广告拦截软件时使用对话框还是重定向用户到一个自定义页"
+"面？ - 默认：无"
+
+#: adblock-notify-options.php:89
+msgid "Enable statistics Widget"
+msgstr "启用统计小工具"
+
+#: adblock-notify-options.php:92
+msgid ""
+"If you have many page views, this option may cause server overload. You can "
+"disable it to make the plugin more lightweight - Default: Yes"
+msgstr ""
+"如果你有许多网页浏览，这个选项可能会导致服务器超载。你可以禁用这个选项来使插"
+"件更加轻盈 - 默认：是"
+
+#: adblock-notify-options.php:92
+msgid ""
+"Adblock Notify Stats widget is available on your admin dashboard (if not "
+"visible, go to the top menu and visit \"Screen Options\")."
+msgstr ""
+"Adblock Notify 统计小工具会在你的仪表盘中显示（如果没有看到，请访问仪表盘右上"
+"角的\"显示选项\"）。"
+
+#: adblock-notify-options.php:94 adblock-notify-options.php:109
+#: adblock-notify-options.php:199 adblock-notify-options.php:270
+msgid "Yes"
+msgstr "是"
+
+#: adblock-notify-options.php:95 adblock-notify-options.php:110
+#: adblock-notify-options.php:200 adblock-notify-options.php:339
+msgid "No"
+msgstr "否"
+
+#: adblock-notify-options.php:100
+msgid "Cookies Options"
+msgstr "Cookies 选项"
+
+#: adblock-notify-options.php:104
+msgid "Cookies activation"
+msgstr "Cookies 启用"
+
+#: adblock-notify-options.php:107
+msgid ""
+"Prevent Modal Box from opening or Page redirection on every visited page - "
+"Default: Yes"
+msgstr "防止在每次访问页面时显示对话框或进行页面重定向 - 默认：是"
+
+#: adblock-notify-options.php:107
+msgid ""
+"Your own cookie is automatically reset on options save to see settings "
+"changes."
+msgstr "你自己的 cookie 会在选项保存的时候被自动重置，来查看设置更改效果。"
+
+#: adblock-notify-options.php:115
+msgid "Cookies Lifetime"
+msgstr "Cookies 有效期"
+
+#: adblock-notify-options.php:115
+msgid "Days"
+msgstr "天"
+
+#: adblock-notify-options.php:118
+msgid "Set the lifetime of the cookie session - Default: 30 days"
+msgstr "设置 cookie 的有效期 - 默认 30 天"
+
+#: adblock-notify-options.php:125
+msgid "Random selectors and files"
+msgstr "随机选择器和文件"
+
+#: adblock-notify-options.php:129
+msgid "Use random selectors and files"
+msgstr "使用随机选择器和文件"
+
+#: adblock-notify-options.php:132
+msgid ""
+"Random selectors and files name to prevent adblock to block the plugin. Temp "
+"files with new selectors will be generated and stored in a temp folder in "
+"your /uploads directory  - Default: Unchecked"
+msgstr ""
+"使用随机选择器和文件名字来防止 adblock 阻止这个插件。使用新的选择器的缓存文件"
+"将被生成和存储在你的 /uploads 目录的缓存目录中 - 默认：未选中"
+
+#: adblock-notify-options.php:136
+msgid "Flush files"
+msgstr "刷新文件"
+
+#: adblock-notify-options.php:139
+msgid "Will recreate the selectors and temps files on options saved."
+msgstr "将在选项被保存的时候重建选择器和缓存文件。"
+
+#: adblock-notify-options.php:144
+msgid "Modal Box Options"
+msgstr "对话框选项"
+
+#: adblock-notify-options.php:148
+msgid "Modal Title"
+msgstr "对话框标题"
+
+#: adblock-notify-options.php:151
+msgid "The title of the modal box"
+msgstr "对话框的标题"
+
+#: adblock-notify-options.php:152
+msgid "Adblocker detected! Please consider reading this notice."
+msgstr "你正在使用 Adblocker 广告拦截软件，请阅读下面的内容："
+
+#: adblock-notify-options.php:155
+msgid "Modal Text"
+msgstr "对话框文本"
+
+#: adblock-notify-options.php:159
+msgid "The text of the modal box : images & shortcodes are supported."
+msgstr "对话框的文本：支持图片和简码。"
+
+#: adblock-notify-options.php:161
+msgid ""
+"We've detected that you are using AdBlock Plus ore some other adblocking "
+"software which is preventing the page from fully loading."
+msgstr ""
+"我们检测到您正在使用 Adblock 或其他广告拦截软件，导致网页无法正常完成加载。"
+
+#: adblock-notify-options.php:162
+msgid ""
+"We don't have any banner, Flash, animation, obnoxious sound, or popup ad. We "
+"do not implement these annoying types of ads!"
+msgstr ""
+"我们没有任何横幅、Flash、动画、厌恶的声音，或弹出式广告。我们不添加这些烦人的"
+"广告类型！"
+
+#: adblock-notify-options.php:163
+msgid ""
+"We need money to operate the site, and almost all of it comes from our "
+"online advertising."
+msgstr "我们需要资金来运营该网站，并且几乎全部资金都来自于在线广告。"
+
+#: adblock-notify-options.php:164 adblock-notify-options.php:323
+msgid "Please add"
+msgstr "请添加"
+
+#: adblock-notify-options.php:164
+msgid "to your ad blocking whitelist or disable your adblocking software."
+msgstr "打你的广告拦截白名单或禁用广告拦截软件。"
+
+#: adblock-notify-options.php:168
+msgid "Modal Box Settings"
+msgstr "对话框设置"
+
+#: adblock-notify-options.php:172
+msgid "Modal Box effect"
+msgstr "对话框效果"
+
+#: adblock-notify-options.php:175
+msgid "The Modal Box animation effect - Default: Fade and Pop"
+msgstr "对话框动画效果 - 默认：淡出和下滑"
+
+#: adblock-notify-options.php:177
+msgid "Fade and Pop"
+msgstr "淡出和下滑"
+
+#: adblock-notify-options.php:178
+msgid "Fade"
+msgstr "淡出"
+
+#: adblock-notify-options.php:184
+msgid "Animation Speed"
+msgstr "动画速度"
+
+#: adblock-notify-options.php:184
+msgid "Milliseconds"
+msgstr "毫秒"
+
+#: adblock-notify-options.php:187
+msgid ""
+"The Modal Box animation speed. Will not be applied if modal effect is set "
+"to  None - Default: 350ms"
+msgstr "对话框动画速度。如果对话框效果设置为无，将不生效 - 默认：350 ms"
+
+#: adblock-notify-options.php:194
+msgid "Modal Close on background click"
+msgstr "点击背景时关闭对话框"
+
+#: adblock-notify-options.php:197
+msgid "If you click background will Modal close? - Default: Yes"
+msgstr "点击背景时将关闭对话框？-  默认：是"
+
+#: adblock-notify-options.php:205
+msgid "Modal Box Style"
+msgstr "对话框样式"
+
+#: adblock-notify-options.php:209
+msgid "Overlay Color"
+msgstr "覆盖层颜色"
+
+#: adblock-notify-options.php:209
+msgid "Background"
+msgstr "背景"
+
+#: adblock-notify-options.php:213 adblock-notify-options.php:230
+msgid "Default:"
+msgstr "默认："
+
+#: adblock-notify-options.php:216
+msgid "Overlay Opacity"
+msgstr "覆盖层透明度"
+
+#: adblock-notify-options.php:219
+msgid "Modal Box overlay (background) opacity - Default: 80%"
+msgstr "对话框覆盖层（背景）透明度 - 默认：80%"
+
+#: adblock-notify-options.php:226
+msgid "Modal Box Background Color"
+msgstr "对话框背景颜色"
+
+#: adblock-notify-options.php:233
+msgid "Modal Box Title Color"
+msgstr "对话框标题颜色"
+
+#: adblock-notify-options.php:236
+msgid "Default is your theme &lt;h1&gt; color"
+msgstr "默认是你主题的 &lt;h1&gt; 颜色"
+
+#: adblock-notify-options.php:240
+msgid "Modal Box Text Color"
+msgstr "对话框文本颜色"
+
+#: adblock-notify-options.php:243
+msgid "Default is your theme body text color"
+msgstr "默认是你主题的主体文本颜色"
+
+#: adblock-notify-options.php:247 adblock-notify-options.php:385
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: adblock-notify-options.php:247 adblock-notify-options.php:385
+msgid "Advance users"
+msgstr "高级用户"
+
+#: adblock-notify-options.php:251
+msgid "Put your custom CSS rules here. Modal Box ID is"
+msgstr "添加你的自定义CSS到这里。对话框 ID 是"
+
+#: adblock-notify-options.php:252 adblock-notify-options.php:392
+msgid ""
+"This selector will be changed during settings update by a random new one to "
+"prevent adblock to hide this element. All the CSS and JS files are parsed to "
+"be updated with this new selectors. That is why you have to add your custom "
+"style in the above field and not in you theme stylesheet."
+msgstr ""
+"这个选择器将在更新设置的时候被更改为一个新的随机的，以便防止adblock隐藏这个元"
+"素。所有的CSS和JS都需要被复制到这个更新的选择器里。这就是为什么你必须添加你的"
+"自定义CSS到上面的表单中，而不是添加到你的主题样式表中。"
+
+#: adblock-notify-options.php:257 adblock-notify-options.php:274
+msgid "Target Page"
+msgstr "目标页面"
+
+#: adblock-notify-options.php:260 adblock-notify-options.php:277
+msgid "Select a page to redirect to. List your current published pages"
+msgstr "选择重定向到的页面。列出你当前已发布的页面"
+
+#: adblock-notify-options.php:263
+msgid "No JS Redirection"
+msgstr "没有JS重定向"
+
+#: adblock-notify-options.php:263
+msgid "Warning"
+msgstr "警告"
+
+#: adblock-notify-options.php:267
+msgid "Redirect if no JS detected?"
+msgstr "如果没检测到JS进行重定向？"
+
+#: adblock-notify-options.php:270
+msgid "This option used your Cookies Options"
+msgstr "这个选项被用于你的  Cookies 选项"
+
+#: adblock-notify-options.php:270
+msgid "Default: Unchecked"
+msgstr "默认：未选中"
+
+#: adblock-notify-options.php:270
+msgid ""
+"Will redirect visitor to a custom page if Javascript is disable. It is NOT "
+"SEO friendly, use it only on private site."
+msgstr ""
+"如果禁用了 Javascript 重定向访客到一个自定义页面。这个方法对SEO不够友好，只在"
+"私人站点中使用它。"
+
+#: adblock-notify-options.php:286
+msgid ""
+"You can insert a custom message where your hidden ads would normally appear."
+msgstr "你可以在你的广告被隐藏的地方插入一个自定义信息。"
+
+#: adblock-notify-options.php:288
+msgid ""
+"The plugin will append a new \"clean\" DIV element just before the advert "
+"container to display your custom message."
+msgstr "这个插件将在广告容器前添加一个 \"clean\" DIV元素来显示你的自定义信息。"
+
+#: adblock-notify-options.php:290
+msgid "Note:"
+msgstr "注意："
+
+#: adblock-notify-options.php:290
+msgid "Some minimal HTML knowledge is required to set up this functionality."
+msgstr "设置这个功能需要懂一些基础的HTML知识。"
+
+#: adblock-notify-options.php:297
+msgid "Activate this option?"
+msgstr "激活这个选项？"
+
+#: adblock-notify-options.php:300
+msgid "Yes - Default: Unchecked"
+msgstr "是 - 默认：未选中"
+
+#: adblock-notify-options.php:300
+msgid "If unchecked, below options will not be used"
+msgstr "如果不选中，下面的选项将不会使用"
+
+#: adblock-notify-options.php:304
+msgid "Required Settings"
+msgstr "必需设置"
+
+#: adblock-notify-options.php:308
+msgid "Advert containers"
+msgstr "广告容器"
+
+#: adblock-notify-options.php:308 adblock-notify-options.php:376
+msgid "Comma separated"
+msgstr "使用半角逗号分隔"
+
+#: adblock-notify-options.php:311
+msgid "The Element CLASS or ID of your ads containers. - Default: Empty"
+msgstr "你的广告容器元素的CLASS或ID - 默认：空"
+
+#: adblock-notify-options.php:313 adblock-notify-options.php:381
+msgid "Read"
+msgstr "阅读"
+
+#: adblock-notify-options.php:313
+msgid "Selectors | jQuery API Documentation"
+msgstr "选择器 |  jQuery API 文档"
+
+#: adblock-notify-options.php:313 adblock-notify-options.php:381
+msgid "for more details"
+msgstr "了解更多信息"
+
+#: adblock-notify-options.php:316
+msgid "Alternative Text"
+msgstr "替代文本"
+
+#: adblock-notify-options.php:320
+msgid ""
+"The alternative text to display when ads are hidden. Images & shortcodes are "
+"supported, but use them with caution."
+msgstr "当广告被隐藏时要显示的替代文本。支持图片和简码，但使用它们时要小心。"
+
+#: adblock-notify-options.php:322
+msgid "AdBlock detected!"
+msgstr "检测到 AdBlock！"
+
+#: adblock-notify-options.php:323
+msgid "to your adblocking whitelist or disable your adblocking software."
+msgstr "到你的广告拦截白名单或禁用广告拦截软件。"
+
+#: adblock-notify-options.php:327
+msgid "Optional Settings"
+msgstr "可选设置"
+
+#: adblock-notify-options.php:331
+msgid "Clone ad container?"
+msgstr "克隆广告容器？"
+
+#: adblock-notify-options.php:334
+msgid "Will copy your original ad container CSS properties - Default: No"
+msgstr "将复制你原来的广告容器CSS属性 - 默认值：无"
+
+#: adblock-notify-options.php:334
+msgid "This feature is not 100% reliable but could help for a quick set up."
+msgstr "这个功能不是100％可靠的，但可以帮助你进行快速设置。"
+
+#: adblock-notify-options.php:336 adblock-notify-options.php:357
+msgid "Custom Mode"
+msgstr "自定义模式"
+
+#: adblock-notify-options.php:337 adblock-notify-options.php:358
+msgid "Soft Mode (Recommended)"
+msgstr "软模式（推荐）"
+
+#: adblock-notify-options.php:338 adblock-notify-options.php:359
+msgid "Hard Mode"
+msgstr "硬模式"
+
+#: adblock-notify-options.php:348
+msgid "What does \"Clone ad container\" mean?"
+msgstr "\"克隆广告容器\"是什么意思？ "
+
+#: adblock-notify-options.php:350
+msgid ""
+"It means you can ask Adblock Notify Plugin to copy the CSS properties of the "
+"element that contains your ad to a new element which will not be hidden by "
+"an adblocker software. With this process, your design should not break."
+msgstr ""
+"它意味着你可以要求 Adblock Notify 插件复制你的广告容器对应的css属性到一个不被"
+"广告拦截软件隐藏的新元素。使用这个进程，你的设计将不会被破坏。"
+
+#: adblock-notify-options.php:352
+msgid ""
+"The new element will be the same type (DIV,SPAN,etc.) as its source, and "
+"will have the .an-alternative class."
+msgstr ""
+"新元素将和它的来源具有相同的元素类型（DIV,SPAN等），并且会使用 .an-"
+"alternative 类。"
+
+#: adblock-notify-options.php:355
+msgid "Available options are:"
+msgstr "可用选项："
+
+#: adblock-notify-options.php:357
+msgid ""
+": Will try to catch all the CSS rules defined in your theme files, and let "
+"you choose which ones to keep (see Custom Mode CSS properties)."
+msgstr ""
+"：将尝试获取定义在你主题文件中的所有CSS规则，并让你选择要保留哪些（查看自定义"
+"模式的CSS属性）。"
+
+#: adblock-notify-options.php:358
+msgid ""
+": Will try to catch all the CSS rules defined in your theme files, and add "
+"them to the new created element. If the browser does not support this "
+"feature, it will try Hard Mode fetching."
+msgstr ""
+"：将尝试获取定义在你主题文件中的所有CSS规则，并添加它们到新创建的元素。如果浏"
+"览器不支持这个功能，它将尝试硬模式获取。"
+
+#: adblock-notify-options.php:359
+msgid ""
+": Will try to fetch all the elements CSS rules based on browser CSS "
+"compilation (not reading directly in your CSS files). This option may add a "
+"lot of inline CSS rules to your newly created element."
+msgstr ""
+"：将尝试获取所有基于浏览器的CSS规则（不会阅读你的CSS文件目录）。这个选项将可"
+"能 会添加大量的内联CSS规则到你新建的元素中。"
+
+#: adblock-notify-options.php:363
+#, php-format
+msgid ""
+"This feature is performed through Javascript (+jQuery) and is 95% functional "
+"on all modern browser even on IE8+. For the 5% left, the plugin will drop "
+"potential JS errors and insert .an-alternative div."
+msgstr ""
+"这个功能是通过 Javascript (+jQuery) 执行的，并且 95% 的功能都被所有现代浏览器"
+"甚至IE8+支持。剩余的 5% ，这个插件将下降可能存在的 JS 错误，并插入一个  .an-"
+"alternative  DIV。"
+
+#: adblock-notify-options.php:365
+msgid "Tested and works great on Chrome, Firefox, Safari, Opera, IE8+"
+msgstr "测试正常工作于  Chrome, Firefox, Safari, Opera, IE8+"
+
+#: adblock-notify-options.php:368
+msgid "What's appended if I don't turn on this option?"
+msgstr "如果我没开启这个选项会添加什么？"
+
+#: adblock-notify-options.php:370
+msgid ""
+"The plugin will append a new \"clean\" DIV element with .an-alternative "
+"class just before the advert container. You can add your own custom rules "
+"with the Custom CSS field below."
+msgstr ""
+"这个插件将在广告容器的前面添加一个新的带有 .an-alternative 类的  \"clean\" "
+"DIV元素。你可以在下面的自定义CSS表单中添加你自己的自定义规则。"
+
+#: adblock-notify-options.php:376
+msgid "Custom Mode CSS properties"
+msgstr "自定义模式CSS属性"
+
+#: adblock-notify-options.php:379
+msgid "The element CSS properties you want to clone - Default: Empty"
+msgstr "你想要克隆的元素CSS属性 - 默认：空"
+
+#: adblock-notify-options.php:380
+msgid "Eg: color, width, height, background-color, border"
+msgstr "例如：color, width, height, background-color, border"
+
+#: adblock-notify-options.php:381
+msgid "CSS Reference | w3schools.com"
+msgstr "CSS属性 | w3schools.com"
+
+#: adblock-notify-options.php:388
+msgid ""
+"Put your custom CSS rules here. The new Element class is .an-alternative"
+msgstr "在这里添加你的自定义CSS规则。新元素类是 .an-alternative"
+
+#: adblock-notify-options.php:390
+msgid "NOTE:"
+msgstr "注意："
+
+#: adblock-notify-options.php:390
+msgid ""
+"If you've activated the ads containers cloning, you can still add custom CSS "
+"on your text."
+msgstr "如果你已经启用广告容器克隆，你还可以添加自定义CSS到你的文本。"
+
+#: adblock-notify-options.php:391
+msgid ""
+"If you really have to overload .an-alternative with your own CSS properties, "
+"you may probably need to use !important after each of them, but this is not "
+"advised."
+msgstr ""
+"如果你真的想要使用自己的CSS属性来覆盖 .an-alternative ，你将可能需要在每个规"
+"则后面添加  !important，但这个是不明智的。"
+
+#: adblock-notify-options.php:403 adblock-notify-options.php:409
+#: adblock-notify-options.php:415 adblock-notify-options.php:421
+#: lib/titan-framework/class-option-save.php:21
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: adblock-notify-options.php:404 adblock-notify-options.php:410
+#: adblock-notify-options.php:416 adblock-notify-options.php:422
+#: lib/titan-framework/class-option-save.php:24
+msgid "Reset to Defaults"
+msgstr "重置为默认值"
+
+#: adblock-notify-widget.php:16
+msgid "Adblock Notify Stats"
+msgstr "Adblock Notify 统计"
+
+#: adblock-notify-widget.php:187
+msgid "Admins are excluded from this statistics."
+msgstr "管理员会被排除在此统计信息中。"
+
+#: adblock-notify-widget.php:188 adblock-notify-widget.php:204
+msgid "Total"
+msgstr "所有"
+
+#: adblock-notify-widget.php:189 adblock-notify-widget.php:209
+msgid "Today"
+msgstr "今天"
+
+#: adblock-notify-widget.php:192
+msgid "Pages Views"
+msgstr "页面流量"
+
+#: adblock-notify-widget.php:197
+msgid "Pages with Adblock"
+msgstr "有 Adblock 的页面"
+
+#: adblock-notify-widget.php:204 adblock-notify-widget.php:209
+msgid "Ads blocked"
+msgstr "广告拦截"
+
+#: adblock-notify-widget.php:213
+msgid "Ad Blocker software deactivated"
+msgstr "个广告拦截软件已停用"
+
+#: adblock-notify-widget.php:214
+msgid "You may probably increase this number by improving your custom messages"
+msgstr "你可以通过改善你的自定义消息来增加这个数字"
+
+#: adblock-notify-widget.php:221 adblock-notify.php:159
+msgid "Settings"
+msgstr "设置"
+
+#: adblock-notify-widget.php:225
+msgid "Are you sure you want to delete permanently your datas?"
+msgstr "你确定要从数据库中永久删除数据？"
+
+#: adblock-notify-widget.php:226
+msgid "Reset Stats"
+msgstr "重置统计"
+
+#: adblock-notify.php:171
+msgid "More b*web Plugins"
+msgstr "更多 b*web 插件"
+
+#: adblock-notify.php:172
+msgid "Donate to this plugin &#187;"
+msgstr "捐助这个插件 &#187;"
+
+#: lib/titan-framework/class-admin-panel.php:120
+msgid ""
+"<em>Options Page Created with <a href='http://titanframework.net?"
+"utm_source=admin&utm_medium=admin footer'>Titan Framework</a></em>"
+msgstr ""
+"<em>选项页面使用 <a href='http://titanframework.net?"
+"utm_source=admin&utm_medium=admin footer'>Titan 框架</a>创建</em>"
+
+#: lib/titan-framework/class-admin-panel.php:330
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: lib/titan-framework/class-admin-panel.php:332
+msgid "Settings reset to default."
+msgstr "重置设置到默认"
+
+#: lib/titan-framework/class-meta-box.php:37
+#: lib/titan-framework/class-theme-customizer-section.php:33
+msgid "More Options"
+msgstr "更多选项"
+
+#: lib/titan-framework/class-option-ajax-button.php:29
+#: lib/titan-framework/class-option-ajax-button.php:32
+msgid "Security check failed, please refresh the page and try again."
+msgstr "安全检查失败，请刷新页面后重试。"
+
+#: lib/titan-framework/class-option-ajax-button.php:86
+msgid "Something went wrong"
+msgstr "出错了"
+
+#: lib/titan-framework/class-option-ajax-button.php:91
+msgid "Click me"
+msgstr "点击我"
+
+#: lib/titan-framework/class-option-ajax-button.php:96
+msgid "Please wait..."
+msgstr "请等待 ..."
+
+#: lib/titan-framework/class-option-edd-license.php:132
+msgid "Your license is valid and active."
+msgstr "您的许可证是有效的和激活的。"
+
+#: lib/titan-framework/class-option-edd-license.php:136
+msgid "Your license is invalid."
+msgstr "您的许可证无效。"
+
+#: lib/titan-framework/class-option-edd-license.php:150
+msgid "Activate"
+msgstr "激活"
+
+#: lib/titan-framework/class-option-edd-license.php:151
+msgid ""
+"Your license is valid but inactive. Click the button above to activate it."
+msgstr "您的许可证是有效的，但还没激活。点击上面的按钮来激活它。"
+
+#: lib/titan-framework/class-option-edd-license.php:156
+msgid ""
+"The remote server did not return a valid response. You can retry by hitting "
+"the &laquo;Save&raquo; button again."
+msgstr ""
+"远程服务器没有返回一个有效的响应。你可以再次尝试点击 &laquo;保存&raquo; 按"
+"钮。"
+
+#: lib/titan-framework/class-option-edd-license.php:162
+msgid "Entering your license key is mandatory to get the product updates."
+msgstr "输入您的许可证密钥是强制性的，以获得产品更新。"
+
+#: lib/titan-framework/class-option-edd-license.php:375
+msgid "Theme License"
+msgstr "主题许可证"
+
+#: lib/titan-framework/class-option-edd-license.php:376
+msgid "Enter your theme license key."
+msgstr "输入你的主题许可证密钥。"
+
+#: lib/titan-framework/class-option-edd-license.php:377
+msgid "License Key"
+msgstr "许可证密钥"
+
+#: lib/titan-framework/class-option-edd-license.php:378
+msgid "License Action"
+msgstr "许可证操作"
+
+#: lib/titan-framework/class-option-edd-license.php:379
+msgid "Deactivate License"
+msgstr "停用许可证"
+
+#: lib/titan-framework/class-option-edd-license.php:380
+msgid "Activate License"
+msgstr "激活许可"
+
+#: lib/titan-framework/class-option-edd-license.php:381
+#: lib/titan-framework/class-option-edd-license.php:393
+msgid "License status is unknown."
+msgstr "授权状态未知。"
+
+#: lib/titan-framework/class-option-edd-license.php:382
+msgid "Renew?"
+msgstr "续约？"
+
+#: lib/titan-framework/class-option-edd-license.php:383
+msgid "unlimited"
+msgstr "无限制"
+
+#: lib/titan-framework/class-option-edd-license.php:384
+msgid "License key is active."
+msgstr "许可证密钥激活。"
+
+#: lib/titan-framework/class-option-edd-license.php:385
+#, php-format
+msgid "Expires %s."
+msgstr "过期 %s。"
+
+#: lib/titan-framework/class-option-edd-license.php:386
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr "你已经有 %1$s / %2$s 网站激活。"
+
+#: lib/titan-framework/class-option-edd-license.php:387
+#, php-format
+msgid "License key expired %s."
+msgstr "许可证已过期 %s。"
+
+#: lib/titan-framework/class-option-edd-license.php:388
+msgid "License key has expired."
+msgstr "许可证密钥已过期。"
+
+#: lib/titan-framework/class-option-edd-license.php:389
+msgid "License keys do not match."
+msgstr "许可证密钥不匹配。"
+
+#: lib/titan-framework/class-option-edd-license.php:390
+msgid "License is inactive."
+msgstr "许可证没有激活。"
+
+#: lib/titan-framework/class-option-edd-license.php:391
+msgid "License key is disabled."
+msgstr "许可证密钥被禁用。"
+
+#: lib/titan-framework/class-option-edd-license.php:392
+msgid "Site is inactive."
+msgstr "网站没激活。"
+
+#: lib/titan-framework/class-option-edd-license.php:394
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+"更新这个主题将丢失你已做的任何定制。点击'取消'可停止，点击'确定'进行升级。"
+
+#: lib/titan-framework/class-option-edd-license.php:395
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</"
+"a>."
+msgstr ""
+"<strong>%1$s %2$s</strong> 可用。<a href=\"%3$s\" class=\"thickbox\" title="
+"\"%4s\">检查更新信息</a> or <a href=\"%5$s\"%6$s>马上更新</a>。"
+
+#: lib/titan-framework/class-option-enable.php:21
+#: lib/titan-framework/class-option-enable.php:96
+msgid "Enabled"
+msgstr "已启用"
+
+#: lib/titan-framework/class-option-enable.php:24
+#: lib/titan-framework/class-option-enable.php:99
+msgid "Disabled"
+msgstr "已禁用"
+
+#: lib/titan-framework/class-option-multicheck-pages.php:27
+#: lib/titan-framework/class-option-multicheck-pages.php:48
+#: lib/titan-framework/class-option-multicheck-posts.php:34
+#: lib/titan-framework/class-option-multicheck-posts.php:60
+#: lib/titan-framework/class-option-select-pages.php:38
+#: lib/titan-framework/class-option-select-posts.php:46
+#, php-format
+msgid "Untitled %s"
+msgstr "无标题 %s"
+
+#: lib/titan-framework/class-option-save.php:27
+msgid "Are you sure you want to reset ALL options to their default values?"
+msgstr "你确认要重置所有选项恢复默认值吗？"
+
+#: lib/titan-framework/class-option-select-categories.php:37
+#: lib/titan-framework/class-option-select-categories.php:104
+#: lib/titan-framework/class-option-select-pages.php:30
+#: lib/titan-framework/class-option-select-posts.php:38
+#: lib/titan-framework/class-option-select-posts.php:112
+msgid "Select"
+msgstr "选择"
+
+#: lib/titan-framework/class-option-upload.php:202
+msgid "Select Image"
+msgstr "选择图片"
+
+#: lib/titan-framework/class-option-upload.php:205
+msgid "Use image"
+msgstr "使用图片"
+
+#: lib/titan-framework/class-option.php:43
+#, php-format
+msgid "Option type or extended class %s does not exist."
+msgstr "选项类型或扩展类 %s 不存在。"
+
+#: lib/titan-framework/class-titan-framework.php:111
+#, php-format
+msgid "All option IDs must be unique. The id %s has been used multiple times."
+msgstr "所有选项的ID必须是唯一的。ID %s 已被多次使用。"
+
+#: lib/titan-framework/class-titan-framework.php:481
+#, php-format
+msgid ""
+"Wrong usage of %s, this should be called inside a hook or from within a "
+"theme file."
+msgstr "错误地使用 %s ，它应该在一个挂钩（hook ）中调用或在主题文件中使用。"
+
+#: lib/titan-framework/inc/edd-licensing/EDD_SL_Plugin_Updater.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"有一个可用的 %1$s 新版本 。<a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">查看版本 %3$s 详情</a>。"
+
+#: lib/titan-framework/inc/edd-licensing/EDD_SL_Plugin_Updater.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"有一个可用的 %1$s 新版本 。<a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">查看版本 %3$s 详情</a> 或 <a href=\"%4$s\">马上更新</a>。"
+
+#: lib/titan-framework/inc/edd-licensing/EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr "你没有权限安装插件更新"
+
+#: lib/titan-framework/inc/edd-licensing/EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr "错误"
+
+#: lib/titan-framework/titan-framework-checker.php:86
+msgid "Titan Framework needs to be installed."
+msgstr "Titan 框架需要被安装。"
+
+#: lib/titan-framework/titan-framework-checker.php:89
+msgid "Click here to search for the plugin."
+msgstr "点击这里搜索插件。"
+
+#: lib/titan-framework/titan-framework-checker.php:108
+msgid "Titan Framework needs to be activated."
+msgstr "Titan 框架需要被激活。"
+
+#: lib/titan-framework/titan-framework-checker.php:111
+msgid "Click here to go to the plugins page and activate it."
+msgstr "点击这里访问才能页面和激活它。"
+
+#: lib/titan-framework/titan-framework.php:169
+msgid "Documentation"
+msgstr "文件"
+
+#: lib/titan-framework/titan-framework.php:173
+msgid "GitHub Repo"
+msgstr "GitHub库"
+
+#: lib/titan-framework/titan-framework.php:177
+msgid "Issue Tracker"
+msgstr "问题跟踪器"

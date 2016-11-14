@@ -1,0 +1,2669 @@
+# Copyright (C) 2016 Themeisle
+# This file is distributed under the same license as the Adblock Notify Lite package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Adblock Notify Lite 2.0.8\n"
+"Report-Msgid-Bugs-To: "
+"https://github.com/Codeinwp/adblock-notify-by-bweb/issues\n"
+"POT-Creation-Date: 2016-11-07 15:34:17+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Themeisle Translate Team <friends@themeisle.com>\n"
+"Language-Team: Themeisle Translate <friends@themeisle.com>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: adblock-notify-files.php:213
+msgid ""
+"WARNING: There was an error creating Adblock Notify CSS and JS files. "
+"Upload directory is not writable. Please CHMOD \"wp-content/uploads\" to "
+"0664 and verify your server settings"
+msgstr ""
+
+#: adblock-notify-files.php:217
+msgid ""
+"Don't worry, we thought about it. Adblock Notify will print the scripts "
+"directly in your DOM, but for performance purpose it is recommended to "
+"change your uploads directory CHMOD."
+msgstr ""
+
+#: adblock-notify-functions.php:425
+msgid "Show your love"
+msgstr ""
+
+#: adblock-notify-functions.php:428
+msgid "Leave A Review"
+msgstr ""
+
+#: adblock-notify-functions.php:434
+msgid "Buy now"
+msgstr ""
+
+#: adblock-notify-functions.php:437
+msgid "Multi-Site Support"
+msgstr ""
+
+#: adblock-notify-options.php:42
+msgid "Adblock Notify Options"
+msgstr ""
+
+#: adblock-notify-options.php:45
+msgid "Modal Visual Options"
+msgstr ""
+
+#: adblock-notify-options.php:48
+msgid "Redirection Options"
+msgstr ""
+
+#: adblock-notify-options.php:51 adblock-notify-options.php:317
+msgid "Alternative Message"
+msgstr ""
+
+#: adblock-notify-options.php:62
+msgid "Welcome to Adblock Notify Plugin"
+msgstr ""
+
+#: adblock-notify-options.php:66
+msgid ""
+"You can notify users with an activated Adblocker software by one of THREE "
+"ways !"
+msgstr ""
+
+#: adblock-notify-options.php:68
+msgid "A pretty cool and lightweight Modal Box with a custom content:"
+msgstr ""
+
+#: adblock-notify-options.php:68
+msgid "the COMPLIANT solution"
+msgstr ""
+
+#: adblock-notify-options.php:69
+msgid "A simple redirection to the page of your choice:"
+msgstr ""
+
+#: adblock-notify-options.php:69
+msgid "the AGRESSIVE solution"
+msgstr ""
+
+#: adblock-notify-options.php:70
+msgid "A custom alternative message where your hidden ads would normally appear:"
+msgstr ""
+
+#: adblock-notify-options.php:70
+msgid "the TRANSPARENT solution"
+msgstr ""
+
+#: adblock-notify-options.php:74
+msgid ""
+"Only one of the two first options can be activated at the same time. The "
+"third one is standalone and can be setting up independently."
+msgstr ""
+
+#: adblock-notify-options.php:76
+msgid "You can easily switch between them without losing your options."
+msgstr ""
+
+#: adblock-notify-options.php:79
+msgid "Adblock Notify"
+msgstr ""
+
+#: adblock-notify-options.php:79
+msgid ""
+"nativally uses cookies for a better user experience and a less intrusive "
+"browsing of your site. It means visitors will see the Modal Box only once "
+"or be redirected to your custom page once."
+msgstr ""
+
+#: adblock-notify-options.php:81
+msgid ""
+"You can deactivate them, however if your visitor has an activated adblocker "
+"software they will see a modal box or get a redirection on every visited "
+"page."
+msgstr ""
+
+#: adblock-notify-options.php:88
+msgid "Modal Box or Redirection ?"
+msgstr ""
+
+#: adblock-notify-options.php:91 adblock-notify-options.php:203
+msgid "None"
+msgstr ""
+
+#: adblock-notify-options.php:92
+msgid "Modal Box"
+msgstr ""
+
+#: adblock-notify-options.php:93
+msgid "Page redirection"
+msgstr ""
+
+#: adblock-notify-options.php:96
+msgid ""
+"Would you like to use the Modal Box or redirect users to a custom page when "
+"adblock is detected? - Default: None"
+msgstr ""
+
+#: adblock-notify-options.php:100
+msgid "Enable statistics Widget"
+msgstr ""
+
+#: adblock-notify-options.php:103
+msgid ""
+"If you have many page views, this option may cause server overload. You can "
+"disable it to make the plugin more lightweight - Default: Yes"
+msgstr ""
+
+#: adblock-notify-options.php:103
+msgid ""
+"Adblock Notify Stats widget is available on your admin dashboard (if not "
+"visible, go to the top menu and visit \"Screen Options\")."
+msgstr ""
+
+#: adblock-notify-options.php:105 adblock-notify-options.php:133
+#: adblock-notify-options.php:223 adblock-notify-options.php:234
+#: adblock-notify-options.php:305
+msgid "Yes"
+msgstr ""
+
+#: adblock-notify-options.php:106 adblock-notify-options.php:134
+#: adblock-notify-options.php:224 adblock-notify-options.php:235
+#: adblock-notify-options.php:374
+msgid "No"
+msgstr ""
+
+#: adblock-notify-options.php:111
+msgid "Improve detection (optional)"
+msgstr ""
+
+#: adblock-notify-options.php:115
+msgid "Adverts selectors"
+msgstr ""
+
+#: adblock-notify-options.php:115 adblock-notify-options.php:343
+#: adblock-notify-options.php:411
+msgid "Comma separated"
+msgstr ""
+
+#: adblock-notify-options.php:118
+msgid "The Element CLASS or ID of your ads. - Default: Empty"
+msgstr ""
+
+#: adblock-notify-options.php:119
+msgid ""
+"The selector you provide must still be present within your DOM after the ad "
+"has been blocked. We only detect the height of the element so it can not be "
+"fixed. "
+msgstr ""
+
+#: adblock-notify-options.php:121 adblock-notify-options.php:348
+#: adblock-notify-options.php:416
+msgid "Read"
+msgstr ""
+
+#: adblock-notify-options.php:121 adblock-notify-options.php:348
+msgid "Selectors | jQuery API Documentation"
+msgstr ""
+
+#: adblock-notify-options.php:121 adblock-notify-options.php:348
+#: adblock-notify-options.php:416
+msgid "for more details"
+msgstr ""
+
+#: adblock-notify-options.php:124
+msgid "Cookies Options"
+msgstr ""
+
+#: adblock-notify-options.php:128
+msgid "Cookies activation"
+msgstr ""
+
+#: adblock-notify-options.php:131
+msgid ""
+"Prevent Modal Box from opening or Page redirection on every visited page - "
+"Default: Yes"
+msgstr ""
+
+#: adblock-notify-options.php:131
+msgid ""
+"Your own cookie is automatically reset on options save to see settings "
+"changes."
+msgstr ""
+
+#: adblock-notify-options.php:139
+msgid "Cookies Lifetime"
+msgstr ""
+
+#: adblock-notify-options.php:139
+msgid "Days"
+msgstr ""
+
+#: adblock-notify-options.php:142
+msgid "Set the lifetime of the cookie session - Default: 30 days"
+msgstr ""
+
+#: adblock-notify-options.php:149
+msgid "Random selectors and files"
+msgstr ""
+
+#: adblock-notify-options.php:153
+msgid "Use random selectors and files"
+msgstr ""
+
+#: adblock-notify-options.php:156
+msgid ""
+"Random selectors and files name to prevent adblock to block the plugin. "
+"Temp files with new selectors will be generated and stored in a temp folder "
+"in your /uploads directory  - Default: Checked"
+msgstr ""
+
+#: adblock-notify-options.php:160
+msgid "Flush files"
+msgstr ""
+
+#: adblock-notify-options.php:163
+msgid "Will recreate the selectors and temps files on options saved."
+msgstr ""
+
+#: adblock-notify-options.php:168
+msgid "Modal Box Options"
+msgstr ""
+
+#: adblock-notify-options.php:172
+msgid "Modal Title"
+msgstr ""
+
+#: adblock-notify-options.php:175
+msgid "The title of the modal box"
+msgstr ""
+
+#: adblock-notify-options.php:176
+msgid "Adblocker detected! Please consider reading this notice."
+msgstr ""
+
+#: adblock-notify-options.php:179
+msgid "Modal Text"
+msgstr ""
+
+#: adblock-notify-options.php:183
+msgid "The text of the modal box : images & shortcodes are supported."
+msgstr ""
+
+#: adblock-notify-options.php:185
+msgid ""
+"We've detected that you are using AdBlock Plus or some other adblocking "
+"software which is preventing the page from fully loading."
+msgstr ""
+
+#: adblock-notify-options.php:186
+msgid ""
+"We don't have any banner, Flash, animation, obnoxious sound, or popup ad. "
+"We do not implement these annoying types of ads!"
+msgstr ""
+
+#: adblock-notify-options.php:187
+msgid ""
+"We need money to operate the site, and almost all of it comes from our "
+"online advertising."
+msgstr ""
+
+#: adblock-notify-options.php:188 adblock-notify-options.php:358
+msgid "Please add"
+msgstr ""
+
+#: adblock-notify-options.php:188
+msgid "to your ad blocking whitelist or disable your adblocking software."
+msgstr ""
+
+#: adblock-notify-options.php:192
+msgid "Modal Box Settings"
+msgstr ""
+
+#: adblock-notify-options.php:196
+msgid "Modal Box effect"
+msgstr ""
+
+#: adblock-notify-options.php:199
+msgid "The Modal Box animation effect - Default: Fade and Pop"
+msgstr ""
+
+#: adblock-notify-options.php:201
+msgid "Fade and Pop"
+msgstr ""
+
+#: adblock-notify-options.php:202
+msgid "Fade"
+msgstr ""
+
+#: adblock-notify-options.php:208
+msgid "Animation Speed"
+msgstr ""
+
+#: adblock-notify-options.php:208
+msgid "Milliseconds"
+msgstr ""
+
+#: adblock-notify-options.php:211
+msgid ""
+"The Modal Box animation speed. Will not be applied if modal effect is set "
+"to  None - Default: 350ms"
+msgstr ""
+
+#: adblock-notify-options.php:218
+msgid "Hide modal box close button"
+msgstr ""
+
+#: adblock-notify-options.php:221
+msgid "Hide the x close button of the modal box? - Default: No"
+msgstr ""
+
+#: adblock-notify-options.php:229
+msgid "Close the modal box on background click"
+msgstr ""
+
+#: adblock-notify-options.php:232
+msgid "If you click background will Modal close? - Default: Yes"
+msgstr ""
+
+#: adblock-notify-options.php:240
+msgid "Modal Box Style"
+msgstr ""
+
+#: adblock-notify-options.php:244
+msgid "Overlay Color"
+msgstr ""
+
+#: adblock-notify-options.php:244
+msgid "Background"
+msgstr ""
+
+#: adblock-notify-options.php:248 adblock-notify-options.php:265
+msgid "Default:"
+msgstr ""
+
+#: adblock-notify-options.php:251
+msgid "Overlay Opacity"
+msgstr ""
+
+#: adblock-notify-options.php:254
+msgid "Modal Box overlay (background) opacity - Default: 80%"
+msgstr ""
+
+#: adblock-notify-options.php:261
+msgid "Modal Box Background Color"
+msgstr ""
+
+#: adblock-notify-options.php:268
+msgid "Modal Box Title Color"
+msgstr ""
+
+#: adblock-notify-options.php:271
+msgid "Default is your theme &lt;h1&gt; color"
+msgstr ""
+
+#: adblock-notify-options.php:275
+msgid "Modal Box Text Color"
+msgstr ""
+
+#: adblock-notify-options.php:278
+msgid "Default is your theme body text color"
+msgstr ""
+
+#: adblock-notify-options.php:282 adblock-notify-options.php:420
+msgid "Custom CSS"
+msgstr ""
+
+#: adblock-notify-options.php:282
+msgid "Advanced users"
+msgstr ""
+
+#: adblock-notify-options.php:285
+msgid "Put your custom CSS rules here. Modal Box ID is"
+msgstr ""
+
+#: adblock-notify-options.php:287 adblock-notify-options.php:427
+msgid ""
+"This selector will be changed during settings update by a random new one to "
+"prevent adblock to hide this element. All the CSS and JS files are parsed "
+"to be updated with this new selectors. That is why you have to add your "
+"custom style in the above field and not in you theme stylesheet."
+msgstr ""
+
+#: adblock-notify-options.php:292 adblock-notify-options.php:309
+msgid "Target Page"
+msgstr ""
+
+#: adblock-notify-options.php:295 adblock-notify-options.php:312
+msgid "Select a page to redirect to. List your current published pages"
+msgstr ""
+
+#: adblock-notify-options.php:298
+msgid "No JS Redirection"
+msgstr ""
+
+#: adblock-notify-options.php:298
+msgid "Warning"
+msgstr ""
+
+#: adblock-notify-options.php:302
+msgid "Redirect if no JS detected?"
+msgstr ""
+
+#: adblock-notify-options.php:305
+msgid "This option used your Cookies Options"
+msgstr ""
+
+#: adblock-notify-options.php:305
+msgid "Default: Unchecked"
+msgstr ""
+
+#: adblock-notify-options.php:305
+msgid ""
+"Will redirect visitor to a custom page if Javascript is disable. It is NOT "
+"SEO friendly, use it only on private site."
+msgstr ""
+
+#: adblock-notify-options.php:321
+msgid "You can insert a custom message where your hidden ads would normally appear."
+msgstr ""
+
+#: adblock-notify-options.php:323
+msgid ""
+"The plugin will append a new \"clean\" DIV element just before the advert "
+"container to display your custom message."
+msgstr ""
+
+#: adblock-notify-options.php:325
+msgid "Note:"
+msgstr ""
+
+#: adblock-notify-options.php:325
+msgid "Some minimal HTML knowledge is required to set up this functionality."
+msgstr ""
+
+#: adblock-notify-options.php:332
+msgid "Activate this option?"
+msgstr ""
+
+#: adblock-notify-options.php:335
+msgid "Yes - Default: Unchecked"
+msgstr ""
+
+#: adblock-notify-options.php:335
+msgid "If unchecked, below options will not be used"
+msgstr ""
+
+#: adblock-notify-options.php:339
+msgid "Required Settings"
+msgstr ""
+
+#: adblock-notify-options.php:343
+msgid "Advert containers"
+msgstr ""
+
+#: adblock-notify-options.php:346
+msgid "The Element CLASS or ID of your ads containers. - Default: Empty"
+msgstr ""
+
+#: adblock-notify-options.php:351
+msgid "Alternative Text"
+msgstr ""
+
+#: adblock-notify-options.php:355
+msgid ""
+"The alternative text to display when ads are hidden. Images & shortcodes "
+"are supported, but use them with caution."
+msgstr ""
+
+#: adblock-notify-options.php:357
+msgid "AdBlock detected!"
+msgstr ""
+
+#: adblock-notify-options.php:358
+msgid "to your adblocking whitelist or disable your adblocking software."
+msgstr ""
+
+#: adblock-notify-options.php:362
+msgid "Optional Settings"
+msgstr ""
+
+#: adblock-notify-options.php:366
+msgid "Clone ad container?"
+msgstr ""
+
+#: adblock-notify-options.php:369
+msgid "Will copy your original ad container CSS properties - Default: No"
+msgstr ""
+
+#: adblock-notify-options.php:369
+msgid "This feature is not 100% reliable but could help for a quick set up."
+msgstr ""
+
+#: adblock-notify-options.php:371 adblock-notify-options.php:392
+msgid "Custom Mode"
+msgstr ""
+
+#: adblock-notify-options.php:372 adblock-notify-options.php:393
+msgid "Soft Mode (Recommended)"
+msgstr ""
+
+#: adblock-notify-options.php:373 adblock-notify-options.php:394
+msgid "Hard Mode"
+msgstr ""
+
+#: adblock-notify-options.php:383
+msgid "What does \"Clone ad container\" mean?"
+msgstr ""
+
+#: adblock-notify-options.php:385
+msgid ""
+"It means you can ask Adblock Notify Plugin to copy the CSS properties of "
+"the element that contains your ad to a new element which will not be hidden "
+"by an adblocker software. With this process, your design should not break."
+msgstr ""
+
+#: adblock-notify-options.php:387
+msgid ""
+"The new element will be the same type (DIV,SPAN,etc.) as its source, and "
+"will have the .an-alternative class."
+msgstr ""
+
+#: adblock-notify-options.php:390
+msgid "Available options are:"
+msgstr ""
+
+#: adblock-notify-options.php:392
+msgid ""
+": Will try to catch all the CSS rules defined in your theme files, and let "
+"you choose which ones to keep (see Custom Mode CSS properties)."
+msgstr ""
+
+#: adblock-notify-options.php:393
+msgid ""
+": Will try to catch all the CSS rules defined in your theme files, and add "
+"them to the new created element. If the browser does not support this "
+"feature, it will try Hard Mode fetching."
+msgstr ""
+
+#: adblock-notify-options.php:394
+msgid ""
+": Will try to fetch all the elements CSS rules based on browser CSS "
+"compilation (not reading directly in your CSS files). This option may add a "
+"lot of inline CSS rules to your newly created element."
+msgstr ""
+
+#: adblock-notify-options.php:398
+msgid ""
+"This feature is performed through Javascript (+jQuery) and is 95% "
+"functional on all modern browser even on IE8+. For the 5% left, the plugin "
+"will drop potential JS errors and insert .an-alternative div."
+msgstr ""
+
+#: adblock-notify-options.php:400
+msgid "Tested and works great on Chrome, Firefox, Safari, Opera, IE8+"
+msgstr ""
+
+#: adblock-notify-options.php:403
+msgid "What's appended if I don't turn on this option?"
+msgstr ""
+
+#: adblock-notify-options.php:405
+msgid ""
+"The plugin will append a new \"clean\" DIV element with .an-alternative "
+"class just before the advert container. You can add your own custom rules "
+"with the Custom CSS field below."
+msgstr ""
+
+#: adblock-notify-options.php:411
+msgid "Custom Mode CSS properties"
+msgstr ""
+
+#: adblock-notify-options.php:414
+msgid "The element CSS properties you want to clone - Default: Empty"
+msgstr ""
+
+#: adblock-notify-options.php:415
+msgid "Eg: color, width, height, background-color, border"
+msgstr ""
+
+#: adblock-notify-options.php:416
+msgid "CSS Reference | w3schools.com"
+msgstr ""
+
+#: adblock-notify-options.php:420
+msgid "Advance users"
+msgstr ""
+
+#: adblock-notify-options.php:423
+msgid "Put your custom CSS rules here. The new Element class is .an-alternative"
+msgstr ""
+
+#: adblock-notify-options.php:425
+msgid "NOTE:"
+msgstr ""
+
+#: adblock-notify-options.php:425
+msgid ""
+"If you've activated the ads containers cloning, you can still add custom "
+"CSS on your text."
+msgstr ""
+
+#: adblock-notify-options.php:426
+msgid ""
+"If you really have to overload .an-alternative with your own CSS "
+"properties, you may probably need to use !important after each of them, but "
+"this is not advised."
+msgstr ""
+
+#: adblock-notify-options.php:440 adblock-notify-options.php:446
+#: adblock-notify-options.php:452 adblock-notify-options.php:458
+#: vendor/titan-framework/lib/class-option-save.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: adblock-notify-options.php:441 adblock-notify-options.php:447
+#: adblock-notify-options.php:453 adblock-notify-options.php:459
+#: vendor/titan-framework/lib/class-option-save.php:24
+msgid "Reset to Defaults"
+msgstr ""
+
+#: adblock-notify-options.php:500
+msgid "Modal Box Template"
+msgstr ""
+
+#: adblock-notify-options.php:504
+msgid "Choose Template"
+msgstr ""
+
+#: adblock-notify-options.php:521
+msgid "Advanced Options"
+msgstr ""
+
+#: adblock-notify-options.php:525
+msgid "Show modal after pages viewed"
+msgstr ""
+
+#: adblock-notify-options.php:528
+msgid ""
+"After how many unique pages should the modal be shown? - Default: 0 (every "
+"page)"
+msgstr ""
+
+#: adblock-notify-options.php:535
+msgid "Modal width"
+msgstr ""
+
+#: adblock-notify-options.php:538
+msgid "Maxium width of the modal window in pixels"
+msgstr ""
+
+#: adblock-notify-widget.php:21
+msgid "Adblock Notify Stats"
+msgstr ""
+
+#: adblock-notify-widget.php:205
+msgid "Admins are excluded from this statistics."
+msgstr ""
+
+#: adblock-notify-widget.php:206 adblock-notify-widget.php:222
+msgid "Total"
+msgstr ""
+
+#: adblock-notify-widget.php:207 adblock-notify-widget.php:227
+msgid "Today"
+msgstr ""
+
+#: adblock-notify-widget.php:210
+msgid "Pages Views"
+msgstr ""
+
+#: adblock-notify-widget.php:215
+msgid "Pages with Adblock"
+msgstr ""
+
+#: adblock-notify-widget.php:222 adblock-notify-widget.php:227
+msgid "Ads blocked"
+msgstr ""
+
+#: adblock-notify-widget.php:231
+msgid "Ad Blocker software deactivated"
+msgstr ""
+
+#: adblock-notify-widget.php:232
+msgid "You may probably increase this number by improving your custom messages"
+msgstr ""
+
+#: adblock-notify-widget.php:239 adblock-notify.php:294
+msgid "Settings"
+msgstr ""
+
+#: adblock-notify-widget.php:243
+msgid "Are you sure you want to delete permanently your datas?"
+msgstr ""
+
+#: adblock-notify-widget.php:244
+msgid "Reset Stats"
+msgstr ""
+
+#: adblock-notify.php:309
+msgid "More Plugins"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:352
+#: vendor/freemius/includes/i18n.php:144
+msgid "Install Now"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:358
+#: vendor/freemius/includes/i18n.php:145
+msgid "Install Update Now"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:362
+msgid "Newer Version (%s) Installed"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:365
+msgid "Latest Version Installed"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:509
+msgid "Plugin Install"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:771
+msgid "Version:"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:777
+msgid "Author:"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:783
+msgid "Last Updated:"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:785
+msgid "%s ago"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:792
+msgid "Requires WordPress Version:"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:792
+msgid "%s or higher"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:798
+msgid "Compatible up to:"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:805
+msgid "Downloaded:"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:805
+msgid "%s time"
+msgid_plural "%s times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:812
+msgid "WordPress.org Plugin Page &#187;"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:819
+msgid "Plugin Homepage &#187;"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:826
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:883
+msgid "Donate to this plugin &#187;"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:832
+msgid "Average Rating"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:838
+msgid "(based on %s rating)"
+msgid_plural "(based on %s ratings)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:851
+msgid "Click to see reviews that provided a rating of %d star"
+msgid_plural "Click to see reviews that provided a rating of %d stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:851
+msgid "%d star"
+msgid_plural "%d stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:862
+msgid "Contributors"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:890
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:892
+msgid "Warning:"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:890
+msgid "This plugin has not been tested with your current version of WordPress."
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:892
+msgid ""
+"This plugin has not been marked as compatible with your version of "
+"WordPress."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:35
+msgid "Account"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:36
+msgid "Add On"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:37
+msgid "Contact Us"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:38
+msgid "Contact Support"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:39
+msgid "Change Ownership"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:40
+msgid "Support"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:41
+msgid "Support Forum"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:42
+msgid "Add Ons"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:44
+msgid "Awesome"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:47
+msgid "Unlimited Updates"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:49
+msgid "Cancel Trial"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:50
+msgid "Free Trial"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:51
+msgid "Start my free %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:52
+msgid "No commitment for %s - cancel anytime"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:53
+msgid "After your free %s, pay as little as %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:54
+msgid "Details"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:55
+msgid "Account Details"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:60
+msgid "Date"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:61
+msgid "Amount"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:62
+msgid "Invoice"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:63
+msgid "Billing"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:64
+msgid "Payments"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:65
+msgid "Delete Account"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:68
+msgid "Change Plan"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:73
+msgid "New"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:74
+msgid "Free"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:77
+msgid "Purchase License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:79
+msgid "Buy License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:80
+msgid "Single Site License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:81
+msgid "Unlimited Licenses"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:82
+msgid "Up to %s Sites"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:83
+msgid "%sRenew your license now%s to access version %s features and support."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:84
+msgid ""
+"Enter the email address you've used for the upgrade below and we will "
+"resend you the license key."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:86
+msgid "You are just one step away - %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:88
+msgid "We made a few tweaks to the plugin, %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:89
+msgid "Opt-in to make \"%s\" Better!"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:90
+#: vendor/titan-framework/inc/edd-licensing/EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:91
+msgid ""
+"Freemius SDK couldn't find the plugin's main file. Please contact "
+"sdk@freemius.com with the current error."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:96
+msgid "not verified"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:97
+msgid "Verify Email"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:100
+msgid "No expiration"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:101
+msgid "Expired"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:102
+msgid "Cancelled"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:106
+msgid "Name"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:107
+msgid "Email"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:108
+msgid "Email address"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:109
+msgid "Verified"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:110
+msgid "Plugin"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:111
+msgid "Plugins"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:112
+msgid "Themes"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:114
+msgid "Title"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:115
+msgid "Free version"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:116
+msgid "Premium version"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:118
+msgid "ID"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:119
+msgid "Users"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:120
+msgid "Plugin Installs"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:122
+msgid "User ID"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:123
+msgid "Site ID"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:124
+msgid "Public Key"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:125
+msgid "Secret Key"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:127
+msgid "No ID"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:130
+#: vendor/titan-framework/lib/class-option-edd-license.php:375
+msgid "Activate License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:131
+msgid "Activate Free Version"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:132
+msgid ""
+"Please enter the license key that you received in the email right after the "
+"purchase:"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:133
+msgid "Activating license..."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:134
+msgid "Change License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:135
+msgid "Update License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:136
+#: vendor/titan-framework/lib/class-option-edd-license.php:374
+msgid "Deactivate License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:137
+#: vendor/titan-framework/lib/class-option-edd-license.php:149
+msgid "Activate"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:138
+msgid "Deactivate"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:139
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:140
+msgid "No - just deactivate"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:141
+msgid "Yes - do your thing"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:146
+msgid "More information about %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:147
+msgid "Localhost"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:150
+msgid "Last license"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:151
+msgid "What is your %s?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:152
+msgid "Activate this add-on"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:153
+msgid ""
+"Deactivating your license will block all premium features, but will enable "
+"you to activate the license on another site. Are you sure you want to "
+"proceed?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:154
+msgid ""
+"Deleting the account will automatically deactivate your %s plan license so "
+"you can use it on other sites. If you want to terminate the recurring "
+"payments as well, click the \"Cancel\" button, and first \"Downgrade\" your "
+"account. Are you sure you would like to continue with the deletion?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:155
+msgid ""
+"Deletion is not temporary. Only delete if you no longer want to use this "
+"plugin anymore. Are you sure you would like to continue with the deletion?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:156
+msgid ""
+"Downgrading your plan will immediately stop all future recurring payments "
+"and your %s plan license will expire in %s."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:157
+msgid ""
+"Cancelling the trial will immediately block access to all premium features. "
+"Are you sure?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:158
+msgid ""
+"You can still enjoy all %s features but you will not have access to plugin "
+"updates and support."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:159
+msgid ""
+"Once your license expire you can still use the Free version but you will "
+"NOT have access to the %s features."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:160
+msgid "Are you sure you want to proceed?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:163
+msgid "Add Ons for %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:164
+msgid ""
+"We could'nt load the add-ons list. It's probably an issue on our side, "
+"please try to come back in few minutes."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:166
+msgid "Anonymous feedback"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:167
+msgid "Quick feedback"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:168
+msgid "If you have a moment, please let us know why you are deactivating"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:169
+msgid "Yes - Deactivate"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:170
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:172
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:173
+msgid "I found a better plugin"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:174
+msgid "I only needed the plugin for a short period"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:175
+msgid "The plugin broke my site"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:176
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:177
+msgid "I can't pay for it anymore"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:178
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:180
+msgid "Kindly tell us the reason so we can improve."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:181
+msgid "What's the plugin's name?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:182
+msgid "What price would you feel comfortable paying?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:183
+msgid "I couldn't understand how to make it work"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:184
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:185
+msgid "The plugin is not working"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:186
+msgid "It's not what I was looking for"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:187
+msgid "The plugin didn't work as expected"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:188
+msgid "What feature?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:189
+msgid "Kindly share what didn't work so we can fix it for future users..."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:190
+msgid "What you've been looking for?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:191
+msgid "What did you expect?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:192
+msgid "The plugin didn't work"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:193
+msgid "I don't like to share my information with you"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:194
+msgid ""
+"You might have missed it, but you don't have to share any data and can just "
+"%s the opt-in."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:200
+msgid ""
+"In order to enjoy all our features and functionality, %s needs to connect "
+"your user, %s at %s, to %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:201
+msgid ""
+"Please help us improve %2$s! If you opt-in, some data about your usage of "
+"%2$s will be sent to %5$s. If you skip this, that's okay! %2$s will still "
+"work just fine."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:202
+msgid ""
+"You should receive an activation email for %s to your mailbox at %s. Please "
+"make sure you click the activation button in that email to complete the "
+"install."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:203
+msgid "Thanks for purchasing %s! To get started, please enter your license key:"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:204
+msgid ""
+"The plugin will be periodically sending data to %s to check for plugin "
+"updates and verify the validity of your license."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:205
+msgid "What permissions are being granted?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:206
+msgid "Your Profile Overview"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:207
+msgid "Name and email address"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:208
+msgid "Your Site Overview"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:209
+msgid "Site URL, WP version, PHP info, plugins & themes"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:210
+msgid "Current Plugin Events"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:211
+msgid "Activation, deactivation and uninstall"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:212
+msgid "Plugins & Themes"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:213
+msgid "Titles, versions and state."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:214
+msgid "Newsletter"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:215
+msgid "Updates, announcements, marketing, no spam"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:216
+msgid "Privacy Policy"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:217
+msgid "Terms of Service"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:223
+msgid "Click here to use the plugin anonymously"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:224
+msgid "Re-send activation email"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:225
+msgid "License key"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:226
+msgid "Send License Key"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:227
+msgid "Sending license key"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:228
+msgid "Have a license key?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:229
+msgid "Don't have a license key?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:230
+msgid "Can't find your license key?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:231
+msgid ""
+"We couldn't find your email address in the system, are you sure it's the "
+"right address?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:232
+msgid ""
+"We can't see any active licenses associated with that email address, are "
+"you sure it's the right address?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:236
+msgid "Screenshots"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:237
+msgid "Click to view full-size screenshot %d"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:241
+msgid "Freemius Debug"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:245
+msgid "Freemius State"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:253
+msgid "Add Ons of Plugin %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:254
+msgid "Are you sure you want to delete all Freemius data?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:255
+msgid "Actions"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:256
+msgid "Delete All Accounts"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:257
+msgid "Start Fresh"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:258
+msgid "Clear API Cache"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:259
+msgid "Sync Data From Server"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:260
+msgid "Scheduled Crons"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:261
+msgid "Plugins & Themes Sync"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:271
+msgid "O.K"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:277
+msgid "Seems like you got the latest release."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:278
+msgid "You are all good!"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:279
+msgid ""
+"Sorry, we could not complete the email update. Another user with the same "
+"email is already registered."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:280
+msgid ""
+"If you would like to give up the ownership of the plugin's account to %s "
+"click the Change Ownership button."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:281
+msgid ""
+"Your email was successfully updated. You should receive an email with "
+"confirmation instructions in few moments."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:282
+msgid "Your name was successfully updated."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:283
+msgid "You have successfully updated your %s."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:284
+msgid "Please provide your full name."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:285
+msgid ""
+"Verification mail was just sent to %s. If you can't find it after 5 min, "
+"please check your spam box."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:286
+msgid ""
+"Just letting you know that the add-ons information of %s is being pulled "
+"from an external server."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:287
+msgid "No credit card required"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:288
+msgid "Premium plugin version was successfully activated."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:289
+msgid "The upgrade of %s was successfully completed."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:290
+msgid "Your account was successfully activated with the %s plan."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:291
+msgid "Download the latest %s version now"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:292
+msgid "Please follow these steps to complete the upgrade"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:293
+msgid "Download the latest %s version"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:294
+msgid "Deactivate the free version"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:295
+msgid "Upload and activate the downloaded version"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:296
+msgid "How to upload and activate?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:298
+msgid "Your %s Add-on plan was successfully upgraded."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:299
+msgid "Your email has been successfully verified - you are AWESOME!"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:300
+msgid "Your plan was successfully upgraded."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:301
+msgid "Your plan was successfully changed to %s."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:302
+msgid ""
+"Your license has expired. You can still continue using the free plugin "
+"forever."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:303
+msgid ""
+"Your license has been cancelled. If you think it's a mistake, please "
+"contact support."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:304
+msgid "Your trial has been successfully started."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:305
+msgid "Your license was successfully activated."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:306
+msgid "It looks like your site currently doesn't have an active license."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:307
+msgid "Your license was successfully deactivated, you are back to the %s plan."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:308
+msgid "It looks like the license deactivation failed."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:309
+msgid "It looks like the license could not be activated."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:310
+msgid "Error received from the server:"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:311
+msgid "Your trial has expired. You can still continue using all our free features."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:312
+msgid ""
+"Your plan was successfully downgraded. Your %s plan license will expire in "
+"%s."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:313
+msgid ""
+"Seems like we are having some temporary issue with your plan downgrade. "
+"Please try again in few minutes."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:314
+msgid ""
+"It looks like you are not in trial mode anymore so there's nothing to "
+"cancel :)"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:315
+msgid "Your %s free trial was successfully cancelled."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:317
+msgid "Please download %s."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:319
+msgid ""
+"How do you like %s so far? Test all our %s premium features with a %d-day "
+"free trial."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:321
+msgid ""
+"Seems like we are having some temporary issue with your trial cancellation. "
+"Please try again in few minutes."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:322
+msgid "You already utilized a trial before."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:323
+msgid "You are already running the plugin in a trial mode."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:324
+msgid "Plan %s do not exist, therefore, can't start a trial."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:325
+msgid "Plan %s does not support a trial period."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:326
+msgid "None of the plugin's plans supports a trial period."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:327
+msgid ""
+"Unexpected API error. Please contact the plugin's author with the following "
+"error."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:328
+msgid "No commitment for %s days - cancel anytime!"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:329
+msgid ""
+"Your license has expired. You can still continue using all the %s features, "
+"but you'll need to renew your license to continue getting updates and "
+"support."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:330
+msgid "Couldn't activate %s."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:331
+msgid "Please contact us with the following message:"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:332
+msgid ""
+"It looks like you are still on the %s plan. If you did upgrade or change "
+"your plan, it's probably an issue on our side - sorry."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:333
+msgid "Please contact us here"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:334
+msgid ""
+"I have upgraded my account but when I try to Sync the License, the plan "
+"remains %s."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:337
+msgid "From unknown reason, the API connectivity test failed."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:338
+msgid ""
+"It's probably a temporary issue on our end. Just to be sure, with your "
+"permission, would it be o.k to run another connectivity test?"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:339
+msgid ""
+"We use PHP cURL library for the API calls, which is a very common library "
+"and usually installed out of the box. Unfortunately, cURL is not installed "
+"on your server."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:340
+msgid "From unknown reason, CloudFlare, the firewall we use, blocks the connection."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:342
+msgid ""
+"It looks like your server is using Squid ACL (access control lists), which "
+"blocks the connection."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:343
+msgid "I don't know what is Squid or ACL, help me!"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:344 vendor/freemius/includes/i18n.php:348
+msgid ""
+"We'll make sure to contact your hosting company and resolve the issue. You "
+"will get a follow-up email to %s once we have an update."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:345
+msgid "I'm a system administrator"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:346
+msgid ""
+"Great, please whitelist the following domains: %s. Once you done, "
+"deactivate the plugin and activate it again."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:347
+msgid "I don't know what is cURL or how to install it, help me!"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:349
+msgid ""
+"Great, please install cURL and enable it in your php.ini file. To make sure "
+"it was successfully activated, use 'phpinfo()'. Once activated, deactivate "
+"the plugin and reactivate it back again."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:350
+msgid ""
+"We are sure it's an issue on our side and more than happy to resolve it for "
+"you ASAP if you give us a chance."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:351
+msgid "Sorry for the inconvenience and we are here to help if you give us a chance."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:352
+msgid "Yes - I'm giving you a chance to fix it"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:353
+msgid ""
+"We will do our best to whitelist your server and resolve this issue ASAP. "
+"You will get a follow-up email to %s once we have an update."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:354
+msgid "Let's try your previous version"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:355
+msgid "Uninstall this version and install the previous one."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:356
+msgid "That's exhausting, please deactivate"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:357
+msgid ""
+"We feel your frustration and sincerely apologize for the inconvenience. "
+"Hope to see you again in the future."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:358
+msgid ""
+"Thank for giving us the chance to fix it! A message was just sent to our "
+"technical staff. We will get back to you as soon as we have an update to "
+"%s. Appreciate your patience."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:360
+msgid ""
+"It seems like one of the authentication parameters is wrong. Update your "
+"Public Key, Secret Key & User ID, and try again."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:363
+msgid ""
+"Please check your mailbox, you should receive an email via %s to confirm "
+"the ownership change. From security reasons, you must confirm the change "
+"within the next 15 min. If you cannot find the email, please check your "
+"spam folder."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:364
+msgid ""
+"Thanks for confirming the ownership change. An email was just sent to %s "
+"for final approval."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:365
+msgid "%s is the new owner of the account."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:371
+msgid "Add-on must be deployed to WordPress.org or Freemius."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:372
+msgid "Paid add-on must be deployed to Freemius."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:374
+msgid ""
+"%s is a premium only add-on. You have to purchase a license first before "
+"activating the plugin."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:375
+msgid ""
+"%s free trial was successfully cancelled. Since the add-on is premium only "
+"it was automatically deactivated. If you like to use it in the future, "
+"you'll have to purchase a license."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:384
+msgid "Lifetime"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:389
+msgid "View details"
+msgstr ""
+
+#: vendor/titan-framework/inc/edd-licensing/EDD_SL_Plugin_Updater.php:177
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: vendor/titan-framework/inc/edd-licensing/EDD_SL_Plugin_Updater.php:184
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: vendor/titan-framework/inc/edd-licensing/EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-admin-page.php:118
+msgid ""
+"<em>Options Page Created with <a "
+"href='http://titanframework.net?utm_source=admin&utm_medium=admin "
+"footer'>Titan Framework</a></em>"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-admin-page.php:339
+msgid "Settings saved."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-admin-page.php:341
+msgid "Settings reset to default."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-customizer.php:33
+#: vendor/titan-framework/lib/class-meta-box.php:36
+msgid "More Options"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-ajax-button.php:29
+#: vendor/titan-framework/lib/class-option-ajax-button.php:32
+msgid "Security check failed, please refresh the page and try again."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-ajax-button.php:86
+msgid "Something went wrong"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-ajax-button.php:91
+msgid "Click me"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-ajax-button.php:96
+msgid "Please wait..."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:131
+msgid "Your license is valid and active."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:135
+msgid "Your license is invalid."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:150
+msgid "Your license is valid but inactive. Click the button above to activate it."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:155
+msgid ""
+"The remote server did not return a valid response. You can retry by hitting "
+"the &laquo;Save&raquo; button again."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:160
+msgid "Entering your license key is mandatory to get the product updates."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:370
+msgid "Theme License"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:371
+msgid "Enter your theme license key."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:372
+msgid "License Key"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:373
+msgid "License Action"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:376
+#: vendor/titan-framework/lib/class-option-edd-license.php:388
+msgid "License status is unknown."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:377
+msgid "Renew?"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:378
+msgid "unlimited"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:379
+msgid "License key is active."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:380
+msgid "Expires %s."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:381
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:382
+msgid "License key expired %s."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:383
+msgid "License key has expired."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:384
+msgid "License keys do not match."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:385
+msgid "License is inactive."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:386
+msgid "License key is disabled."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:387
+msgid "Site is inactive."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:389
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-edd-license.php:390
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" "
+"class=\"thickbox\" title=\"%4s\">Check out what's new</a> or <a "
+"href=\"%5$s\"%6$s>update now</a>."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-enable.php:62
+#: vendor/titan-framework/lib/class-option-enable.php:141
+msgid "Enabled"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-enable.php:65
+#: vendor/titan-framework/lib/class-option-enable.php:144
+msgid "Disabled"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-gallery.php:148
+#: vendor/titan-framework/lib/class-option-upload.php:255
+msgid "Select Image"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-gallery.php:151
+#: vendor/titan-framework/lib/class-option-upload.php:258
+msgid "Use image"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-multicheck-pages.php:27
+#: vendor/titan-framework/lib/class-option-multicheck-pages.php:48
+#: vendor/titan-framework/lib/class-option-multicheck-posts.php:34
+#: vendor/titan-framework/lib/class-option-multicheck-posts.php:60
+#: vendor/titan-framework/lib/class-option-select-pages.php:38
+#: vendor/titan-framework/lib/class-option-select-posts.php:46
+msgid "Untitled %s"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-save.php:27
+msgid "Are you sure you want to reset ALL options to their default values?"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option-select-categories.php:37
+#: vendor/titan-framework/lib/class-option-select-categories.php:104
+#: vendor/titan-framework/lib/class-option-select-pages.php:30
+#: vendor/titan-framework/lib/class-option-select-posts.php:38
+#: vendor/titan-framework/lib/class-option-select-posts.php:112
+msgid "Select"
+msgstr ""
+
+#: vendor/titan-framework/lib/class-option.php:104
+msgid "Option type or extended class %s does not exist."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-titan-framework.php:170
+msgid ""
+"All option IDs per namespace must be unique. The id %s has been used "
+"multiple times."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-titan-framework.php:406
+msgid "%s needs a %s parameter."
+msgstr ""
+
+#: vendor/titan-framework/lib/class-titan-framework.php:416
+msgid "Container of type %s, does not exist."
+msgstr ""
+
+#: vendor/titan-framework/titan-framework-checker.php:72
+msgid "Titan Framework needs to be installed."
+msgstr ""
+
+#: vendor/titan-framework/titan-framework-checker.php:75
+msgid "Click here to search for the plugin."
+msgstr ""
+
+#: vendor/titan-framework/titan-framework-checker.php:82
+msgid "Titan Framework needs to be activated."
+msgstr ""
+
+#: vendor/titan-framework/titan-framework-checker.php:85
+msgid "Click here to go to the plugins page and activate it."
+msgstr ""
+
+#: vendor/titan-framework/titan-framework.php:182
+msgid "Documentation"
+msgstr ""
+
+#: vendor/titan-framework/titan-framework.php:186
+msgid "GitHub Repo"
+msgstr ""
+
+#: vendor/titan-framework/titan-framework.php:190
+msgid "Issue Tracker"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Adblock Notify Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://themeisle.com/plugins/adblock-notify-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An Adblock detection and nofitication plugin with get around options and a "
+"lot of settings. Dashboard widget with adblock counter included!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themeisle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themeisle.com"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:478
+msgctxt "Plugin installer section title"
+msgid "Description"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:479
+msgctxt "Plugin installer section title"
+msgid "Installation"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:480
+msgctxt "Plugin installer section title"
+msgid "FAQ"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:481
+msgctxt "Plugin installer section title"
+msgid "Screenshots"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:482
+msgctxt "Plugin installer section title"
+msgid "Changelog"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:483
+msgctxt "Plugin installer section title"
+msgid "Reviews"
+msgstr ""
+
+#: vendor/freemius/includes/fs-plugin-info-dialog.php:484
+msgctxt "Plugin installer section title"
+msgid "Other Notes"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:370
+msgctxt "Plugin installer section title"
+msgid "Features & Pricing"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:43
+msgctxt "verb"
+msgid "Upgrade"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:48
+msgctxt "verb"
+msgid "Downgrade"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:56
+msgctxt "verb"
+msgid "Delete"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:57
+msgctxt "verb"
+msgid "Show"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:58
+msgctxt "verb"
+msgid "Hide"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:59
+msgctxt "verb"
+msgid "Edit"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:76
+msgctxt "verb"
+msgid "Purchase"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:78
+msgctxt "verb"
+msgid "Buy"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:222
+msgctxt "verb"
+msgid "Skip"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:45
+msgctxt "noun"
+msgid "Pricing"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:46
+msgctxt "noun"
+msgid "Price"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:66
+msgctxt "as close a window"
+msgid "Dismiss"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:67
+msgctxt "as product pricing plan"
+msgid "Plan"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:69
+msgctxt "as download professional version"
+msgid "Download %s Version"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:70
+msgctxt "as download professional version now"
+msgid "Download %s version now"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:71
+msgctxt "as download latest version"
+msgid "Download Latest"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:72
+msgctxt "E.g. you have a professional license."
+msgid "You have a %s license."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:75
+msgctxt "as trial plan"
+msgid "Trial"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:85
+msgctxt "e.g. Professional Plan"
+msgid "%s Plan"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:87
+msgctxt "%s - plugin name. As complete \"Jetpack\" activation now"
+msgid "Complete \"%s\" Activation Now"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:94
+msgctxt "as expiration date"
+msgid "Expiration"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:95
+msgctxt "as software license"
+msgid "License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:98
+msgctxt "e.g. expires in 2 months"
+msgid "Expires in %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:99
+msgctxt "e.g. auto renews in 2 months"
+msgid "Auto renews in %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:103
+msgctxt "e.g. In 2 hours"
+msgid "In %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:104
+msgctxt "e.g. 2 min ago"
+msgid "%s ago"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:105
+msgctxt "as plugin version"
+msgid "Version"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:113
+msgctxt "as file/folder path"
+msgid "Path"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:117
+msgctxt "as WP plugin slug"
+msgid "Slug"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:121
+msgctxt "like websites"
+msgid "Sites"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:126
+msgctxt "as secret encryption key missing"
+msgid "No Secret"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:128
+msgctxt "as synchronize license"
+msgid "Sync License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:129
+msgctxt "as synchronize"
+msgid "Sync"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:142
+msgctxt "active mode"
+msgid "Active"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:143
+msgctxt "is active mode?"
+msgid "Is Active"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:148
+msgctxt "as activate Professional plan"
+msgid "Activate %s Plan"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:149
+msgctxt "as 5 licenses left"
+msgid "%s left"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:171
+msgctxt "the text of the cancel button of the plugin deactivation dialog box."
+msgid "Cancel"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:179
+msgctxt ""
+"the text of the \"other\" reason for deactivating the plugin that is shown "
+"in the modal box."
+msgid "Other"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:198
+msgctxt "greeting"
+msgid "Hey %s,"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:199
+msgctxt "a greeting. E.g. Thanks John!"
+msgid "Thanks %s!"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:218
+msgctxt "as activating plugin"
+msgid "Activating"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:219
+msgctxt "as in the process of sending an email"
+msgid "Sending email"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:220
+msgctxt "button label"
+msgid "Allow & Continue"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:221
+msgctxt "button label"
+msgid "Agree & Activate License"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:242
+msgctxt "as turned on"
+msgid "On"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:243
+msgctxt "as turned off"
+msgid "Off"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:244
+msgctxt "as code debugging"
+msgid "Debugging"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:246
+msgctxt "as connection was successful"
+msgid "Connected"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:247
+msgctxt "as connection blocked"
+msgid "Blocked"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:248
+msgctxt "as application program interface"
+msgid "API"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:249
+msgctxt "as software development kit versions"
+msgid "SDK"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:250
+msgctxt "as software development kit versions"
+msgid "SDK Versions"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:251
+msgctxt "as plugin folder path"
+msgid "Plugin Path"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:252
+msgctxt "as sdk path"
+msgid "SDK Path"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:265
+msgctxt "as congratulations"
+msgid "Congrats"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:266
+msgctxt "exclamation"
+msgid "Oops"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:272
+msgctxt "exclamation"
+msgid "Hey"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:267
+msgctxt "interjection expressing joy or exuberance"
+msgid "Yee-haw"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:268
+msgctxt ""
+"(especially in electronic communication) used to express elation, "
+"enthusiasm, or triumph."
+msgid "W00t"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:269
+msgctxt "a positive response"
+msgid "Right on"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:270
+msgctxt ""
+"something somebody says when they are thinking about what you have just "
+"said. "
+msgid "Hmm"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:273
+msgctxt "advance notice of something that will need attention."
+msgid "Heads up"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:297
+msgctxt "%s - product name, e.g. Facebook add-on was successfully..."
+msgid "%s Add-on was successfully purchased."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:316
+msgctxt "%s - numeric version number"
+msgid "Version %s was released."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:318
+msgctxt "%s - plan name, as the latest professional version here"
+msgid "the latest %s version here"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:320
+msgctxt "call to action"
+msgid "Start free trial"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:341
+msgctxt "as pluginX requires an access to our API"
+msgid "%s requires an access to our API."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:359
+msgctxt "%1s - plugin title, %2s - API domain"
+msgid ""
+"Your server is blocking the access to Freemius' API, which is crucial for "
+"%1s synchronization. Please contact your host to whitelist %2s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:367
+msgctxt "addonX cannot run without pluginY"
+msgid "%s cannot run without %s."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:368
+msgctxt "addonX cannot run..."
+msgid "%s cannot run without the plugin."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:369
+msgctxt "pluginX activation was successfully..."
+msgid "%s activation was successfully completed."
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:378
+msgctxt "as every month"
+msgid "Monthly"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:379
+msgctxt "as monthly period"
+msgid "mo"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:380
+msgctxt "as once a year"
+msgid "Annual"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:381
+msgctxt "as once a year"
+msgid "Annually"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:382
+msgctxt "as once a year"
+msgid "Once"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:383
+msgctxt "as annual period"
+msgid "year"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:385
+msgctxt "e.g. the best product"
+msgid "Best"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:386
+msgctxt "e.g. billed monthly"
+msgid "Billed %s"
+msgstr ""
+
+#: vendor/freemius/includes/i18n.php:387
+msgctxt "as a discount of $5 or 10%"
+msgid "Save %s"
+msgstr ""
