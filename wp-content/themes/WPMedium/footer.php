@@ -60,14 +60,14 @@
 
 					<div class="footer-credit">
 						<span class="credit">
-							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'jansanchez');" href="http://frontendlabs.io/author/jansanchez" title="Jan Sanchez" target="_blank">Jan Sanchez</a>, 
-							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'anareyna');" href="http://frontendlabs.io/author/anareyna" title="Ana Reyna" target="_blank">Ana Reyna</a>, 
-							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'andru255');" href="http://frontendlabs.io/author/andru255" title="Andres Muñoz" target="_blank">Andres Muñoz</a>, 
-							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'erikfloresq');" href="http://frontendlabs.io/author/erikfloresq" title="Erik Flores" target="_blank">Erik Flores</a>, 
-							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'VictorJSV');" href="http://frontendlabs.io/author/VictorJSV" title="Victor Sandoval" target="_blank">Victor Sandoval</a>, 
-							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'Xio-Caro');" href="http://frontendlabs.io/author/Xio-Caro" title="Xio Caro" target="_blank">Xio Caro</a>, 
-							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'Carlos-Huamani');" href="http://frontendlabs.io/author/Carlos-Huamani" title="Carlos Huamaní" target="_blank">Carlos Huamaní</a>, 
-							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'jjhoncv');" href="http://frontendlabs.io/author/jjhoncv" title="Jhonnatan Castro" target="_blank">Jhonnatan Castro</a>.
+							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'jansanchez');" href="https://frontendlabs.io/author/jansanchez" title="Jan Sanchez" target="_blank">Jan Sanchez</a>, 
+							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'anareyna');" href="https://frontendlabs.io/author/anareyna" title="Ana Reyna" target="_blank">Ana Reyna</a>, 
+							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'andru255');" href="https://frontendlabs.io/author/andru255" title="Andres Muñoz" target="_blank">Andres Muñoz</a>, 
+							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'erikfloresq');" href="https://frontendlabs.io/author/erikfloresq" title="Erik Flores" target="_blank">Erik Flores</a>, 
+							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'VictorJSV');" href="https://frontendlabs.io/author/VictorJSV" title="Victor Sandoval" target="_blank">Victor Sandoval</a>, 
+							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'Xio-Caro');" href="https://frontendlabs.io/author/Xio-Caro" title="Xio Caro" target="_blank">Xio Caro</a>, 
+							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'Carlos-Huamani');" href="https://frontendlabs.io/author/Carlos-Huamani" title="Carlos Huamaní" target="_blank">Carlos Huamaní</a>, 
+							<a onClick="ga('send', 'event', 'footer_autor', 'click', 'jjhoncv');" href="https://frontendlabs.io/author/jjhoncv" title="Jhonnatan Castro" target="_blank">Jhonnatan Castro</a>.
 							<?php //wpmedium_credits(); ?>
 						</span>
 					</div>
