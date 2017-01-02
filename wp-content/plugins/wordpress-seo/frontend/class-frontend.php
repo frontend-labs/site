@@ -605,7 +605,7 @@ if ( ! class_exists( 'WPSEO_Frontend' ) ) {
 			 */
 			do_action( 'wpseo_head' );
 
-			echo "<!-- / Yoast WordPress SEO plugin. -->\n\n";
+			echo "<!-- // Yoast WordPress SEO plugin (updated). -->\n\n";
 
 			if ( ! empty( $old_wp_query ) ) {
 				$GLOBALS['wp_query'] = $old_wp_query;

@@ -200,6 +200,7 @@ function stag_post_background_css( $post_id = null, $sel1 = '.article-cover--', 
 		.background-video { opacity: <?php echo absint($background_opacity)/100; ?>; }
 
 		<?php if( ! empty( $background_image ) ) : ?>
+		<?php $background_image = str_replace("http://", "https://", $background_image);?>
 		<?php echo $sel2; ?> { background-image: url(<?php echo esc_url( $background_image ); ?>); opacity: <?php echo absint($background_opacity)/100; ?>; }
 		<?php endif; ?>
 
