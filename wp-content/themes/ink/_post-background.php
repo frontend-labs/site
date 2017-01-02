@@ -33,6 +33,7 @@ if ( empty($background_opacity) ) $background_opacity = 40;
 		<?php endif; ?>
 
 		<?php if( ! empty( $background_image ) ) : ?>
+		<?php $background_image = str_replace("http://", "https://", $background_image);?>
 		.post-cover-<?php echo $id; ?> { background-image: url(<?php echo esc_url( $background_image ); ?>); opacity: <?php echo absint($background_opacity)/100; ?>; }
 		<?php endif; ?>
 	</style>
