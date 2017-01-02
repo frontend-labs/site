@@ -20,12 +20,12 @@ function disp_social($content) {
 	global $wp_query;
 	if (get_option('s4dmob', false )==true && social4i_check_mobile())return $content;
 	if($s4mainloop==FALSE)return $content;
-	
+
 	$metapl=s4_get_custom_field( 's4_url2s' );
 	$metattl=s4_get_custom_field( 's4_ctitle' );
 	if($metapl=='')$plink = get_permalink($post->ID);else $plink=$metapl;
 	if($metattl=='')$ptitle = get_the_title($post->ID);else $ptitle = $metattl;
-	
+
 	$eplink = urlencode($plink);
 	$disps4=0;
 	$abvcnt=0;
@@ -83,7 +83,7 @@ function disp_social($content) {
 		if (get_option( 's4aabovepost', true ) == true)$abvcnt=1;
 		if (get_option( 's4abelowpost', false ) == true)$belcnt=1;
 	}
-	
+
 	if ($disps4==1){
 		$size=get_option( 's4iconsize', 'large' );
 		$align=get_option( 's4iconalign', 'left' );
@@ -127,8 +127,8 @@ function s4load_script()
 			if(get_option('s4_fblike','1')||get_option('s4_fbshare','1'))$r.=$flsc;
 			if(get_option('s4_plusone','1'))$r.='<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>';
 			if(get_option('s4_linkedin',false))$r.='<script type="text/javascript" src="https://platform.linkedin.com/in.js"></script>';
-			
-			
+
+
 	}
 	return $r;
 }
@@ -184,7 +184,7 @@ function social4i_foot()
            	 else
            	 	{jQuery("#social4iv").css("top",tmargin);}
            	 if(jQuery(window).scrollTop()<offset1.top-tmargin || vhide==0)is_dis=true;else is_dis=false;
-                if ((jQuery(window).scrollTop() > offset.top||avis) && is_dis && is_vis) 
+                if ((jQuery(window).scrollTop() > offset.top||avis) && is_dis && is_vis)
                 {
 		    jQuery("#social4iv").fadeIn();
                 } else {
@@ -198,7 +198,7 @@ function social4i_foot()
             	jQuery("#social4iv").css("left",offset.left-lmargin);
 		if(offset.left-lmargin<0)is_vis=false; else is_vis=true;
 		 if(jQuery(window).scrollTop()<offset1.top || vhide==0)is_dis=true;else is_dis=false;
-                if (jQuery(window).scrollTop() > offset.top && is_dis && is_vis) 
+                if (jQuery(window).scrollTop() > offset.top && is_dis && is_vis)
                 {
 		    jQuery("#social4iv").fadeIn();
                 } else {
@@ -208,14 +208,14 @@ function social4i_foot()
 	</script>
 <?php
 }
-if(get_option('s4analytics',false)==false)return;		
+if(get_option('s4analytics',false)==false)return;
 ?>
 	<script src="//analytics-api-samples.googlecode.com/svn/trunk/src/tracking/javascript/v5/social/ga_social_tracking.js"></script>
 	<script>
  		 _ga.trackSocial();
 	</script>
-	
-	
+
+
 <?php
 }
 function s4_get_first_image() {
@@ -240,11 +240,11 @@ function s4_fb_share_thumb()
 		$thumb = $image_url[0];
 	}
 	if($thumb=='')$thumb=s4_get_first_image();
-	$default_img = get_option('s4defthumb',''); 
-	if ( $thumb == false || $thumb=='') 
-		$thumb=$default_img; 
-	
-	if(is_single() || is_page()) { 
+	$default_img = get_option('s4defthumb','');
+	if ( $thumb == false || $thumb=='')
+		$thumb=$default_img;
+
+	if(is_single() || is_page()) {
 	$metades=s4_get_custom_field( 's4_cdes' );
 	$metattl=s4_get_custom_field( 's4_ctitle' );
 	$metapl=s4_get_custom_field( 's4_url2s' );
@@ -268,9 +268,6 @@ function s4_fb_share_thumb()
 		<!--[if lt IE 9]>
 	  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-		<?php if(trim($thumb)!=''){ ?>
-			<meta property="og:image" content="<?php echo $thumb; ?>" />
-		<?php } ?>
 	<?php  } else { ?>
 		<meta property="og:type" content="article" />
 	  	<meta property="og:title" content="<?php bloginfo('name'); ?>" />
@@ -283,7 +280,7 @@ function s4_fb_share_thumb()
 		<?php if(trim($default_img)!=''){ ?>
 			<meta property="og:image" content="<?php echo $default_img; ?>" />
 		<?php } ?>
-	<?php  } 
+	<?php  }
 
 }
 
@@ -295,7 +292,7 @@ function disp_social_on_optionpage()
 	$eplink = urlencode($plink);
 	$ptitle = "Check out this cool Social Share Plugin for Wordpress";
 	$sharelinks='<div id="social4i" style="position: relative; display: block;">';
-	$clang=get_option( 's4fblikelang', 'en_US' ); 
+	$clang=get_option( 's4fblikelang', 'en_US' );
 	if(get_option('s4_twitter','1')){
 	if (get_option( 's4iconsize', 'large' ) == "large" )$tp="vertical"; else $tp="horizontal";
 	$sharelinks.= '<script src="//connect.facebook.net/'.$clang.'/all.js#xfbml=1"></script><div class=socialicons style="float:left;margin-right: 10px;"><a href="https://twitter.com/share" data-url="'.$plink.'" data-counturl="'.$plink.'" data-text="'.$ptitle.'" class="twitter-share-button" data-count="'.$tp.'">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script></div>';
@@ -304,9 +301,9 @@ function disp_social_on_optionpage()
 	if(get_option('s4_fbsend',false)==true)$snd="true"; else $snd="false";
 	if (get_option( 's4iconsize', 'large' ) == "large" )
 		$tp=' layout="box_count" width="55" height="62" ';
-	else 
+	else
 		$tp=' layout="button_count" width="100" height="21" ';
-		
+
 	$sharelinks.= '<div class=socialicons style="float:left;margin-right: 10px;"><fb:like href="'.$fblplink.'" send="'.$snd.'"'.$tp.'show_faces="false" font=""></fb:like></div>';
 	}
 	if(get_option('s4_plusone','1')){
@@ -352,23 +349,23 @@ function social4ioptions(){
 ?>
 	<h2>Tweet, Like, Share and Google +1 Option Page</h2>
 	Like this Plugin then why not hit the like button. Your like will motivate me to enhance the features of the Plugin :)<br />
-	<iframe style="overflow: hidden; width: 450px; height: 35px;" src="http://www.facebook.com/plugins/like.php?app_id=199883273397074&amp;href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FTech-XT%2F223482634358279&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35" width="320" height="35"></iframe><br />And if you are too generous then you can always <b>DONATE</b> by clicking the donation button.<br/>If you like the plugin then <b>write a review</b> of it pointing out the plus and minus points.<br /><a href="http://techxt.com/tweet-like-google-1-and-share-plugin-wordpress/" TARGET='_blank'>Click here</a> for <b>Reference on using shortcode/Function</b> or if you want to <b>report a bug</b>. 
-	<table class="form-ta">	
+	<iframe style="overflow: hidden; width: 450px; height: 35px;" src="http://www.facebook.com/plugins/like.php?app_id=199883273397074&amp;href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FTech-XT%2F223482634358279&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=35" width="320" height="35"></iframe><br />And if you are too generous then you can always <b>DONATE</b> by clicking the donation button.<br/>If you like the plugin then <b>write a review</b> of it pointing out the plus and minus points.<br /><a href="http://techxt.com/tweet-like-google-1-and-share-plugin-wordpress/" TARGET='_blank'>Click here</a> for <b>Reference on using shortcode/Function</b> or if you want to <b>report a bug</b>.
+	<table class="form-ta">
 	<tr valign="top">
 	<td width="73%">
 	<form method="post" action="options.php">
 	<h3>Test Buttons</h3>
 	<?php disp_social_on_optionpage(); ?>
-	
+
 	<h3 style="color: #cc0000;">Increase Page Load Speed</h3>
 	<p>Note: After using this option if the buttons do not get displayed properly then uncheck it</p>
 	<p><input type="checkbox" name="s4optimize" id="s4optimize" value="true"<?php if (get_option( 's4optimize', true ) == true) echo ' checked'; ?>>Optimize the script for faster loading</p>
-	
+
 	&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="s4scripthead" value="head" id="s4scripthead1"<?php if (get_option( 's4scripthead', 'head' ) == "head" ) echo ' checked'; ?>></input><label for="s4scripthead">Place Script in the Header&nbsp;&nbsp;&nbsp;&nbsp;</label>
 	<input type="radio" name="s4scripthead" value="foot" id="s4scripthead2"<?php if (get_option( 's4scripthead', 'head' ) == "foot" ) echo ' checked'; ?>></input><label for="s4scripthead">Place Script in the Footer</label>
-	
+
 	<p>Keep this option checked if you are using Shortcode or PHP function to display the buttons<br/><input type="checkbox" name="s4allscripts" id="s4allscripts" value="true"<?php if (get_option( 's4allscripts', true ) == true) echo ' checked'; ?>>Load all scripts</p>
-	
+
 	<h3 style="color: #cc0000;">Select Icons to display</h3>
 	<p><b>1 </b><input type="checkbox" name="s4_twitter" id="s4-twitter" value="true"<?php if (get_option( 's4_twitter', true ) == true) echo ' checked'; ?>> Display Twitter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;via @<input type="text" name="s4twtvia" style="width: 150px;" value="<?php echo get_option('s4twtvia',''); ?>" /></p>
 	<p><b>2 </b><input type="checkbox" name="s4_fblike" id="s4-fblike" value="true"<?php if (get_option( 's4_fblike', true ) == true) echo ' checked'; ?>> Display Facebook Like&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="s4_fbsend" id="s4-fbsend" value="true"<?php if (get_option( 's4_fbsend', false ) == true) echo ' checked'; ?>> Display Facebook Send </p>
@@ -379,18 +376,18 @@ function social4ioptions(){
 	<p><b>6 </b><input type="checkbox" name="s4_cbtn" id="s4_cbtn" value="true"<?php if (get_option( 's4_cbtn', false ) == true) echo ' checked'; ?>> Display Custom Buttons </p>
 	<p><b>Display order</b> <input type="text" name="s4dispord" style="width: 300px;" value="<?php echo s4_order_check(get_option('s4dispord','1,2,3,4,5,6')); ?>" /> <br/>To arrange icons reorder the ID associated with the buttons here separated with comma</p>
 	<p><b>Default Thumbnail URL</b> <input type="text" name="s4defthumb" style="width: 300px;" value="<?php echo get_option('s4defthumb',''); ?>" /></p>
-	
+
 	<h3 style="color: #cc0000;">Size of Icons</h3>
 	<input type="radio" name="s4iconsize" value="large" id="s4iconsize1"<?php if (get_option( 's4iconsize', 'large' ) == "large" ) echo ' checked'; ?>></input><label for="s4iconsize">Large&nbsp;&nbsp;&nbsp;&nbsp;</label>
 	<input type="radio" name="s4iconsize" value="small" id="s4iconsize2"<?php if (get_option( 's4iconsize', 'large' ) == "small" ) echo ' checked'; ?>></input><label for="s4iconsize">Small</label>
-	
+
 	<h3 style="color: #cc0000;">Alignment</h3>
 	<input type="radio" name="s4iconalign" value="left" id="s4iconalign1"<?php if (get_option( 's4iconalign', 'left' ) == "left" ) echo ' checked'; ?>></input><label for="s4iconsize">Left Aligned&nbsp;&nbsp;&nbsp;&nbsp;</label>
 	<input type="radio" name="s4iconalign" value="right" id="s4iconalign2"<?php if (get_option( 's4iconalign', 'left' ) == "right" ) echo ' checked'; ?>></input><label for="s4iconsize">Right Aligned&nbsp;&nbsp;&nbsp;&nbsp;</label>
 	<input type="radio" name="s4iconalign" value="floatl" id="s4iconalign3"<?php if (get_option( 's4iconalign', 'left' ) == "floatl" ) echo ' checked'; ?>></input><label for="s4iconsize">Float Left&nbsp;&nbsp;&nbsp;&nbsp;</label>
 	<input type="radio" name="s4iconalign" value="floatr" id="s4iconalign3"<?php if (get_option( 's4iconalign', 'left' ) == "floatr" ) echo ' checked'; ?>></input><label for="s4iconsize">Float Right&nbsp;&nbsp;&nbsp;&nbsp;</label>
-	
-	<div style="padding-right: 10px; padding-bottom: 10px; padding-left: 10px; background: none repeat scroll 0% 0% rgb(219, 234, 249);">	
+
+	<div style="padding-right: 10px; padding-bottom: 10px; padding-left: 10px; background: none repeat scroll 0% 0% rgb(219, 234, 249);">
 	<h3 style="color: #cc0000;">Vertical Scrolling sidebar</h3>
 	<p><input type="checkbox" name="s4dispvb" id="s4dispvb" value="true"<?php if (get_option( 's4dispvb', false ) == true) echo ' checked'; ?>> <b>Display Vertical sidebar</b> </p>
 	<p><b>Margin Left </b><input type="text" name="s4vbmargin" style="width: 50px;" value="<?php echo get_option('s4vbmargin',100); ?>" /> (Default 100)</p>
@@ -400,7 +397,7 @@ function social4ioptions(){
 	<p><input type="radio" name="s4vbhide" value="vbhide" <?php if (get_option( 's4vbhide', 'vbhide' ) == "vbhide" ) echo ' checked'; ?>></input><label for="s4vbhide">Hide before comments block&nbsp;&nbsp;&nbsp;&nbsp;</label>
 	<input type="radio" name="s4vbhide" value="vbnohide" <?php if (get_option( 's4vbhide', 'vbhide' ) == "vbnohide" ) echo ' checked'; ?>></input><label for="s4vbhide">Display until end of the page</label></p><p>Note: Other customization such as <i>background-color, border-color, etc.</i> can be done using Custom CSS. Need help then post it in the <a target="_blank" href="http://techxt.com/plugin-support-forum/tweet-like-plusone-and-share-plugin/">Forum</a></p>
 	</div>
-	
+
 	<h3 style="color: #cc0000;">Where to Display</h3>
 	<p><input type="checkbox" name="s4onpost" id="s4onpost" value="true"<?php if (get_option( 's4onpost', true ) == true) echo ' checked'; ?>> <b>Display on Posts</b> </p>
 	<div style="margin-left: 30px;">
@@ -424,27 +421,27 @@ function social4ioptions(){
 	</div>
 	<p><input type="checkbox" name="s4onexcer" id="s4onexcer" value="true"<?php if (get_option( 's4onexcer', true ) == true) echo ' checked'; ?>><b>Display on Excerpts</b></p>
 	<p><input type="checkbox" name="s4onexcererr" id="s4onexcererr" value="true"<?php if (get_option( 's4onexcererr', false ) == true) echo ' checked'; ?>><b>Rectify display error on Excerpts</b> (check this only if the buttons are not getting displayed properly on excerpts)</p>
-	
+
 	<h3 style="color: #cc0000;">Mobile browsers</h3>
 	<p><input type="checkbox" name="s4dmob" id="s4dmob" value="true"<?php if (get_option( 's4dmob', false ) == true) echo ' checked'; ?>><b>Disable on Mobile Browser</b><br /> Check this option if you have installed a mobile theme plugin like Wptouch, WordPress Mobile Pack etc.</p>
-	
+
 	<h3 style="color: #cc0000;">Don't display on Posts/Pages</h3>
-	<p>Enter the <b>ID's</b> of those Pages/Posts separated by comma. e.g 13,5,87<br/>You can also include a <b>custom post types</b> or <b>custom post format</b> (all separated by comma)<br /> 
+	<p>Enter the <b>ID's</b> of those Pages/Posts separated by comma. e.g 13,5,87<br/>You can also include a <b>custom post types</b> or <b>custom post format</b> (all separated by comma)<br />
 	<input type="text" name="s4excludeid" style="width: 300px;" value="<?php echo get_option('s4excludeid',''); ?>" /></p>
-	
+
 	<h3 style="color: #cc0000;">Don't display on Category</h3>
 	<p>Enter the ID's of those Categories separated by comma. e.g 131,45,817<br/>
 	<input type="text" name="s4excludecat" style="width: 300px;" value="<?php echo get_option('s4excludecat',''); ?>" /></p>
-	
+
 	<h3 style="color: #cc0000;">Insert Custom CSS</h3>
 	<small>Your theme should have Call to wp_head() function</small><br />
 	<p><textarea name="s4ccss" rows="10" cols="50" style="width:600px;"><?php echo stripslashes(htmlspecialchars(get_option('s4ccss',''))); ?></textarea></p>
-	
+
 	<h3 style="color: #cc0000;">Insert Custom JavaScript</h3>
 	<small>Your theme should have Call to wp_head() function</small><br />
 	<small>Add opening and closing script tags (&lt;script>...&lt;/script>)</small><br />
 	<p><textarea name="s4cjscript" rows="10" cols="50" style="width:600px;"><?php echo stripslashes(htmlspecialchars(get_option('s4cjscript',''))); ?></textarea></p>
-	
+
 	<h3 style="color: #cc0000;">Add your own Custom Buttons</h3>
 	<table>
 	<tr><td>
@@ -485,8 +482,8 @@ function social4ioptions(){
 	<p><input type="checkbox" name="s4analytics" id="s4analytics" value="true"<?php if (get_option( 's4analytics', false ) == true) echo ' checked'; ?>><b>Add Google analytics button Tracking code</b><br/>Adds tracking code to track Facebook Like and Linkedin button clicks (under beta testing)</p>
 	</td></tr>
 	</table>
-	
-	
+
+
 	<div style="clear:both"></div>
 	<div id="btnsubmit">
 	<input type="submit" class="button-primary" value="Save Changes"/>
@@ -537,7 +534,7 @@ function social4i_admin_widget(){
 	get_feeds_s4_dash();
 }
 function social4i_add_admin_widget(){
-    wp_add_dashboard_widget('social4i_admin_widget', 'News and Updates', 'social4i_admin_widget'); 
+    wp_add_dashboard_widget('social4i_admin_widget', 'News and Updates', 'social4i_admin_widget');
 }
 add_action('wp_dashboard_setup','social4i_add_admin_widget',5);
 
@@ -551,15 +548,15 @@ function s4_wp_trim_excerpt($content, $text = '')
         $text = get_the_content('');
         $text = strip_shortcodes( $text );
 
-        remove_filter('the_content', 'disp_social', 1); 
-       
+        remove_filter('the_content', 'disp_social', 1);
+
         $text = apply_filters('the_content', $text);
 
         add_filter('the_content', 'disp_social', 1);
 
         $text = str_replace(']]>', ']]&gt;', $text);
         $text = strip_tags($text);
-        $excerpt_length = apply_filters('excerpt_length', 55); 
+        $excerpt_length = apply_filters('excerpt_length', 55);
         $excerpt_more = apply_filters('excerpt_more', ' ' . '[...]');
         $words = preg_split("/[\n\r\t ]+/", $text, $excerpt_length + 1, PREG_SPLIT_NO_EMPTY);
         if ( count($words) > $excerpt_length ) {
@@ -579,7 +576,7 @@ function s4_wp_trim_excerpt($content, $text = '')
 //original code by Yoast.com
 function s4_widget_order( $arr ) {
 	global $wp_meta_boxes;
-	
+
 	if ( is_admin() ) {
 		if ( isset($wp_meta_boxes['dashboard']['normal']['core']['social4i_admin_widget']) ) {
 			$social4i_admin_widget = $wp_meta_boxes['dashboard']['normal']['core']['social4i_admin_widget'];
@@ -594,7 +591,7 @@ function s4_widget_order( $arr ) {
 				$wp_meta_boxes['dashboard']['side']['core'] = array();
 				$wp_meta_boxes['dashboard']['side']['core'][] = $social4i_admin_widget;
 			}
-		} 
+		}
 	}
 return $arr;
 }
@@ -602,8 +599,8 @@ function get_feeds_s4() {
 	include_once(ABSPATH . WPINC . '/feed.php');
 	$rss = fetch_feed('http://feeds.feedburner.com/techxt');
 	if (!is_wp_error( $rss ) ){
-		$rss5 = $rss->get_item_quantity(5); 
-		$rss1 = $rss->get_items(0, $rss5); 
+		$rss5 = $rss->get_item_quantity(5);
+		$rss1 = $rss->get_items(0, $rss5);
 	}
 ?>
 <ul>
@@ -619,13 +616,13 @@ function get_feeds_s4_dash() {
 	include_once(ABSPATH . WPINC . '/feed.php');
 	$rss = fetch_feed('http://feeds.feedburner.com/techxtrack');
 	if (!is_wp_error( $rss ) ){
-		$rss5 = $rss->get_item_quantity(5); 
-		$rss1 = $rss->get_items(0, $rss5); 
+		$rss5 = $rss->get_item_quantity(5);
+		$rss1 = $rss->get_items(0, $rss5);
 	}
 	$rsss = fetch_feed('http://feeds.feedburner.com/uQuoted');
 	if (!is_wp_error( $rsss ) ){
-		$rsss5 = $rsss->get_item_quantity(1); 
-		$rsss1 = $rsss->get_items(0, $rsss5); 
+		$rsss5 = $rsss->get_item_quantity(1);
+		$rsss1 = $rsss->get_items(0, $rsss5);
 	}
 	if(!$rsss5 == 0)foreach ( $rsss1 as $items ){?>
 		Quote of the day<br/>
@@ -679,11 +676,11 @@ function display_social4i($size,$align, $type = FALSE)
 	$fssc='';
 	$lnsc='';
 	}
-	
+
 	if ($size == "large" ){
 		if(get_option('s4_fbsend',false)==true)
-			$css1="height:82px;"; 
-		else 
+			$css1="height:82px;";
+		else
 			$css1="height:69px;";
 	}
 	else $css1="height:29px;";
@@ -698,21 +695,21 @@ function display_social4i($size,$align, $type = FALSE)
 	$s4link= '<div class="socialicons s4twitter" style="float:left;margin-right: 10px;"><a href="https://twitter.com/share" data-url="'.$plink.'" data-counturl="'.$plink.'" data-text="'.$eptitle.'" class="twitter-share-button" data-count="'.$tp.'" data-via="'.$via.'"></a>'.$twsc.'</div>';
 	$sharelinks.=$s4link;
 	$btnarr[1]=$s4link;
-	
+
 	$btnarrver[1]='<div class="socialiconsv s4twitterv" ><a href="https://twitter.com/share" data-url="'.$plink.'" data-counturl="'.$plink.'" data-text="'.$eptitle.'" class="twitter-share-button" data-count="vertical" data-via="'.$via.'"></a>'.$twsc.'</div>';
 	}
 	if(get_option('s4_fblike','1') && $type === FALSE || $type == "s4_fblike" || $type == "s4_fbsend"){
 	if(get_option('s4_fbsend',false)==true || $type == "s4_fbsend")$snd="true"; else $snd="false";
 	if ($size == "large" )
 		$tp=' data-layout="box_count" data-width="55" data-height="62" ';
-	else 
+	else
 		$tp=' data-layout="button_count" data-width="100" data-height="21" ';
-		
+
 	$s4link= '<div class="socialicons s4fblike" style="float:left;margin-right: 10px;">'.$flsc.'<div class="fb-like" data-href="'.$plink.'" data-send="'.$snd.'" '.$tp.' data-show-faces="false"></div></div>';
-	
+
 	$sharelinks.=$s4link;
 	$btnarr[2]=$s4link;
-	
+
 	$btnarrver[2]='<div class="socialiconsv s4fblikev" ><iframe src="//www.facebook.com/plugins/like.php?href='.$plink.'&amp;send=false&amp;layout=box_count&amp;width=49&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=65" style="border:none; overflow:hidden; width:49px; height:65px;"></iframe></div>';
 	}
 	if(get_option('s4_plusone','1') && $type === FALSE || $type == "s4_plusone"){
@@ -720,7 +717,7 @@ function display_social4i($size,$align, $type = FALSE)
 	$s4link='<div class="socialicons s4plusone" style="float:left;margin-right: 10px;">'.$gpsc.'<div class="g-plusone" data-size="'.$tp.'" data-href="'.$plink.'"></div></div>';
 	$sharelinks.=$s4link;
 	$btnarr[3]=$s4link;
-	
+
 	$btnarrver[3]='<div class="socialiconsv s4plusonev" >'.$gpsc.'<div class="g-plusone" data-size="tall" data-href="'.$plink.'" ></div></div>';
 	}
 	if(get_option( 's4_linkedin', false )&& $type === FALSE || $type == "s4_linkedin"){
@@ -728,7 +725,7 @@ function display_social4i($size,$align, $type = FALSE)
 	$s4link='<div class="socialicons s4linkedin" style="float:left;margin-right: 10px;">'.$lnsc.'<script type="in/share" data-url="'.$plink.'" data-counter="'.$tp.'"></script></div>';
 	$sharelinks.=$s4link;
 	$btnarr[4]=$s4link;
-	
+
 	$btnarrver[4]='<div class="socialiconsv s4linkedinv" >'.$lnsc.'<script type="in/share" data-url="'.$plink.'" data-counter="top"></script></div>';
 	}
 	if(get_option('s4_fbshare','1') && $type === FALSE || $type == "s4_fbshare"){
@@ -741,7 +738,7 @@ function display_social4i($size,$align, $type = FALSE)
 	$s4link= '<div class="socialicons s4fbshare" style="position: relative;'.$cs1.'float:left;margin-right: 10px;"><div class="s4ifbshare" '.$cs2.'><div class="fb-share-button" data-href="'.$plink.'" data-width="450" data-type="'.$tp.'"></div>'.$flsc.'</div></div>';
 	$sharelinks.=$s4link;
 	$btnarr[5]=$s4link;
-	
+
 	$btnarrver[5]='<div class="socialiconsv s4fbsharev" ><div class="fb-share-button" data-href="'.$plink.'" data-width="450" data-type="box_count"></div>'.$flsc.'</div>';
 	}
 	if(get_option('s4_cbtn', false )==true && $type === FALSE)
@@ -750,8 +747,8 @@ function display_social4i($size,$align, $type = FALSE)
 		$s4link1=s4_get_custom_button("large");
 		$sharelinks.=$s4link;
 		$btnarr[6]=$s4link;
-		
-		
+
+
 		$s4link1=str_replace("socialicons", "socialiconsv", $s4link1);
 		$s4link1=str_replace("s4custombtn", "s4custombtnv", $s4link1);
 		$s4link1=str_replace('style="float:left;margin-right: 10px;"', "", $s4link1);
@@ -762,7 +759,7 @@ function display_social4i($size,$align, $type = FALSE)
 		$sharelinks='<div class="social4i" style="'.$css2.'"><div class="social4in" style="'.$css1.'">'.s4_arrange_btns($btnarr).'</div><div style="clear:both"></div></div>';
 	}
 	else $sharelinks.= '</div><div style="clear:both"></div></div>';
-	
+
 	return $sharelinks;
 }
 
@@ -788,25 +785,25 @@ if(function_exists('get_post_thumbnail_id')&&function_exists('wp_get_attachment_
 	$thumb = $image_url[0];
 }
 if($thumb=='')$thumb=s4_get_first_image();
-$default_img = get_option('s4defthumb',''); 
-if ( $thumb == false || $thumb=='') 
-	$thumb=$default_img; 
+$default_img = get_option('s4defthumb','');
+if ( $thumb == false || $thumb=='')
+	$thumb=$default_img;
 return $thumb;
 }
 function s4_get_custom_button($size)
 {
 	global $post;
-	
+
 	$metaimg=s4_get_custom_field( 's4_image2s' );
 	$metades=s4_get_custom_field( 's4_cdes' );
 	$metapl=s4_get_custom_field( 's4_url2s' );
 	$metattl=s4_get_custom_field( 's4_ctitle' );
-	
+
 	if($metapl=='')$plink = get_permalink($post->ID);else $plink=$metapl;
 	if($metattl=='')$ptitle = get_the_title($post->ID);else $ptitle = $metattl;
 	if($metades=='')$desc = "";else $desc = $metades;
 	if($metaimg=='')$pimg = s4_post_img_link();else $pimg = $metaimg;
-	
+
 	$eplink = urlencode($plink);
 
 	$comments_count = wp_count_comments($post->ID);
@@ -817,15 +814,15 @@ function s4_get_custom_button($size)
 			$desc = esc_attr(strip_tags(get_the_excerpt($post->ID)));
 		}else{
 			$desc = esc_attr(str_replace("\r\n",' ',substr(strip_tags(strip_shortcodes($post->post_content)), 0, 160)));
-		}	
+		}
 	}
 	if($size=='large')$cbtn=get_option('s4cblarge','');
 	else $cbtn=get_option('s4cbsmall','');
 	if(trim($cbtn==''))return '';
-	
+
 	$eptitle=urlencode($ptitle);
 	$edesc=urlencode($desc);
-	
+
 	$cbtn=str_replace("%%URL%%", $plink, $cbtn);
 	$cbtn=str_replace("%%EURL%%", $eplink, $cbtn);
 	$cbtn=str_replace("%%TITLE%%", $ptitle, $cbtn);
@@ -834,7 +831,7 @@ function s4_get_custom_button($size)
 	$cbtn=str_replace("%%ETITLE%%", $eptitle, $cbtn);
 	$cbtn=str_replace("%%EDESC%%", $edesc, $cbtn);
 	$cbtn=str_replace("%%COMMENTCOUNT%%", $cc, $cbtn);
-		
+
 	$allbtns=explode("[BUTTON]",$cbtn);
 	$cnt=1;
 	$buttoncode='';
@@ -843,10 +840,10 @@ function s4_get_custom_button($size)
 		if(trim($btn==''))continue;
 		$buttoncode.='<div class="socialicons s4custombtn-'.$cnt.'" style="float:left;margin-right: 10px;">'.$btn.'</div>';
 		$cnt=$cnt+1;
-	} 
+	}
 	return $buttoncode;
 
-} 
+}
 function s4_get_custom_field( $value ) {
 	global $post;
 
@@ -865,13 +862,13 @@ add_action( 'add_meta_boxes', 's4_add_custom_meta_box' );
 
 function s4_meta_box_output( $post ) {
 	wp_nonce_field( 'my_s4_meta_box_nonce', 's4_meta_box_nonce' ); ?>
-	
+
 	<p>
 		<b><label for="s4_url2s"><?php echo "URL to share"; ?>:</label></b>
 		<input type="text" name="s4_url2s" id="s4_url2s" value="<?php echo s4_get_custom_field( 's4_url2s' ); ?>" size="50" /><br/>
 		<i>If you want to share a URL that is not your Post URL. (Leave blank to share default URL)</i>
     </p>
-    
+
 	<p>
 		<b><label for="s4_image2s"><?php echo "Image to share"; ?>:</label></b>
 		<input type="text" name="s4_image2s" id="s4_image2s" value="<?php echo s4_get_custom_field( 's4_image2s' ); ?>" size="50" /><br/>
@@ -891,7 +888,7 @@ function s4_meta_box_output( $post ) {
 }
 
 function s4_meta_box_save( $post_id ) {
-	
+
 	if( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
 	if( !isset( $_POST['s4_meta_box_nonce'] ) || !wp_verify_nonce( $_POST['s4_meta_box_nonce'], 'my_s4_meta_box_nonce' ) ) return;
 	if( !current_user_can( 'edit_post' ) ) return;
@@ -906,8 +903,8 @@ function s4_meta_box_save( $post_id ) {
 }
 add_action( 'save_post', 's4_meta_box_save' );
 
-//Geilt - Alexander Conroy geilt@esotech.org http://www.esotech.org and http://www.geilt.com 
-//Added: $type: 
+//Geilt - Alexander Conroy geilt@esotech.org http://www.esotech.org and http://www.geilt.com
+//Added: $type:
 //s4_plusone s4_fbshare,s4_fblike, s4_twitter, s4_fbsend
 function social4i_shortcode($atts){
 	extract(shortcode_atts( array('size' => 'large','align'=>'align-left', 'type' => FALSE), $atts ));
@@ -933,22 +930,22 @@ function social4i_check_mobile()
 //This mobile browser check code is taken from Mobilepress plugin
 $ismob=false;
 switch(TRUE)
-{	
+{
 	case (preg_match('/(iphone|ipod)/i', $_SERVER['HTTP_USER_AGENT']) && preg_match('/mobile/i', $_SERVER['HTTP_USER_AGENT'])):
 		$ismob="true";
-		break; 
+		break;
 	case (preg_match('/ipad/i', $_SERVER['HTTP_USER_AGENT']) && preg_match('/mobile/i', $_SERVER['HTTP_USER_AGENT'])):
 		$ismob=false;
-		break;	
+		break;
 	case (preg_match('/(blackberry|configuration\/cldc|hp |hp-|htc |htc_|htc-|iemobile|kindle|midp|mmp|motorola|mobile|nokia|opera mini|opera mobi|palm|palmos|pocket|portalmmm|ppc;|smartphone|sonyericsson|sqh|spv|symbian|treo|up.browser|up.link|vodafone|windows ce|xda |xda_)/i', $_SERVER['HTTP_USER_AGENT'])):
 		$ismob=true;
-		break; 
+		break;
 	case (((strpos(strtolower($_SERVER['HTTP_ACCEPT']),'text/vnd.wap.wml') > 0) || (strpos(strtolower($_SERVER['HTTP_ACCEPT']),'application/vnd.wap.xhtml+xml')>0)) || ((isset($_SERVER['HTTP_X_WAP_PROFILE']) || isset($_SERVER['HTTP_PROFILE'])))):
 		$ismob=true;
-		break; 
+		break;
 	case (in_array(strtolower(substr($_SERVER['HTTP_USER_AGENT'],0,3)),array('lg '=>'lg ','lg-'=>'lg-','lg_'=>'lg_','lge'=>'lge'))):
 		$ismob=true;
-		break; 
+		break;
 	case (in_array(strtolower(substr($_SERVER['HTTP_USER_AGENT'],0,4)),array('acs-'=>'acs-','amoi'=>'amoi','doco'=>'doco','eric'=>'eric','huaw'=>'huaw','lct_'=>'lct_','leno'=>'leno','mobi'=>'mobi','mot-'=>'mot-','moto'=>'moto','nec-'=>'nec-','phil'=>'phil','sams'=>'sams','sch-'=>'sch-','shar'=>'shar','sie-'=>'sie-','wap_'=>'wap_','zte-'=>'zte-'))):
 		$ismob=true;
 		break;
