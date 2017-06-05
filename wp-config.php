@@ -15,9 +15,9 @@
  */
 
 include('wp-env.php');
+$env = unserialize(ENV);
 define('WP_CACHE', $env["WP_CACHE"] ); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', $env["WPCACHEHOME"] ); //Added by WP-Cache Manager
-$env = unserialize(ENV);
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', $env["DB_NAME"]);
